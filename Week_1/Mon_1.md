@@ -1,6 +1,7 @@
 # Overview
 
 Today will be the first class with introductions and talking about the prework and the challenges faced.
+
 Time Estimation: 2 hours
 
 # Breakdown
