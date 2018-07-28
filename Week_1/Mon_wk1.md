@@ -6,41 +6,41 @@ Time Estimation: 2 hours
 
 <h1 align="center">BREAKDOWN</h1>
 
-## Introductions (15 min)
+## **Introductions** 👋 (15 min)
 
 ---
 
-Have fun and break the ice.
+- Have fun and break the ice.
 
-## Roadmap of this curriculum and how it will progress in order to build upon the previous elements.(10 min)
-
----
-
-Give reason behind progression and how it will help in todays job market.
-
-## Discuss Slack channel and how to communicate.
+## **Curriculum Roadmap** 🚗 (10 min)
 
 ---
 
-## Recap of web presence from prework. (10 min)
+- How this class progresses in order to build upon the previous elements.
+
+- Give reason behind progression and how it will help in todays job market.
+
+## **Slack channel**
 
 ---
 
-## Exporation of VS Code and the best extensions(30 min).
+## **Web Presence** 🕸️ (10 min)
 
 ---
 
-## BREAK (10 min)
+## **VS Code** (30 min).
 
 ---
 
-## Git challanges / issues anyone had in prework. (20 min)
+## **BREAK** 🥂 (10 min)
 
 ---
 
-## Wrap up / any questions issues? (10+ min)
+## **Wrap up** 👋 (10+ min)
 
 ---
+
+- Questions or issues?
 
 <h1 align="center">TEACHER RESOURCES</h1>
 
