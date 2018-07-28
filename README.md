@@ -1,5 +1,5 @@
 <h1 align="center"></h1>
-<h1 align="center"><img src="prework/img/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
+<h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 1](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 2](Week_2)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 3](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 4](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 5](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 6](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 7](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 8](Week_1)
 
