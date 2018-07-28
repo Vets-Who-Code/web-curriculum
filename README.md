@@ -1,65 +1,64 @@
-# Curriculum for VetsWhoCode
+<h1 align="center"></h1>
+<h1 align="center"><img src="prework/img/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 1](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 2](Week_2)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 3](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 4](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 5](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 6](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 7](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 8](Week_1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 9](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 10](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 11](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 12](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 13](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 14](Week_1)
 
-## Overview of weekly topics
-
-# Week One
+# Week 1
 
 - Introduce weekly topic
 - Make sure prework content is understood
 - review of HTML, Git and CSS
 
-# Week Two
+# Week 2
 
 - Introduce weekly topic
 
-# Week Three
+# Week 3
 
 - Introduce weekly topic
 
-# Week Four
+# Week 4
 
 - Introduce weekly topic
 
-# Week Five
+# Week 5
 
 - Introduce weekly topic
 
-# Week Six
+# Week 6
 
 - Introduce weekly topic
 
-# Week Seven
+# Week 7
 
 - Introduce weekly topic
 
-# Week Eight
+# Week 8
 
 - Introduce weekly topic
 
-# Week Nine
+# Week 9
 
 - Introduce weekly topic
 
-# Week Ten
+# Week 10
 
 - Introduce weekly topic
 
-# Week Elevin
+# Week 11
 
 - Introduce weekly topic
 
-# Week Twelve
+# Week 12
 
 - Introduce weekly topic
 
-# Week Thirteen
+# Week 13
 
 - Introduce weekly topic
 
-# Week Fourteen
+# Week 14
 
 - Introduce weekly topic
