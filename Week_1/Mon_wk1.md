@@ -24,7 +24,7 @@ Time Estimation: 2 hours
 
 - Give reason behind progression and how it will help in todays job market.
 
-## **Slack channel**
+## **Slack channel** (10 min)
 
 ---
 
