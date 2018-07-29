@@ -4,6 +4,10 @@ Today will be the first class with introductions and talking about the prework a
 
 Time Estimation: 2 hours
 
+<h1 align="center">TEACHER RESOURCES</h1>
+
+[PreWork](https://github.com/Vets-Who-Code/prework)
+
 <h1 align="center">BREAKDOWN</h1>
 
 ## **Introductions** 👋 (15 min)
@@ -56,7 +60,3 @@ Show how to use essentials:
 
 - Remind to use Slack for communication between classes.
 - Questions or issues?
-
-<h1 align="center">TEACHER RESOURCES</h1>
-
-[PreWork](https://github.com/Vets-Who-Code/prework)
