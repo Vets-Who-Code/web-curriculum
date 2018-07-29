@@ -1,14 +1,14 @@
-<h1 align="center">OVERVIEW</h1>
+<h1 align="center">Overview</h1>
 
 Today will be the first class with introductions and talking about the prework and the challenges faced.
 
 Time Estimation: 2 hours
 
-<h1 align="center">TEACHER RESOURCES</h1>
+<h1 align="center">Teacher Resources</h1>
 
 [PreWork](https://github.com/Vets-Who-Code/prework)
 
-<h1 align="center">BREAKDOWN</h1>
+<h1 align="center">Breakdown</h1>
 
 ## **Introductions** 👋 (15 min)
 
