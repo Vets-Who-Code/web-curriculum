@@ -13,52 +13,57 @@
 
 # Week 2
 
-- Introduce weekly topic
+- Responsive Web Design
+- Bootstrap 4
 
 # Week 3
 
-- Introduce weekly topic
+- JavaScript Part 1
 
 # Week 4
 
-- Introduce weekly topic
+- JavaScript Part 2
 
 # Week 5
 
-- Introduce weekly topic
+- Firebase
+- Data storage
 
 # Week 6
 
-- Introduce weekly topic
+- First Draft of Portfolio due.
+- ES6
 
 # Week 7
 
-- Introduce weekly topic
+- Node
+- Express
+- NPM
 
 # Week 8
 
-- Introduce weekly topic
+- React ⚛️ Part 1
 
 # Week 9
 
-- Introduce weekly topic
+- React ⚛️ Part 2
 
 # Week 10
 
-- Introduce weekly topic
+- Computer Science 🔬
 
 # Week 11
 
-- Introduce weekly topic
+- User Authentication
 
 # Week 12
 
-- Introduce weekly topic
+- 🔥 FERN 🔥
 
 # Week 13
 
-- Introduce weekly topic
+- Interview Prep 👔 Part 1
 
 # Week 14
 
-- Introduce weekly topic
+- Interview Prep 🏢 Part 2
