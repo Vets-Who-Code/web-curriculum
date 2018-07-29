@@ -6,4 +6,4 @@ As a bootcamp student in week 1 I want to feel confident with the tools and envi
 
 ## Days
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Monday](Mon_wk1.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Tuesday](Mon_wk1.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Wednesday](Mon_wk1.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Thursday](Mon_wk1.md)
+[Monday](Mon_wk1.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Tuesday](Tues_wk1.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Wednesday](Mon_wk1.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Thursday](Mon_wk1.md)
