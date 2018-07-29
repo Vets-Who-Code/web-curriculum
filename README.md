@@ -9,7 +9,7 @@
 
 - Introduce weekly topic
 - Make sure prework content is understood
-- Review of HTML, Git and CSS
+- Review of HTML, CSS and Git
 
 # Week 2
 
