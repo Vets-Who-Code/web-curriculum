@@ -24,13 +24,27 @@ Time Estimation: 2 hours
 
 ---
 
+- Discus how to use Slack channel
+- Make sure to explain Giphies can and must be utilized. 🤣
+
 ## **Web Presence** 🕸️ (10 min)
 
 ---
 
+- Explain how complete image outweighs just one element.
+- Quality over quantity.
+- Talk at how blogging is powerful in that it shows what you know while also helping the content sink in more.
+
 ## **VS Code** (30 min).
 
 ---
+
+Show how to use essentials:
+
+- Open in Browser
+- Terminal in VS Code
+- Prettier
+- Rainbow brackets
 
 ## **BREAK** 🥂 (10 min)
 
@@ -40,6 +54,7 @@ Time Estimation: 2 hours
 
 ---
 
+- Remind to use Slack for communication between classes.
 - Questions or issues?
 
 <h1 align="center">TEACHER RESOURCES</h1>
