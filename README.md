@@ -36,7 +36,7 @@
 # Week 6
 
 - Weekly topic: ??
-- First Draft of Portfolio due.
+- First Draft of Project Due.
 - ES6
 
 # Week 7

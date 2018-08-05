@@ -39,7 +39,7 @@ Time Estimation: 2 hours
 - Quality over quantity.
 - Talk at how blogging is powerful in that it shows what you know while also helping the content sink in more.
 
-## **VS Code** (30 min).
+## **VS Code** (20 min).
 
 ---
 
@@ -53,6 +53,13 @@ Show how to use essentials:
 ## **BREAK** 🥂 (10 min)
 
 ---
+
+## **Semantic HTML** (20 min)
+
+---
+
+- Non-semantic vs Semantic (ie. div vs form).
+- Easier searched by web.
 
 ## **Wrap up** 👋 (10+ min)
 
