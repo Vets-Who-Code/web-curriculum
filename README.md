@@ -33,8 +33,9 @@
 
 # Week 5
 
-- Weekly topic: Deployment Options
-- First Draft of Project Due.
+- Weekly topic: Mobile first design
+- Responsive Web Design
+- Bootstrap 4
 
 # Week 6
 
@@ -45,23 +46,22 @@
 
 # Week 7
 
+- Weekly topic: Deployment Options
+- First Draft of Project Due.
+
+# Week 8
+
 - Weekly topic: Hoisting
 - React ⚛️ Part 1
 
-# Week 8
+# Week 9
 
 - Weekly topic: Recursion
 - React ⚛️ Part 2
 
-# Week 9
-
-- Weekly topic: ??
-
 # Week 10
 
-- Weekly topic: Mobile first design
-- Responsive Web Design
-- Bootstrap 4
+- Weekly topic:
 
 # Week 11
 
