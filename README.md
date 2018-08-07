@@ -59,7 +59,7 @@
 
 # Week 10
 
-- Weekly topic: ??
+- Weekly topic: Mobile first design
 - Responsive Web Design
 - Bootstrap 4
 
@@ -70,15 +70,15 @@
 
 # Week 12
 
-- Weekly topic: ??
-- Interview Prep 👔 Part 1
+- Weekly topic: User Auth
+- Passport
 
 # Week 13
 
-- Weekly topic: ??
-- Interview Prep 🏢 Part 2
+- Weekly topic: Interview questions part 1
+- Interview Prep 🏢 Part 1
 
 # Week 14
 
-- Weekly topic: ??
+- Weekly topic: Interview questions part 2
 - Interview Prep 🏢 Part 2
