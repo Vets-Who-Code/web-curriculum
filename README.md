@@ -8,73 +8,75 @@
 # Week 1
 
 - Weekly topic: Semantic HTML
-- Make sure prework content is understood
-- Review of HTML, CSS and Git
+- Review prework
+- Git Workflow
+- Docs / Trusted Resources (MDN)
 
 # Week 2
 
-- Weekly topic: Cascading Style Sheet
-- Responsive Web Design
-- Bootstrap 4
+- Weekly topic: Scope
+- JavaScript Part 1
+- Computer Science 🔬
 
 # Week 3
 
-- Weekly topic: Scope
-- JavaScript Part 1
-
-# Week 4
-
 - Weekly topic: Constructors
 - JavaScript Part 2
+- ES6
+- Computer Science 🔬
 
-# Week 5
+# Week 4
 
 - Weekly topic: Relational vs Non-Relational database
 - Firebase
 - Data storage
 
+# Week 5
+
+- Weekly topic: Deployment Options
+- First Draft of Project Due.
+
 # Week 6
 
-- Weekly topic: ??
-- First Draft of Project Due.
-- ES6
-
-# Week 7
-
-- Weekly topic:
+- Weekly topic: Servers
 - Node
 - Express
 - NPM
 
-# Week 8
+# Week 7
 
 - Weekly topic: Hoisting
 - React ⚛️ Part 1
 
-# Week 9
+# Week 8
 
 - Weekly topic: Recursion
 - React ⚛️ Part 2
 
+# Week 9
+
+- Weekly topic: ??
+
 # Week 10
 
 - Weekly topic: ??
-- Computer Science 🔬
+- Responsive Web Design
+- Bootstrap 4
 
 # Week 11
 
 - Weekly topic: ??
-- User Authentication
+- 🔥 FERN 🔥
 
 # Week 12
 
 - Weekly topic: ??
-- 🔥 FERN 🔥
+- Interview Prep 👔 Part 1
 
 # Week 13
 
 - Weekly topic: ??
-- Interview Prep 👔 Part 1
+- Interview Prep 🏢 Part 2
 
 # Week 14
 
