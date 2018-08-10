@@ -5,80 +5,86 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 9](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 10](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 11](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 12](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 13](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 14](Week_1)
 
+<h1 align="center">BLOCK   1 - Know Your Tools 🔧</h1>
+
 # Week 1
 
-- Weekly topic: Semantic HTML
-- Review prework
-- Git Workflow
-- Docs / Trusted Resources (MDN)
+- Command Line
+- Git / Git Workflow
+- Docs / Trusted Resources (MDN) / CodePen
+- How Internet Works
 
 # Week 2
 
-- Weekly topic: Scope
-- JavaScript Part 1
-- Computer Science 🔬
+- Chrome Dev Tools
+- Code Editor
+- HTML / CSS Refresher
+- DOM
 
 # Week 3
 
-- Weekly topic: Constructors
-- JavaScript Part 2
-- ES6
+- JavaScript Refresher / Basics
+- Constructors, Objects, 'this' Keyword, Loops etc.
 - Computer Science 🔬
+- AMA talk 📞
+
+<h1 align="center">BLOCK 2 - Programming Concepts 📚</h1>
 
 # Week 4
 
-- Weekly topic: Relational vs Non-Relational database
-- Firebase
-- Data storage
+- Flexbox
+- Sassy CSS (SCSS)
+- CSS Animations / Transitions
+- Media Queries
+- Bootstrap 4
 
 # Week 5
 
-- Weekly topic: Mobile first design
-- Responsive Web Design
-- Bootstrap 4
+- Deeper JavaScript
+- Scope / Closures / Hoisting
+- touch on jQuery
 
 # Week 6
 
-- Weekly topic: Servers
 - Node
 - Express
 - NPM
+- AMA talk 📞
 
 # Week 7
 
-- Weekly topic: Deployment Options
-- First Draft of Project Due.
+<h1 align="center">BLOCK 3 - Advanced Programming Concepts 📜</h1>
 
 # Week 8
 
-- Weekly topic: Hoisting
-- React ⚛️ Part 1
+- ES6 (Arrow functions, Async Await, Promises)
+- JavaScript Patterns (Module etc.)
+- Firebase
 
 # Week 9
 
-- Weekly topic: Recursion
-- React ⚛️ Part 2
+- React ⚛️ Part 1
 
 # Week 10
 
-- Weekly topic:
+- React ⚛️ Part 2
+- AMA talk 📞
+
+<h1 align="center">BLOCK 4 - FERN & Interview Prep 🔥</h1>
 
 # Week 11
 
-- Weekly topic: ??
 - 🔥 FERN 🔥
 
 # Week 12
 
-- Weekly topic: User Auth
 - Passport
+- User Authentication
 
 # Week 13
 
-- Weekly topic: Interview questions part 1
 - Interview Prep 🏢 Part 1
 
 # Week 14
 
-- Weekly topic: Interview questions part 2
 - Interview Prep 🏢 Part 2
