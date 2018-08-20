@@ -7,30 +7,31 @@
 
 <h1 align="center">BLOCK   1 - Know Your Tools 🔧</h1>
 
-# Week 1
+# Week 1 - Internet functionality and code work flows.
 
 - Command Line
 - Git / Git Workflow
 - Docs / Trusted Resources (MDN) / CodePen
 - How Internet Works
 
-# Week 2
+# Week 2 - Dev tools and computer science.
 
 - Chrome Dev Tools
 - Code Editor
 - HTML / CSS Refresher
 - DOM
+- Computer Science 🔬
 
-# Week 3
+# Week 3 - JavaScript basics and computer science.
 
 - JavaScript Refresher / Basics
 - Constructors, Objects, 'this' Keyword, Loops etc.
-- Computer Science 🔬
 - AMA talk 📞
+- Computer Science 🔬
 
 <h1 align="center">BLOCK 2 - Programming Concepts 📚</h1>
 
-# Week 4
+# Week 4 - In-depth CSS
 
 - Flexbox
 - Sassy CSS (SCSS)
@@ -38,53 +39,54 @@
 - Media Queries
 - Bootstrap 4
 
-# Week 5
+# Week 5 - Deeper into JavaScript
 
 - Deeper JavaScript
 - Scope / Closures / Hoisting
 - touch on jQuery
 
-# Week 6
+# Week 6 - Servers and NPM
 
 - Node
 - Express
 - NPM
 - AMA talk 📞
 
-# Week 7
+# Week 7 - ES6
+
+- ES6 (Arrow functions, Async Await, Promises)
 
 <h1 align="center">BLOCK 3 - Advanced Programming Concepts 📜</h1>
 
-# Week 8
+# Week 8 - Advanced JS concepts and Firebase
 
-- ES6 (Arrow functions, Async Await, Promises)
 - JavaScript Patterns (Module etc.)
 - Firebase
 
-# Week 9
+# Week 9 - React
 
 - React ⚛️ Part 1
 
-# Week 10
+# Week 10 - React
 
 - React ⚛️ Part 2
 - AMA talk 📞
 
 <h1 align="center">BLOCK 4 - FERN & Interview Prep 🔥</h1>
 
-# Week 11
+# Week 11 - Full-Stack development
 
 - 🔥 FERN 🔥
 
-# Week 12
+# Week 12 - User authentication
 
 - Passport
 - User Authentication
 
-# Week 13
+# Week 13 - Job prep
 
 - Interview Prep 🏢 Part 1
 
-# Week 14
+# Week 14- Job prep
 
 - Interview Prep 🏢 Part 2
