@@ -35,6 +35,7 @@
 # Week 4 - JavaScript basics and computer science.
 
 - JavaScript Refresher / Basics
+- DOM manipulation with JS
 - Constructors, Objects, 'this' Keyword, Loops etc.
 - AMA talk 📞
 - Computer Science 🔬
