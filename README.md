@@ -22,22 +22,22 @@
 - DOM
 - Computer Science 🔬
 
-# Week 3 - JavaScript basics and computer science.
-
-- JavaScript Refresher / Basics
-- Constructors, Objects, 'this' Keyword, Loops etc.
-- AMA talk 📞
-- Computer Science 🔬
-
-<h1 align="center">BLOCK 2 - Programming Concepts 📚</h1>
-
-# Week 4 - In-depth CSS
+# Week 3 - In-depth CSS
 
 - Flexbox
 - Sassy CSS (SCSS)
 - CSS Animations / Transitions
 - Media Queries
 - Bootstrap 4
+
+<h1 align="center">BLOCK 2 - Programming Concepts 📚</h1>
+
+# Week 4 - JavaScript basics and computer science.
+
+- JavaScript Refresher / Basics
+- Constructors, Objects, 'this' Keyword, Loops etc.
+- AMA talk 📞
+- Computer Science 🔬
 
 # Week 5 - Deeper into JavaScript
 
