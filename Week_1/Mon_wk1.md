@@ -1,69 +1,19 @@
-<h1 align="center">Overview</h1>
+# Command Line Cardio 🏃🏽
 
-Today will be the first class with introductions and talking about the prework and the challenges faced.
+Tonight we will focus on command line, git and getting started using Codepen. The command line will seem repetitive because it is and the best way of learning the most used commands is to use them over and over.
 
-Time Estimation: 2 hours
+The common practice since you all have your own branches now is to treat it as your own Master. As devs we never want to modify our working and "good" branch but to make a copy branch, make changes, then submit via a pull request to have another co-worker look it over to make sure its good before combining with the original (the one you made last night.) This is not a race, take your time and with git sometimes the slower you go the faster it is since errors and issues with git can be time consuming. At the same time don't be afraid to make mistakes and ask for help. I included a good video you can watch a few times that will walk you through the process.
 
-<h1 align="center">Teacher Resources</h1>
+tip: You will never memorize everything for devlopement. We need to be able to search for things quickly. Keep the words simple and minimal in Google search. (ie. to find how to create a folder using terminal try "terminal command make folder"). Talk to Google like a kindergardener lol .
 
-[PreWork](https://github.com/Vets-Who-Code/prework)
+Do the following to your branch and push the changes when complete.
+RESOURCE FOR ABOVE: VIDEO
 
-<h1 align="center">Breakdown</h1>
-
-## **Introductions** 👋 (15 min)
-
----
-
-- Have fun and break the ice.
-
-## **Curriculum Roadmap** 🚗 (10 min)
-
----
-
-- How this class progresses in order to build upon the previous elements.
-
-- Give reason behind progression and how it will help in todays job market.
-
-## **Slack channel** (10 min)
-
----
-
-- Discus how to use Slack channel
-- Make sure to explain Giphies can and must be utilized. 🤣
-
-## **Web Presence** 🕸️ (10 min)
-
----
-
-- Explain how complete image outweighs just one element.
-- Quality over quantity.
-- Talk at how blogging is powerful in that it shows what you know while also helping the content sink in more.
-
-## **VS Code** (20 min).
-
----
-
-Show how to use essentials:
-
-- Open in Browser
-- Terminal in VS Code
-- Prettier
-- Rainbow brackets
-
-## **BREAK** 🥂 (10 min)
-
----
-
-## **Semantic HTML** (20 min)
-
----
-
-- Non-semantic vs Semantic (ie. div vs form).
-- Easier searched by web.
-
-## **Wrap up** 👋 (10+ min)
-
----
-
-- Remind to use Slack for communication between classes.
-- Questions or issues?
+1. Create a copy of you local branch. (Make sure your on it and not master when you make the new branch.)
+2. Create 14 new folders titled week_1, week_2 etc in git branch USING THE TERMINAL only. Since we cannot push empty folders to github we will create a README.md in each with text sunch as 'Week 1'.
+   tip: Using the ⬆️ key you can get your previous git commands you used.
+3. Do your normal add, commit and push but now you will have to go into github and figure out how to initialize a pull request to merge into your main branch that you created last night.
+4. You should now have to do a pull request to merge your branch
+5. After you get pull request done Slack out"Pull complete @Arrow".
+6. After you get that open codepen and get some html on your screen. Slack out "Codpen @Arrow" .
+7. Feel free to help and assist others. The best ways of learning are making mistakes and helping others.
