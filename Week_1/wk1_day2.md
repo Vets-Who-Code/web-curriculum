@@ -1,18 +1,19 @@
-# CSS
+# Command Line Cardio 🏃🏽
 
-Tonight we will get into some CSS!
-The analogy often used to describe the purpose of CSS is that if HTML is your blueprint for the house CSS is all the paint , wallpaper (the design).
-CSS is one of those areas in development that after learning about 10 peices of code you think you "know" CSS where in reality there are more than a thousand built in commands and CSS can do anything from intergrating JS to animations.
-There are very popular CSS libraries such as Bootstrap and Materilize that are nice and do much of the heavy lfting for us. We will be touching on these later on. The issue with these is that many websites starting to look the same. We know from talking to devs in many companies that one of the keys to standing out in the job process is to know CSS well, not just be able to use a library.
+Tonight we will focus on command line, git and getting started using Codepen. The command line will seem repetitive because it is and the best way of learning the most used commands is to use them over and over.
 
-READS:
+The common practice since you all have your own branches now is to treat it as your own Master. As devs we never want to modify our working and "good" branch but to make a copy branch, make changes, then submit via a pull request to have another co-worker look it over to make sure its good before combining with the original (the one you made last night.) This is not a race, take your time and with git sometimes the slower you go the faster it is since errors and issues with git can be time consuming. At the same time don't be afraid to make mistakes and ask for help. I included a good video you can watch a few times that will walk you through the process.
 
-- [MDN on CSS-Boxmodel](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
-- [MDN on CSS-Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
-- [CSS Tricks for more Positioning](https://css-tricks.com/almanac/properties/p/position/)
+tip: You will never memorize everything for devlopement. We need to be able to search for things quickly. Keep the words simple and minimal in Google search. (ie. to find how to create a folder using terminal try "terminal command make folder"). Talk to Google like a kindergardener lol .
 
-Goals:
+Do the following to your branch and push the changes when complete.
+RESOURCE FOR ABOVE: VIDEO
 
-- Use codepen to replicate the box model. Use colors and/or borders to represent different aspects such as margin, padding etc.
-  tip: For bonus Google "websiite color schemes" and choose colors that work well together.
-- Make another Pen that shows the varoius positioning methods (relative, absolute, fixed, sticky) Do not copy and paste the code for this. Muscle memory is code at this point and we need to be typing this stuff out so we
+1. Create a copy of you local branch. (Make sure your on it and not master when you make the new branch.)
+2. Create 14 new folders titled week_1, week_2 etc in git branch USING THE TERMINAL only. Since we cannot push empty folders to github we will create a README.md in each with text sunch as 'Week 1'.
+   tip: Using the ⬆️ key you can get your previous git commands you used.
+3. Do your normal add, commit and push but now you will have to go into github and figure out how to initialize a pull request to merge into your main branch that you created last night.
+4. You should now have to do a pull request to merge your branch
+5. After you get pull request done Slack out"Pull complete @Arrow".
+6. After you get that open codepen and get some html on your screen. Slack out "Codpen @Arrow" .
+7. Feel free to help and assist others. The best ways of learning are making mistakes and helping others.
