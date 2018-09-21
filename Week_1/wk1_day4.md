@@ -5,8 +5,10 @@ When you're a developer you work in teams and often have touch the same code bas
 Also sematic HTML increase SEO, or the efficiency the search engine can read your website.... better SEO means more users.
 
 READS:
-What is Semantic HTML?
-MDN on Semantics
+
+[What is Semantic HTML?](https://medium.com/@mlbors/what-is-semantic-html-dc647b27b186)
+
+[MDN on Semantics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
 
 Goals:
 ONLY USE TERMINAL COMMANDS IN VS CODE TO MOVE AROUND AND CREATE FILES!
