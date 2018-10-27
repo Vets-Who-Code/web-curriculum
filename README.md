@@ -77,12 +77,11 @@
 
 # Week 11 - Full-Stack development
 
-- 🔥 FERN 🔥
+- 🔥 MERN 🔥
 
 # Week 12 - User authentication
 
-- Passport
-- User Authentication
+- To Be Determined
 
 # Week 13 - Job prep
 
