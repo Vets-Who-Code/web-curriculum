@@ -4,7 +4,7 @@
 
 ## IIFE
 
-Show how Immediatley Invoked Function Expressions work
+Show how Immediately Invoked Function Expressions work
 
 ```
 (function(){
@@ -14,7 +14,7 @@ console.log("Runs right away!")
 
 ## Function Within a Function?
 
-Show how we can pass a function as an arugment into naother function.
+Show how we can pass a function as an argument into another function.
 
 ```
 function carCalc(x,y){
