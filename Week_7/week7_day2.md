@@ -1,4 +1,4 @@
-# ES6 Tabatas
+# JS & CSS Tabatas
 
 ## Round 1
 
