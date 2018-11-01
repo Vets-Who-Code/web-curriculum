@@ -1,6 +1,6 @@
-# Adding in Media Queries for Responsiveness
+# Adding in Media Queries for Responsiveness 📱
 
-Today were applying our knowledge of media queries for making our site responsive WITHOUT leveraging CSS libraries such as Bootstrap or Materialize... that would be too easy.
+Today were applying our knowledge of media queries for making our site responsive WITHOUT leveraging CSS libraries such as Bootstrap or Material... that would be too easy like going through an officer bootcamp 🤣.
 
 ## Read
 
@@ -8,6 +8,6 @@ Today were applying our knowledge of media queries for making our site responsiv
 
 ## Goal
 
-1.  Make your Tesla Car App repsonsive on mobile devices from small phones to large monitors using media queries and flex-box in CSS.
+1.  Make your Tesla Car App responsive on mobile devices from small phones to large monitors using media queries and flex-box in CSS.
 
 HINT: Use the responsive icon in Chrome dev tools to select and visualize app on any device.

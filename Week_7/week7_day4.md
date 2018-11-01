@@ -1,4 +1,4 @@
-# Deploying our app
+# Deploying our app 🚀
 
 Will we finally be putting our Tesla car store for all to see.
 
