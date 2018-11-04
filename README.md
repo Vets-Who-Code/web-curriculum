@@ -61,8 +61,7 @@
 
 # Week 8 - Advanced JS concepts and Firebase
 
-- JavaScript Patterns (Module etc.)
-- Firebase
+- MongoDB
 
 # Week 9 - React
 
