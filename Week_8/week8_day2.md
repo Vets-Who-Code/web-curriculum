@@ -1,4 +1,4 @@
-# Setting Up Mongo Dev Environment
+# Setting Up Mongo Dev Environment 🏗️
 
 ## Installing MongoDB
 
@@ -25,11 +25,11 @@ Other great resources:
 
 # Installing Robo3T
 
-[Install Robo3T]()
+[Install Robo3T](https://robomongo.org/download)
 
 # Sign up for Mlab
 
-[Sign up for Mlab]()
+[Sign up for Mlab](https://www.mlab.com/)
 
 ## Read
 
