@@ -19,10 +19,3 @@ let factorial = (n)=>{
 
 console.log(factorial(num))
 ```
-
-## Node Overview
-
-- Process.argv examples
-- Server from Scratch
-- NPM init
-- Express Server

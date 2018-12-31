@@ -1,32 +1,24 @@
-# Data from the Front to Back
+# Building servers to handling Routes
 
 ## FACE TO FACE SESSION
 
-## Overview of CSS Specificity
+Tonight will be a quick overview about servers:
 
-    element(div): 0-0-1
-    class : 0-1-0
-    id:1-0-0
+- What they are
+- Why we need them (Why can't we just have eveythingon front-end?)
 
-## Adding a Form
+## Node Overview
 
-Add an html form to front-end index.html.
+### Why do we need Node?
 
-```
-    <form action="add/name" method="POST">
-        <label for="name">Car Type</label>
-        <input type="text" name="carType">
-        <button type="submit">Submit</button>
-    </form>
-```
+### NPM init
 
-Talk about full page reload vs partial page reload. Form submission is full page reload vs using ajax with the submit button would be partial. Most of time partial is better.
+### Process.argv examples
 
-## Adding Middleware
+![](images/processArgV.png?raw=true)
 
-add this to the server to allow built-in body parsing of data from front-end:
+### Express Server
 
-```
-// Middleware
-app.use(express.urlencoded({ extended: true }));
-```
+Now show a walkthrough building a server from scratch using express.
+Show how easy it is to use a few lines of code with the help of express to set up a route and
+show data using res.send("HOME SCREEN").

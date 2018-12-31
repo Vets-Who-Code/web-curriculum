@@ -1,22 +1,27 @@
-# Flexbox 💪 and Building Your API 🏗️
-
-Today we will start adding some styling to our site using built-in CSS flex box. This is a fairly new addition to CSS and before flexbox devs would have to use floats and clears to format in rows.
+# Building Your API 🏗️
 
 ## Read
 
-Only read up to CSS Grid... we will cover CSS Grid later... for now just read from start to end of flex box.
-[Flex Box and Grid](https://medium.com/flexbox-and-grids/css-flexbox-grid-layout-how-to-approach-css-layouts-in-2017-and-beyond-685deef03e6c)
+[Express Tutorial](https://scotch.io/tutorials/use-expressjs-to-deliver-html-files)
+
+Do NOT do the tutorial but read through it to scan how to build an express server and serve up static html files.
+
+# Passing form data to routes on back-end 📝
+
+Last night I showed how to initiate an ajax call to connect to the back-end and pass along form data. I wanted to show you the jQuery way but tonight and moving forward we will use Fetch since it's better and promise based.
+
+## Read
+
+[Using Fetch API to Get and Post](https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d)
 
 ## Goals
 
-1.  If you haven't yet get the form data to the back route.
-
-2.  Inside the route add the data onto the data coming from the data.js file. (You do not have to persist the data... but for a stretch goal you could use the FS library to write to the file... but save this for last if you have time.).
-    SUMMARY: So now when a user submit forms and you go to /api/cars the new car will be in the API... but it will not actually be in the cars.js file, hence it doesn't persist.
-
-3.  Use flexbox to add some styling to your index.html and add in a navbar with the following links
-
-    - Home
-    - API
-
-    [FLEXBOX CHEAT SHEET](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- Create a form in our html that has the same inputs as the car objects in your js file.(model, color etc.)
+- Add a new POST route
+  - /api/new
+- Install body-parser in your package.json and add this middleware to your server file BEFORE your routes.
+  HINT: look at the body-parser NPM module documentation for setting up code (about 4 lines)
+- Use the article you read to use fetch to connect to that post route and send the form data thorugh.
+  HINT: You will need to use vanilla JS to grab the form input data and make an object.
+- If you keep getting am empty object on the back-end message me in Slack.
+- Once you get the data console.log on the back-end notify me in channel.

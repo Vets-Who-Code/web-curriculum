@@ -1,19 +1,39 @@
-# Passing form data to routes on back-end 📝
+# Serving Up From the Back-End
 
-Last night I showed how to initiate an ajax call to connect to the back-end and pass along form data. I wanted to show you the jQuery way but tonight and moving forward we will use Fetch since it's better and promise based.
+## Goals:
 
-## Read
+1. Create a new branch and in week 6 (since we will be building upon this next week) add a folder ""
+2. Create a Node project with a package.json
+3. Install these dependencies:
 
-[Using Fetch API to Get and Post](https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d)
+   - Express
 
-## Goals
+4. Create 2 'get' routes in your server file:
 
-- Create a form in our html that has the same inputs as the car objects in your js file.(model, color etc.)
-- Add a new POST route
-  - /api/new
-- Install body-parser in your package.json and add this middleware to your server file BEFORE your routes.
-  HINT: look at the body-parser NPM module documentation for setting up code (about 4 lines)
-- Use the article you read to use fetch to connect to that post route and send the form data thorugh.
-  HINT: You will need to use vanilla JS to grab the form input data and make an object.
-- If you keep getting am empty object on the back-end message me in Slack.
-- Once you get the data console.log on the back-end notify me in channel.
+   - /
+   - /api/cars
+
+5. Make sure your server runs and sends a test string to the browser.
+   HINT: res.send
+6. After this test passes turn the res.send into res.sendFile
+7. Create an index.html file and have the home route serve up a file
+   HINT: check out built in path module in Node and also Google:"Serving up html files Node routes."
+8. Create a cars.js file inside the folder and add some data (see below) and import it into the server.js file.
+   FORMAT:
+
+```
+let cars = [
+{
+    model_number:1,
+    type: "sedan",
+    color:"blue"
+},
+{
+    model_number:2,
+    type: "coupe",
+    color:"red"
+},
+]
+```
+
+9. Figure out how to have the /api/cars route display the data in json format in the browser.
