@@ -15,7 +15,7 @@ Tonight will be a quick overview about servers:
 
 ### Process.argv examples
 
-![](../images/processArgV.png?raw=true)
+<img src="../images/processArgV.png" style="margin:0 200px 0 200px;"/>
 
 ### Express Server
 
