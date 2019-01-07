@@ -38,28 +38,26 @@
 - Flexbox
 - CSS Grid
 
-<h1 align="center">BLOCK 2 - Programming Concepts 📚</h1>
+<h1 align="center">BLOCK 2 - Programming Concepts (JavaScript) 📚</h1>
 
-# Week 4 - JavaScript.
+# Week 4 - JavaScript && jQuery && ES6.
 
-- JavaScript Refresher / Basics
+- ES3 - purpose and how to use
 - DOM manipulation with JS
+- jQuery
+- ES6
 - Constructors, Objects, 'this' Keyword, Loops etc.
-- AMA talk 📞
-- Computer Science 🔬
-
-# Week 5 - Deeper into JavaScript
-
 - Deeper JavaScript
 - Scope / Closures / Hoisting
-- touch on jQuery
+
+# Week 5 Computer Science && JS
 
 # Week 6 - Servers and NPM
 
 - Node
 - Express
 - NPM
-- AMA talk 📞
+- 
 
 # Week 7 - ES6
 
