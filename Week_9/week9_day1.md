@@ -18,8 +18,6 @@ in script
 
 <img src="./images/react_one.png" />
 
-## Show Props
-
-## Show State
+## Show Props and State
 
 <img src="./images/react_two.png" />

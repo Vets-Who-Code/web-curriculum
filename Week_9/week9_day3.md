@@ -1,21 +1,12 @@
-# Getting Reactive with State and Props
+# Adding in the state and CSS styling
 
-## Read
+Tonight we will add in state to our initial React project and also learn about the various ways to add in CSS styling.
 
-[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+## READ: [Four Ways to Add Styling to React](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
 
-##Goals:
+## GOALS:
 
-1. Install create-react-app globally if you hadn't already
+1. Add a counter to your app that displays a count down in seconds.
+   HINT: setState
 
-2. Open a empty folder and navigate here in your terminal and create a new React app using create react app
-
-3. Go to the 'src' folder where these component App.js lives
-
-4. Clear out jsx and have it render only one H1 of "Hello React"
-
-5. Post a screen shot in slack
-
-6. Create a component called "title. Js" and have it render <your name > React countdown.
-
-7. Use props to pass your name into this component making it dynamic and flexible.
+2. Have it diplay something when finished using css to style the word or whatever you decide to show(word, modal, popup etc).

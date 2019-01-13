@@ -1,68 +1,21 @@
-# Intro to React JS
+# Getting Reactive with State and Props
 
-## Why use React?
+## Read
 
-Virtual DOM
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
-## React => Vanilla JS
+##Goals:
 
-in body
+1. Install create-react-app globally if you hadn't already
 
-```
- <div id="root">not rendered</div>
-  <script src="https://unpkg.com/react@16.4.1/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@16.4.1/umd/react-dom.development.js"></script>
-```
+2. Open a empty folder and navigate here in your terminal and create a new React app using create react app
 
-in script
+3. Go to the 'src' folder where these component App.js lives
 
-```
-const App = () => {
-return React.createElement(
-  "div",
-  {},
-  React.createElement("h1", {}, "Adopt Me!")
-);
-};
+4. Clear out jsx and have it render only one H1 of "Hello React"
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
-```
+5. Post a screen shot in slack
 
-## Show Props
+6. Create a component called "title. Js" and have it render <your name > React countdown.
 
-## Show State
-
-```
-class App extends React.Component {
-  state={}
-
-  handleClick=()=> {
-    // Increment the count when the button is clicked
-    this.setState({
-      count: this.state.count + 1
-    }, function() {
-      // setState is asynchronous! This function gets called
-      // when it's finished.
-      console.log("Job's done");
-    });
-  }
-
-  render() {
-    return (
-      <div className="app">
-        <div className="click-count">
-          Button presses: {this.state.count}
-        </div>
-        <button onClick={this.handleClick}>
-          Add One
-        </button>
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('container')
-);
-```
+7. Use props to pass your name into this component making it dynamic and flexible.
