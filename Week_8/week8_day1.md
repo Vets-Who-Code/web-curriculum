@@ -32,7 +32,7 @@ node server.js
 
 ```
 
-<img src="../images/processArgV.png" />
+<img src="./images/processArgV.png" />
 
 ### Express Server
 
@@ -40,4 +40,4 @@ Now show a walkthrough building a server from scratch using express.
 Show how easy it is to use a few lines of code with the help of express to set up a route and
 show data using res.send("HOME SCREEN").
 
-<img src="../images/server.png" />
+<img src="./images/server.png" />
