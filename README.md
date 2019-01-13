@@ -5,53 +5,59 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 9](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 10](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 11](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 12](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 13](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 14](Week_1)
 
-<h1 align="center">BLOCK   1 - Know Your Tools 🔧</h1>
+<h1 align="center">BLOCK   1 - Web Familiarity 🔧</h1>
 
 # Week 1 - Internet functionality and code work flows.
 
 - Command Line
 - Git / Git Workflow
-- Docs / Trusted Resources (MDN) / CodePen
-- How Internet Works
+- VS Code
+- Google Chrome | DevTools
 
-# Week 2 - Dev tools and computer science.
+# Week 2 - HTML && HTML5.
 
-- Chrome Dev Tools
-- Code Editor
-- HTML / CSS Refresher
-- DOM
-- Computer Science 🔬
+- Basic HTML Elements
+- Metadata HTML Elements
+- Content Grouping HTML Elements
+- Text Level Semantic HTML Elements
+- Table HTML Elements
+- Form HTML Elements
+- Content Embedding HTML Elements
+- Images / Multimedia HTML Elements
+- Global HTML Attributes
+- Exclusive HTML5 Tags
+  
 
-# Week 3 - In-depth CSS
+# Week 3 - CSS
 
+- Intro To CSS
+- Styling Text
+- Styling Boxes
+- CSS Layout
+- BEM Methodology
 - Flexbox
-- Sassy CSS (SCSS)
-- CSS Animations / Transitions
-- Media Queries
-- Bootstrap 4
+- CSS Grid
 
-<h1 align="center">BLOCK 2 - Programming Concepts 📚</h1>
+<h1 align="center">BLOCK 2 - Programming Concepts (JavaScript) 📚</h1>
 
-# Week 4 - JavaScript basics and computer science.
+# Week 4 - JavaScript && jQuery && ES6.
 
-- JavaScript Refresher / Basics
+- ES3 - purpose and how to use
 - DOM manipulation with JS
+- jQuery
+- ES6
 - Constructors, Objects, 'this' Keyword, Loops etc.
-- AMA talk 📞
-- Computer Science 🔬
-
-# Week 5 - Deeper into JavaScript
-
 - Deeper JavaScript
 - Scope / Closures / Hoisting
-- touch on jQuery
+
+# Week 5 Computer Science && JS
 
 # Week 6 - Servers and NPM
 
 - Node
 - Express
 - NPM
-- AMA talk 📞
+- 
 
 # Week 7 - ES6
 

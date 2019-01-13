@@ -2,7 +2,7 @@
 
 ## **User Story** 📘
 
-As a bootcamp student in week 1 I want to feel confident with the tools and environment so I can succeed in learning the content weekly.
+As a VetsWhoCode troop in week 1 I want to feel confident with the terminal, git, my text editor and browser so I can be more proficient as a programmer.
 
 ## Days
 
