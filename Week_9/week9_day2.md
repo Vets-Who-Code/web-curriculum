@@ -4,7 +4,7 @@
 
 [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
-##Goals:
+## Goals:
 
 1. Install create-react-app globally if you hadn't already
 
@@ -16,6 +16,6 @@
 
 5. Post a screen shot in slack
 
-6. Create a component called "title. Js" and have it render <your name > React countdown.
+6. Create a component called "title. Js" and have it render 'your name' React countdown.
 
 7. Use props to pass your name into this component making it dynamic and flexible.

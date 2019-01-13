@@ -9,4 +9,4 @@ Tonight we will add in state to our initial React project and also learn about t
 1. Add a counter to your app that displays a count down in seconds.
    HINT: setState
 
-2. Have it diplay something when finished using css to style the word or whatever you decide to show(word, modal, popup etc).
+2. Have it display something when finished using CSS to style the word or whatever you decide to show(word, modal, popup etc).
