@@ -52,6 +52,29 @@
 
 # Week 5 Computer Science && JS
 
+- Horse Race: critical thinking question
+   - An analysis on brute force vs optimization
+- Recursion 
+   - Factorial to start
+   - Fibonacci to solidify
+- Modulo 
+   - a = qb + r 
+   - Range checker / circular array
+- Big O
+   - Constant, logarithmic, linear, polynomial, exponential
+   - Exposure to P = NP
+- Base 10 / Base 2 
+   - What is the difference
+   - Conversions (algorithms for extra hw)
+- GCD and Prime Factorization
+   - Why primes are everything in security
+   - Time allowing, GCD algorithm
+- Finale:
+   - Write a function that checks for prime numbers - is it optimal? why/why not?
+      - Bonus: write a function that prints the first ’n’ prime numbers
+      - Challenging Bonus: write a function that does prime factorization
+         - WARNING: Large numbers may take a really long time or never finish
+
 # Week 6 - Servers and NPM
 
 - Node
