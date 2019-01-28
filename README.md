@@ -16,7 +16,7 @@
 
 # Week 2 - HTML && HTML5.
 
-- Basic HTML Elements
+- Basic HTML Elements1
 - Metadata HTML Elements
 - Content Grouping HTML Elements
 - Text Level Semantic HTML Elements
@@ -54,15 +54,15 @@
 
 - Horse Race: critical thinking question
    - An analysis on brute force vs optimization
+- Big O
+   - Constant, logarithmic, linear, polynomial, exponential
+   - Exposure to P = NP
 - Recursion 
    - Factorial to start
    - Fibonacci to solidify
 - Modulo 
    - a = qb + r 
    - Range checker / circular array
-- Big O
-   - Constant, logarithmic, linear, polynomial, exponential
-   - Exposure to P = NP
 - Base 10 / Base 2 
    - What is the difference
    - Conversions (algorithms for extra hw)
@@ -79,8 +79,7 @@
 
 - Node
 - Express
-- NPM
-- 
+- NPM 
 
 # Week 7 - ES6
 

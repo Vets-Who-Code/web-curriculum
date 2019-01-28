@@ -1,25 +1,40 @@
-# Big O and intro to Testing
+# Big O and Optimization
 
 ## Big O
 
 Watch: [Big O](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 Cheatsheet: [Big O CheatSheet](http://bigocheatsheet.com/)
 
+## Concepts:
+- Upper bound and Lower bound 
+- Worst Case, Best Case, Average Case
+- Signs of big O in code
+   - Loops!
+   - Big function calls
+
 ## Goal:
 
-- Show two examples of BigO on a codepen
+- Show three examples of BigO on a codepen
+  - one of 0(1) - can be very simple (think arrays)! 
   - one of O(n)
   - one of O(n^2)
 
-## Unit Testing with Mocha and Chai
+## Critical Thinking Question:
 
-We will be testing almost everything from here on out. Testing isn't hard but give you a sense of security when deploying production code.
+- We are given 25 Horses and 5 Lanes on a racetrack
+- How many races would it take to find the fastest 3 horses?
+   - Time is not taken (fastest must be calculated by racing)
 
-READ: [Mocha and Chai Testing](https://codeburst.io/how-to-test-javascript-with-mocha-the-basics-80132324752e)
+### Questions:
+- Is this the best we can do?
+- How can we improve this?
 
-Do not worry about the set up too much right now... it deals with the NPM install for Node which we will be covering this week. For now we will just run it on CodePen.
+### Conclusion:
+- What is the connection between this and big 0 / computer algorithms?
 
-## Goal:
-
-- Fork this codepen from [SITEPOINT](https://codepen.io/SitePoint/pen/XXzXLX).
-- Make your own test creating a function that takes in two integers and adds them giving the sum of both.
+### Concepts to explore on your own:
+- [P = NP](https://en.wikipedia.org/wiki/P_versus_NP_problem)
+   - The biggest question in modern CS
+   - P = NP would mean extremely difficult problems would be algorithmically EASY!
+   - The importance of Mathematics 
+- [Gale's Take](https://www.youtube.com/watch?v=v4cd1O4zkGw)
