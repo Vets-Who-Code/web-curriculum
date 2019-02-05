@@ -11,13 +11,18 @@ Cheatsheet: [Big O CheatSheet](http://bigocheatsheet.com/)
 - Signs of big O in code
    - Loops!
    - Big function calls
+- We are trying for algorithmic SPEED!
+- Faster algorithms means the CPU has time to do more jobs!
+- Minimize the effects of a dramatically scaling input
 
-## Goal:
+### Goal:
 
 - Show three examples of BigO on a codepen
   - one of 0(1) - can be very simple (think arrays)! 
   - one of O(n)
   - one of O(n^2)
+
+<hr>
 
 ## Critical Thinking Question:
 
@@ -29,8 +34,10 @@ Cheatsheet: [Big O CheatSheet](http://bigocheatsheet.com/)
 - Is this the best we can do?
 - How can we improve this?
 
-### Conclusion:
+### Goal:
 - What is the connection between this and big 0 / computer algorithms?
+
+<hr>
 
 ### Concepts to explore on your own:
 - [P = NP](https://en.wikipedia.org/wiki/P_versus_NP_problem)

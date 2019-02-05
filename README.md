@@ -16,7 +16,7 @@
 
 # Week 2 - HTML && HTML5.
 
-- Basic HTML Elements1
+- Basic HTML Elements
 - Metadata HTML Elements
 - Content Grouping HTML Elements
 - Text Level Semantic HTML Elements
