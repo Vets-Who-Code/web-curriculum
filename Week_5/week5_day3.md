@@ -48,6 +48,9 @@ Link: [Modular Arithmetic](https://artofproblemsolving.com/wiki/index.php/Modula
 - The return value is either true or false (a boolean)
 - Is this optimized? What can be done different?
 - Remeber the mod operator!!
+   - Extra: 
+     - Can you write a function that prints the first `n` prime numbers?
+     - Can it be easier if you just use your `isPrime(n)` function?
 
 <hr>
 

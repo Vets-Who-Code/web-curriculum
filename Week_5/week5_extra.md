@@ -12,6 +12,10 @@ CS can be thought of as the intersection of -
 
 2. Discrete Mathematics
    - Logic and Booleans
+   - Different Number Systems
+     - Base 10 (Decimal)
+     - Base 2 (Binary)
+     - Base 8 (Octal)
 
 3. Data Structures
    - Dive deep into each type
