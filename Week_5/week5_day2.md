@@ -21,6 +21,13 @@ Watch: [The JS Call Stack](https://www.youtube.com/watch?v=W8AeMrVtFLY&pbjreload
    - Write a comment describing the call stack order in your program.
      - You must state: When a call is pushed/popped on/off the stack
 
+## Other Data Structures To consider:
+Link: [Data Structures](https://www.geeksforgeeks.org/data-structures/)
+
+Watch: [DS Video](https://www.youtube.com/watch?v=DuDz6B4cqVc)
+
+The above video is a LOT of information in a 10 min video.
+
 <hr>
 
 ## Recursion

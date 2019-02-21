@@ -57,8 +57,9 @@
    - Exposure to P = NP
 - Horse Race: critical thinking question
    - An analysis on brute force vs optimization
-- The Call Stack
-   - How code is interpreted and handled
+- Data Structures and The Call Stack
+   - Call Stack: How code is interpreted and handled
+   - What is a Stack? A Queue? A map? A Tree? A Graph?
 - Recursion 
    - With Call Stack as a foundation, study Recursion
    - Factorial to start
