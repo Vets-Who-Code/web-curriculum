@@ -3,7 +3,10 @@
 ## Catch up Day
 ... review and practice!
 
-### GCD Extra Challenge:
+### Extra Challenge:
+# GCD or Prime Factorization
+
+## GCD
 - Using the concepts we learned
 - Write a function returning the Greatest Common Divisor (GCD) between 2 integers
 
@@ -19,5 +22,7 @@ Warning: if you just cut and copy code from online, you will not learn much!
 - Try to understand the concept, the steps, and the Algorithm
 - Then implement (code) it yourself
 
+### For Prime Factorization, you are on your own. Use the guidelines above.
+- Note: For LARGE integers, Prime Factorization will take a LONG TIME!!
 
 ##### With code and CS, you only through failure and struggle! We have all been there!
