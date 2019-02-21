@@ -1,21 +1,3 @@
-# Recursion and Node Servers
+# Modulo, Base-10 / Base-2 Number Systems
 
-FACE TO FACE CLASS
-
-## Recursion
-
-ReRecurRecursiRecursion
-
-Main example for recursion: Factorial
-
-```
-let factorial = (n)=>{
-    if(n == 0){
-    return 1
-    }else{
-    return n * factorial(n-1);
-    }
-}
-
-console.log(factorial(num))
-```
+## The Mod Operator
