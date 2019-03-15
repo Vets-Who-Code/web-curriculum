@@ -39,6 +39,7 @@ Link: [Modular Arithmetic](https://artofproblemsolving.com/wiki/index.php/Modula
 
 ### Prime numbers are VERY important in security
 - Check out RSA and Primes in Network security at your own leisure
+   A simple explaination on [Primes in Cryptography](https://crypto.stackexchange.com/questions/20867/why-are-primes-important-for-encryption)
 - Every integer can be be broken down into a multiple of Primes
    This is called [Prime Factorization](https://www.mathsisfun.com/prime-factorization.html)
 
