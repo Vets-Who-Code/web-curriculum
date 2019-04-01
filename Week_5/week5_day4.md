@@ -25,4 +25,4 @@ Warning: if you just cut and copy code from online, you will not learn much!
 ### For Prime Factorization, you are on your own. Use the guidelines above.
 - Note: For LARGE integers, Prime Factorization will take a LONG TIME!!
 
-##### With code and CS, you only through failure and struggle! We have all been there!
+##### With code and CS, you only grow through failure and struggle! We have all been there!

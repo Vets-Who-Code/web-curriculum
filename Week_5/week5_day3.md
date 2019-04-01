@@ -48,7 +48,7 @@ Link: [Modular Arithmetic](https://artofproblemsolving.com/wiki/index.php/Modula
 - In Codepen, write a function `isPrime(n)` that checks if number is prime
 - The return value is either true or false (a boolean)
 - Is this optimized? What can be done different?
-- Remeber the mod operator!!
+- Remember the mod operator!!
    - Extra: 
      - Can you write a function that prints the first `n` prime numbers?
      - Can it be easier if you just use your `isPrime(n)` function?
