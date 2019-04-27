@@ -1,7 +1,7 @@
 <h1 align="center"></h1>
 <h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 1](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 2](Week_2)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 3](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 4](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 5](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 6](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 7](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 8](Week_1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 1](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 2](Week_2)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 3](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 4](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 5](Week_5)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 6](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 7](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 8](Week_1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 9](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 10](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 11](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 12](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 13](Week_1)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Week 14](Week_1)
 
@@ -52,12 +52,40 @@
 
 # Week 5 Computer Science && JS
 
+- Big O
+   - Constant, logarithmic, linear, polynomial, exponential
+   - Exposure to P = NP
+- Horse Race: critical thinking question
+   - An analysis on brute force vs optimization
+- Data Structures and The Call Stack
+   - Call Stack: How code is interpreted and handled
+   - What is a Stack? A Queue? A map? A Tree? A Graph?
+- Recursion 
+   - With Call Stack as a foundation, study Recursion
+   - Factorial to start
+   - Fibonacci to solidify
+- Modulo 
+   - k = qx + r 
+   - Range checker / circular array
+- Primality
+   - Testing for Primes
+   - Why primes are everything in security 
+   - Algorithms for Primes
+- GCD and Prime Factorization
+   <strong>Choose your final Challenge</strong>
+   - Greatest Common Divisor Algorithm
+     - Euclidean's Algorithm
+   OR
+   - Prime Factorization
+   - Break down any integer into a factor of only Prime numbers
+   - Why do large numbers take so long?
+
+   
 # Week 6 - Servers and NPM
 
 - Node
 - Express
-- NPM
-- 
+- NPM 
 
 # Week 7 - ES6
 
