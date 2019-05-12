@@ -1,39 +1,21 @@
-# Serving Up From the Back-End
+# Getting Reactive with State and Props
+
+## Read
+
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 ## Goals:
 
-1. Create a new branch and in week 6 (since we will be building upon this next week) add a folder ""
-2. Create a Node project with a package.json
-3. Install these dependencies:
+1. Install create-react-app globally if you hadn't already
 
-   - Express
+2. Open a empty folder and navigate here in your terminal and create a new React app using create react app
 
-4. Create 2 'get' routes in your server file:
+3. Go to the 'src' folder where these component App.js lives
 
-   - /
-   - /api/cars
+4. Clear out jsx and have it render only one H1 of "Hello React"
 
-5. Make sure your server runs and sends a test string to the browser.
-   HINT: res.send
-6. After this test passes turn the res.send into res.sendFile
-7. Create an index.html file and have the home route serve up a file
-   HINT: check out built in path module in Node and also Google:"Serving up html files Node routes."
-8. Create a cars.js file inside the folder and add some data (see below) and import it into the server.js file.
-   FORMAT:
+5. Post a screen shot in slack
 
-```
-let cars = [
-{
-    model_number:1,
-    type: "sedan",
-    color:"blue"
-},
-{
-    model_number:2,
-    type: "coupe",
-    color:"red"
-},
-]
-```
+6. Create a component called "title. Js" and have it render 'your name' React countdown.
 
-9. Figure out how to have the /api/cars route display the data in json format in the browser.
+7. Use props to pass your name into this component making it dynamic and flexible.

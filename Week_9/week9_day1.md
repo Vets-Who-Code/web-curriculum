@@ -1,37 +1,93 @@
-# Intro to React JS
+#Adding in the Router to React and Exploring es6
 
-## Why use React?
+### Face to Face
 
-Here lets just get into the high level "Why us React?" and what will it do for us devleopers and also the end users.
+## Set-up another create-react-app
 
-- Virtual DOM - Huge performance gain due to rendering only what needs to be re-rendered.
-- Huge Backing - FB dev team
-- Maintainability - Components are reusable and ealy maintained.
-- Brings together the HTML, CSS and JS all in one component.
+## .map()
 
-## React => Vanilla JS
+Show how .map works by adding using the cars.json file and linking the data up to state then displaying the data in the render function uisng .map. Make this seperate component so that when using react router it will be a smooth transition.
 
-Here we will show how React tranlates directly to HTML and JS.
+```class App extends Component {
+  state = {
+    cars: cars
+  };
 
-Add in body:
+  render() {
+    const renderCars = this.state.cars.map(car => (
+      <>
+        <h2>{car.id}</h2>
+        <h2>{car.name}</h2>
+        <h2>{car.company}</h2>
+      </>
+    ));
+    return <>{renderCars}</>;
+  }
+}
 
 ```
- <div id="root">not rendered</div>
-  <script src="https://unpkg.com/react@16.4.1/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@16.4.1/umd/react-dom.development.js"></script>
+
+## React Router
+
+Install npm i react-router-dom and show how to use as a wrapper of components in App.js...
+
+```
+import React, { Component } from 'react';
+import Cars from './Cars';
+import Home from './Home';
+import './App.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div>
+          <Route path="/" exact component={Home} />
+          <Route path="/cars" component={Cars} />
+        </div>
+      </Router>
+    );
+  }
+}
+
+export default App;
+
+
+
 ```
 
-Add in script:
+## Cars component
 
-<img src="./images/react_one.png" />
+```
+import React, { Component } from 'react';
+import cars from './cars.json';
+import { Link } from 'react-router-dom';
 
-## Show Props and State
+class Cars extends Component {
+  state = {
+    cars: cars
+  };
 
-<img src="./images/react_two.png" />
+  render() {
+    const renderCars = this.state.cars.map(car => (
+      <>
+        <h2>{car.id}</h2>
+        <h2>{car.name}</h2>
+        <h2>{car.company}</h2>
+      </>
+    ));
+    return (
+      <>
+        {renderCars}
+        <Link to="/">Home</Link>
+      </>
+    );
+  }
+}
 
-## JSX
+export default Cars;
 
-What is this HTML looking thing called JSX?
-Make sure to point out that atteibute className and onClick are different proving that even though it looks like HTML it is not, it just mimicks it.
 
-TIP: Using the analogy of a function and parameters will help in showing a component and props. Just wrapping up some code, making it flexible and using it by passing in any props.
+
+```
