@@ -1,36 +1,71 @@
-# Custom Form Validation 📝
+Alex NewcomerAlex NewcomerWe're going to build a dog picture viewer using the dog.ceo API. This project is going to allow users to select a breed from a drop down list and then display a random picture of that breed.
 
-# Constraint Validation API
+Here's my version of it.
 
-In regards to user form validation there is server-side and client-side. Client side is all about making the user experience better as far as making it crystal clear what is required for password, username etc.
+Requirements:
 
-There is an easy way to do client side such as
+Here are the API docs.
+The list of breeds can be obtained by List all breeds API (see the docs linked above.) Request the list of breeds and then use those to create all the options for the select.
+When the page first loads, show a loading spinner until the image has loaded. I used an emoji with CSS animations to do so. Feel free to look at what other people have done, write your own (short tutorial will be below), or use an animated GIF. When the image loads, hide the spinner and show the image.
+You already know how to change the src of an img, but if you immediately hide the loading spinner and show the img, you'll have a flash of time where nothing on the page since the image hasn't loaded yet. You can side step this by using addEventListener on the img tag and listen for the  "load" event. Once the "load" event happens, it means the image is loaded and ready to be shown.
+You can do AJAX request using fetch and promises like I showed you in the previous chapter. I'm now going to show you a brand new feature called async / await and it makes this a lot easier.
+Let's chat about CSS animations a second here:
 
-```
-<input type="email">
-```
 
-This will show the user a message saying that a @ is required and other important factors. Although it does allow us to modify the message of the error it does not allow us to use any CSS styling. This is what we will learn bringing together HTML, CSS and JavaScript.
+<style>
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+​
+  @keyframes psychadelic {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+​
+  .mole {
+    height: 334px;
+    width: 334px;
+    background-color: brown;
+    border-radius: 50%;
+  }
+​
+  .color {
+    animation: psychadelic 3s linear infinite;
+  }
+​
+  .spin {
+    animation: spin 3s ease-in-out infinite;
+  }
+</style>
+<img src="https://frontendmasters.github.io/bootcamp/mole-game/mole-hungry.png" style="background-color: brown; border-radius: 50%" class="mole color" />
+<img src="https://frontendmasters.github.io/bootcamp/mole-game/king-mole-hungry.png" style="background-color: brown; border-radius: 50%" class="mole spin" />
+ 
+These @keyframes animations are re-usable animations that we define once and can use as many times as we want.
+The second word (in our case spin and psychadelic) are what we called the animations, similar to a variable name. It's what we can refer to it as later.
+Inside the @keyframes we have a to property. You can define very fine grain steps in the animation but here we want it to infer the steps. We could add from { transform: rotateZ(0deg); } but the browser already knows that it's at 0deg rotation. In this case, it just infers that you want it to start from where it is and animate to the to point.
+You can also use percentages. Instead of to you'd use 100% and instead of from you'd use 0%. You can put as many steps as you want in there too e.g. 1%, 10%, 50%, 92%, etc.
+Where you want to use animation, put something like animation: spin 1s infinite linear;. This will use the spin animation we defined above, will take 1 second to do one iteration of the animation, will do it with linear easing, and will continue to do it infitiely. The order is not important here.
+Easing allows you to make it seem elastic when it starts and stops, like a ball bouncing. It's faster at the bottom of the bounce and slower at the top.
+Let's talk about async / await for a second. So far we've been using promises and .then. There's an easier way to do it and it's called async / await.
 
-## READ
 
-[Event Bubbling](https://javascript.info/bubbling-and-capturing)
+<button id="get-doggo">Get Doggo</button>
+<img style="height: 250px;" id="doggo" src="http://placecorgi.com/250">
+<script>
+  async function getDoggo(event) {
+    const res = await fetch("https://dog.ceo/api/breeds/image/random");
+    const resJson = await res.json();
+    document.getElementById("doggo").src = resJson.message;
+  }
+​
+  document.getElementById('get-doggo')
+    .addEventListener('click', getDoggo)
+</script>
+Get Doggo 
+Notice the function getDoggo has the async keyword there. This means inside of this function we can use await. await takes a promise and then pauses the function until that promise resolves and gives you the answer back. It makes the code a lot simpler to understand. If you need to deal with errors, you can just try / catch. Feel free to write code this way for this exercise or continue using promises. Do note that I can't say await in the top level; it has to be inside of an async function.
 
-## GOALS
+Your page does not have to look like mine. Feel free to design it however you want. Feel free to copy me too!
 
-1. Log into REPL.it and do one problem (Making sure everyone can access and use this.)
-
-2. Start on Sundays homework and go slow so it sinks in.
-
-## DUE SUNDAY:
-
-1. Complete this tutorial (parts 2 and 3) as a CodePen so you can show it off.
-   Make it your own
-
-   - Integrate es6 (let,const and arrow functions).
-
-   Part 2 [The Constraint Validation API in JavaScript](https://css-tricks.com/form-validation-part-2-constraint-validation-api-javascript/)
-
-   Part 3[ A Validity State API Polyfill](https://css-tricks.com/form-validation-part-3-validity-state-api-polyfill/)
-
-2. Medium blog post talking about event bubbling in JS.
+Good luck!
