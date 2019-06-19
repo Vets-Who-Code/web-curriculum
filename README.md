@@ -106,7 +106,7 @@
 - JSON
 - Scope / Closures / Hoisting
 
-# Week 6 : APIs && Serving To The Web
+# Week 7 : APIs && Serving To The Web
 
 -  DOM manipulation ( Again)
 -  Fetch
@@ -122,7 +122,7 @@
 
 
 <h1 align="center">BLOCK 2 - Computer 💻  Science 🔬 With Javascript </h1>
-# Week 7: Computer Science I
+# Week 8: Computer Science I
 
 - Big O
 - Recursion
@@ -132,7 +132,7 @@
     - Merge Sort
     - Quick Sort
 
-# Week 8 Computer Science II
+# Week 9 Computer Science II
 - Data Structures
     - Set
     - Map
@@ -145,7 +145,7 @@
     - AVL Tree 
     - Hash Table
 
-# Week 8 Computer Science III
+# Week 10 Computer Science III
 - Bloom Filters
 - Tree Traversals
 - Graphs
@@ -155,7 +155,7 @@
 
 <h1 align="center">BLOCK 3 - React && JAMstack ⚛️ </h1>
 
-# Week 9 - React I
+# Week 11 - React I
 
 - React Basics
 - Tooling
@@ -164,20 +164,20 @@
 - Effects
 - React Dev Tools
 
-# Week 10 - React II
+# Week 12 - React II
 - Async & Routing
 -  Class Components
 - Error Boundaries
 - Context
 - Portals
 
-# Week 10 Gatsby 
+# Week 13 Gatsby 
 
 - Set Up
 - MDX
 - Outside Data
 
-# Week 11 GraphQL
+# Week 14 GraphQL
 
 - Schemas
 - Definition Language
@@ -188,7 +188,7 @@
 - Interfaces
 - Auth
 
-# Week 12: Jest
+# Week 15: Jest
 
 - Introduction
 - Layout
@@ -210,5 +210,6 @@
 - Daily Code Challenge via Repl.it
 - Daily interview Question in code-challenge channel
 - Reporting to your assigned team and contributing
+- Portfolio Building
 
 
