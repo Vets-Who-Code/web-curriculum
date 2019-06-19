@@ -57,8 +57,8 @@
 - Live Regions
 
 # Week 5 SMACSS
-- Categoriztion
-- Naming Convention
+- Categorization
+- Naming Conventions
 - State- Based Design
 
 # Week 6 - JavaScript && jQuery && ES6.
