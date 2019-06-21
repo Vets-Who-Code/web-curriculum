@@ -64,7 +64,7 @@
 # Week 6 - JavaScript && jQuery && ES6.
 
 - ES3 - purpose and how to use
-    - Types
+    - Primitives
     - Conditionals
     - Arrays
     - Loops
@@ -98,7 +98,7 @@
     - Async/Await
     - Promises
     - For Of Loops
-    - Spread Attributes
+    - Spread Operators and Rest Parameters
     - Maps
     - Sets 
     - Static Methods 
@@ -117,7 +117,7 @@
 - Third Party APIs
 - Serving to The Web
     - Github Pages
-    - Netifly
+    - Netlify
     - Surge
 
 
