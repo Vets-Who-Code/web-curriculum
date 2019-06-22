@@ -3,7 +3,7 @@
 ## The Mod Operator
 - What does it mean to Mod?
 - Think of remainder when you divide
-- Any interger, 'k', can be represented with the equation
+- Any integer, 'k', can be represented with the equation
    <pre>k = qx + r</pre>
    - Where 'q' is the quotient, 'x' is the multiple and 'r' is the remainder
 - This tells us that doing INTEGER division, we have a remainder in the range:
