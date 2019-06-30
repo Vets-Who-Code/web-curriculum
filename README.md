@@ -25,7 +25,6 @@
 - Box Model
 - Styling Text
 - CSS Layout
-- BEM Methodology
 - Flexbox
 - CSS Grid
 
