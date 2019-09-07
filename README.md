@@ -70,7 +70,7 @@
 - DOM manipulation with JS && jQuery
     - Create
     - Replace
-    - Unwrap 
+    - Unwrap
     - Remove ( Destroy )
     - Empty
     - Inserting
@@ -87,7 +87,7 @@
     - Ajax
 
 - ES6
-    - Let and Const 
+    - Let and Const
     - Arrow Functions
     - Default Parameters
     - Async/Await
@@ -95,8 +95,8 @@
     - For Of Loops
     - Spread Operators and Rest Parameters
     - Maps
-    - Sets 
-    - Static Methods 
+    - Sets
+    - Static Methods
     - Getters and Setters
 - JSON
 - Scope / Closures / Hoisting
@@ -117,6 +117,7 @@
 
 
 <h1 align="center">BLOCK 2 - Computer 💻  Science 🔬 With Javascript </h1>
+
 # Week 8: Computer Science I
 
 - Big O
@@ -134,10 +135,10 @@
     - Stack
     - Queue
 - Data Structures Implementations
-    - Array List 
+    - Array List
     - Linked List
     - Binary Search Tree
-    - AVL Tree 
+    - AVL Tree
     - Hash Table
 
 # Week 10 Computer Science III
@@ -166,7 +167,7 @@
 - Context
 - Portals
 
-# Week 13 Gatsby 
+# Week 13 Gatsby
 
 - Set Up
 - MDX
