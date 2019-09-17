@@ -68,7 +68,7 @@ Section
 
 #### HTML Homework
 
-Start thinking about your portfolio placement of bacis HTML elements and place them on a file.
+Start thinking about your portfolio placement of basic HTML elements and place them on a file.
 
 
 
