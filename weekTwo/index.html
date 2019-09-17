@@ -12,11 +12,11 @@
     <script src=""></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="keepTime()">
     <header>
         <nav>
             <span>
-                <h1 class="logo">JH</h1>
+                <h1 class="logo"><abbr title="Jerome Hardaway">JH</abbr></h1>
             </span>
             <ul>
                 <li></li>
@@ -32,7 +32,7 @@
             <img src="https://www.placecage.com/c/200/300" alt="">
         </div>
         <p>
-            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata
+           <abbr title="Zombies">Z's</abbr> Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata
             corpora quaeritis.
             Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
             Hi mindless mortuis
@@ -50,20 +50,45 @@
                 <h1>This is an article</h1>
                 <span class="byline">I am Groot</span>
                 <p class="post">
-                    I am Groot. We are Groot. We are Groot. I am Groot. I am Groot. We are Groot. I am Groot. I
+                    I am Groot. We are Groot. We are Groot. I am <b>Groot</b>. I am <em>Groot</em>. We are <mark>Groot</mark>. I am Groot. I
                     am Groot. We
                     are Groot. I am Groot. We are Groot. I am Groot. We are Groot. We are Groot. I am Groot. We
                     are Groot.
                     We are Groot. We are Groot. I am Groot. I am Groot. We are Groot. I am Groot. I am Groot. I
                     am Groot. I
                     am Groot.
+                    <time #id="time">
+                        <script>
+                        function keepTime() {
+                            let today = new Date();
+                            let hour = today.getHours();
+                            let minutes = today.getMinutes();
+                            let seconds = today.getSeconds();
+                            checkMinutes = checkTime(minutes);
+                            checkSeconds = checkTime(seconds);
+                            document.getElementById('time').innerHTML = hour + ":" +  checkMinutes + ":" + checkSeconds;
+                            let timeRun = setTimeout( keepTime, 500);
+                        }
+
+                        function checkTime(i) {
+                            if (i < 10) { 
+                                i = "0" + i
+                                };
+                                return i;
+                        }
+                        </script>
+                    </time>
+                    <blockquote>I am Groot.</blockquote>
+                    <code>
+                        console.log("I am Groot!");
+                    </code>
                 </p>
             </article>
         </section>
     </main>
     <aside class="sidebar">
         <ul>
-            <li>Gamora</li>
+            <li> <data value="14">Gamora</data></li>
             <li>Peter Quill</li>
             <li>Drax</li>
         </ul>
