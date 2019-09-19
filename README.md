@@ -1,4 +1,3 @@
-<h1 align="center"></h1>
 <h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
 
 <h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
