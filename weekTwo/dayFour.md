@@ -13,7 +13,7 @@ CSS, or cascading style sheets, is a language used to describe reusable styles f
 
 ## Border Box Model
 
-<img src="/images/boxmodel.png" alt="box model" width="500px" /> 
+<a target="_blank" rel="noopener noreferrer" href="/Vets-Who-Code/Curriculum/blob/master/images/vwc.gif"><img src="/Vets-Who-Code/Curriculum/raw/master/images/boxmodel.png" alt="Box Model" width="500px" style="max-width:100%;"></a>
 
 CSS Basic Box Model is a module of CSS that defines the rectangular boxes—including their padding and margin—that are generated for elements and laid out according to the visual formatting model.
 
