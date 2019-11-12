@@ -118,35 +118,31 @@
 <h1 align="center">BLOCK 2 - Computer 💻  Science 🔬 With Javascript </h1>
 
 # Week 8: Computer Science I
-
+- Thinking like a programmer
 - Big O
+  - The metric for algorithms
+- Call Stack
+  - How code is interpreted by the machine
 - Recursion
-- Sorting Algorithms
-    - Bubble Sort
-    - Insertion Sort
-    - Merge Sort
-    - Quick Sort
+  - The art of the hand-off
 
 # Week 9 Computer Science II
+- Object Oriented Programming
+  - Classes and Objects
 - Data Structures
     - Set
-    - Map
     - Stack
     - Queue
-- Data Structures Implementations
-    - Array List
-    - Linked List
-    - Binary Search Tree
-    - AVL Tree
-    - Hash Table
+    - Map
+- Intro to algorithms
+  - Solving problems with code
 
 # Week 10 Computer Science III
-- Bloom Filters
-- Tree Traversals
-- Graphs
-- Tries
-- Heap Sort
-- Radix Sort
+- Sorting
+  - Implement and understand sorting algorithms
+- Primality and Practical algorithms
+  - Deeper dive into algorithms
+- Review
 
 <h1 align="center">BLOCK 3 - React && JAMstack ⚛️ </h1>
 
