@@ -1,6 +1,6 @@
 # Day 1 Notes
 
-Today we started with a challenge in which you had five minutes to complete [User Inyerface](https://userinyerface.com/). I implore you to try to finish that so you understand the frustration of being a user with a crappy interface.
+Today we started with a challenge in which you had five minutes to complete [User Interface](https://userinyerface.com/). I implore you to try to finish that so you understand the frustration of being a user with a crappy interface.
 
 We also spoke about the history of the [internet](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) and I asked you to favorite the [Front End Masters Handbook](https://frontendmasters.com/books/front-end-handbook/2019/) as well as the [MDN](https://developer.mozilla.org/en-US/). I should have added CSS-tricks to that list as well.
 
