@@ -1,6 +1,7 @@
-#Day Two
+# Day Two
 
 Today we went over:
+
 1.Command Line
 2. Visual Studio Code
 
@@ -16,6 +17,6 @@ Visual Studio Code
 Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring.
 Here is a list of [Plugins](https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development) For VS Code
 
-###Homework
-1. Now that you've seen a little bit of Command line, use it. make a projects folder at root, move your profile there (use mv).
-2. Set up Visual Studio Code to your liking. Explore themes, Keymaps ( Atom , Sublime and VIM 🤮 are all supported) and work plugins .
+### Homework
+1. Now that you've seen a little bit of Command line, use it. Make a projects folder at root, move your profile there (use `mv`).
+2. Set up Visual Studio Code to your liking. Explore themes, Keymaps ( Atom , Sublime and VIM 🤮 are all supported) and work plugins.
