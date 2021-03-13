@@ -6,9 +6,10 @@ CSS, or cascading style sheets, is a language used to describe reusable styles f
    For example, CSS may be used to change the font used in certain HTML element, as well as its size and color.
     A single CSS file may be linked to multiple pages, which allows a developer to change the appearance of all the pages at the same time.
 
+`selector` : Define the elements to which a set of CSS rules apply.
 
-`Selector` : Define the elements to which a set of CSS rules apply.
 `property` : Human-readable identifiers that indicate which stylistic features you want to change.
+
 `value` : Indicates how you want to change stylistic features.
 
 ## Border Box Model
@@ -40,7 +41,10 @@ Flexbox was created as an optimized alternative to using floats and positioning.
 ### Flexbox Props && Values
 
 `display: flex`: turns targeted element into a flex container, telling the browser to us flexbox versus the default box model.
-`justify-content: value`: Helps you define the horizontal alignment of the containers items. the values to pass into  it are `center`, `flex-start`, `flex-end`, `space-around` and `space-between`.
+
+`justify-content: value`: Helps you define the horizontal alignment of the containers items. the values to pass into  it are.
+
+`center`, `flex-start`, `flex-end`, `space-around` and `space-between`.
 
 
 
@@ -52,9 +56,13 @@ CSS Grid Layout works by dividing a page into major regions or defining the rela
 
 ### Starter Grid Properties and Values
 `display: grid` :  this is applied to the parent or container of all the effected grid items or children to display a block level grid.
+
 `display: inline-grid` : this displays an inline level grid.
+
 `grid-template-areas`: CSS property specifies named grid areas.
+
 `grid-template-columns` : CSS property defines the line names and track sizing functions of the grid columns.
+
 `grid-template-rows` : CSS property defines the line names and track sizing functions of the grid rows.
 
 

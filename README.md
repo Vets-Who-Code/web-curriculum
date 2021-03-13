@@ -115,7 +115,7 @@
     - Surge
 
 
-<h1 align="center">BLOCK 2 - Computer 💻  Science 🔬 With Javascript </h1>
+<h1 align="center">BLOCK 2 - Computer 💻  Science 🔬 With JavaScript </h1>
 
 # Week 8: Computer Science I
 - Thinking like a programmer
