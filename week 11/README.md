@@ -294,6 +294,40 @@ function () {
 
 Hooks are a collection of methods attached to the `React` object. The important lesson here is that "hooks" allow us to use "State" in **function** components as opposed to class components. We will get to lifecycle and what it means to connect to it.
 
+**Rules of Hooks**
+You can only call them at the top level of a function. You can not call a hook from inside a loop or from inside another hook.
+
+```javascript
+import React from 'react';
+
+// Nope
+function () {
+  for(let i = 0; i < 3; i++) {
+    const state = React.useState(0);
+  }
+}
+
+// Nope
+function () {
+  if(1 === 1) {
+    const state = React.useState(0);
+  }
+}
+
+// Nope
+function () {
+    const state = React.useState(() => {
+      React.useState();
+    });
+}
+
+// Yup
+function () {
+  const state = React.useState(0);
+  return;
+}
+```
+
 ### State
 
 Think of state as a way to save data in React (pretty much like a variable). The most basic way to save and update state in React is the `useState` hook.
@@ -375,6 +409,79 @@ function Counters() {
 - React Lifecycle
 - useEffect
 - useContext
+
+### Virtual DOM
+React has created this construct called the *virtual DOM*. The library caches the entire application in memory. It updates only pieces of the DOM that need updating. So say the text of a button changes. React will rerender.
+
+### React Lifecycle
+React listens for every data change across the entire app and rerenders for every single change. For this reason there are several points at which you can hook into the each component's lifecycle. Luckily with Hooks you don't have to think about the React lifecycle as in depth.
+
+![React Lifecycle chart](https://miro.medium.com/max/700/1*u8hTumGAPQMYZIvfgQMfPA.jpeg)
+
+
+### useEffect
+React data updates can happen a lot and when that happens the app rerenders. When the app rerenders components will unmount and mount again. This ends up wiping all variables you had. The only data that stays between renders is what is stored in React hooks like `useState`.
+
+`useEffect` lets you hook into React's lifecycle.
+
+`useEffect` takes 2 arguments.
+1. A callback function (this is what gets run when the effect is called).
+  - You can return a function from this callback that will run on component unmount for cleanup.
+1. An array of dependencies
+  - Any data your effect needs to know about needs to be put in this array.
+  - No dependencies will run the effect once, only on component mount.
+  - Note: it is really easy to make infinitely updating components. (A piece of state is a dependency and you update the state in the effect.) You will get used to this, don't be afraid.
+
+This is helpful for example, when you first load a page you want to show a spinner and fetch some data. 
+
+```javascript
+function () {
+  const [count, setCount] = React.useState(0);
+
+  React.useEffect(() => {
+    // This runs when the component first mounts (page load)
+  }, [])
+
+  React.useEffect(() => {
+    // Runs every time `count` updates
+  }, [count])
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
+
+### useContext
+So far all state has been local to a component, or passed from parent to child. What if a component needs to pass data to a great grandchild? If you just pass through props this is called prop drilling and is bad. Prop drilling is when you pass props through components that don't actually care about props and are just passing the arguments. `useContext` can be your answer. 
+
+There are 2 central concepts with context: Consumer, Provider. You create a Provider and attach it to a component and all nested components will be able to read and update the Provider.
+
+```javascript
+const SomeContext = React.createContext();
+
+function App() {
+  return (
+    <SomeContext.Provider value="Data">
+      { /* Your whole app  */}
+    </SomeContext.Provider>
+  );
+}
+
+function SomeNestedComponent () {
+  const someData = React.useContext(SomeContext)
+  console.log(someData); => "Data"
+}
+```
+
+### Resources
+- [useEffect](https://reactjs.org/docs/hooks-effect.html)
+- [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 
 ## React IV
