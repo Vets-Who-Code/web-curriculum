@@ -1,6 +1,6 @@
 # Week 11
 
-## Intro to React
+## React nulla
 
 ### Overview
 
@@ -60,6 +60,7 @@ Our focus is to get vets hired as developers. To that end the job market is stro
 
 #### Resources
 
+- [Reactjs Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library)#:~:text=React%20was%20created%20by%20Jordan,JSConf%20US%20in%20May%202013.)
 - [Library vs. Framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/#:~:text=The%20technical%20difference%20between%20a,in%20charge%20of%20the%20flow.)
 - [Todo MVC](https://todomvc.com/)
 - [caniuse](https://caniuse.com/clipboard)
@@ -67,7 +68,7 @@ Our focus is to get vets hired as developers. To that end the job market is stro
 - [Framework wars](https://www.reddit.com/r/javascript/comments/97hpck/im_looking_for_veterans_of_the_js_framework_war/)
 
 
-## React basics
+## React I
 
 The first thing to do is get a project up and running. Luckily Facebook has provided a great CLI tool called [Create React app](https://reactjs.org/docs/create-a-new-react-app.html) (CRA). Most React apps you see out there no matter the size usually started at one point in time as a CRA. Eventually a project will out grow CRA and you can `eject` the app and make it more configurable. For our purposes CRA is more than enough.
 
@@ -252,9 +253,6 @@ function () {
 }
 ```
 
-
-
-
 ### Resources
 - [Create React app](https://reactjs.org/docs/create-a-new-react-app.html)
 - [Function and class components](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
@@ -264,26 +262,127 @@ function () {
 - [Conditional rendering](https://reactjs.org/docs/conditional-rendering.html)
 
 
-## React Basics II
+## React II
 
 Do the [Reactjs tic tac toe tutorial](https://reactjs.org/tutorial/tutorial.html). This activity will teach you a few key concepts that will get you pretty far building React apps.
 
 ### Main concepts
-- State
-- Virtual DOM
-- React Lifecycle
+- Event listeners
+- Hooks
+- useState
 - Lifting state
-- 
+
+### Event listeners
+
+I think the [Reactjs org docs](https://reactjs.org/docs/handling-events.html) do a pretty good job of introducing event listeners.
+
+```javascript
+function () { 
+  const activateLasers = () => console.log('pew pew');
+
+  return (
+    <button onClick={activateLasers}>
+      Activate Lasers
+    </button>
+  );
+ }
+```
+
+### Hooks
+> Hooks are functions that let developers "hook into" React state and lifecycle features from function components.
+~ [Wikipedia React](https://en.wikipedia.org/wiki/React_(JavaScript_library)#React_hooks)
+
+Hooks are a collection of methods attached to the `React` object. The important lesson here is that "hooks" allow us to use "State" in **function** components as opposed to class components. We will get to lifecycle and what it means to connect to it.
 
 ### State
 
-Think of state as a way to save data in React (pretty much like a variable). The reason we need S
+Think of state as a way to save data in React (pretty much like a variable). The most basic way to save and update state in React is the `useState` hook.
 
-
- I'm going to use a class component for this example because I think it's clearer in the beginning than how functions use state. 
+Here is an example using state.  
 
 ```javascript
+import React from 'react';
+
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = React.useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
+Let's break down what's happening here:
+`const [count, setCount] = React.useState(0);`
+1. We call `React`'s `useState` method with 1 argument `0`. 
+1. The return value from that function is an array.
+1. Destructure the array and assign the first value as `count` and the second as `setCount`
+
+Here's the example without destructuring.
+
+```javascript
+const state = React.useState(0);
+const count = state[0];
+const setCount = state[1];
+```
+
+The argument that `useState` takes, which is 0 in this case, is the **initial value**. The value at position 0 of that array (`count`) will initially equal 0. The second position `state[1]` equals a function. That function sets the value of `state[0]`.
+
+### Lifting state
+
+Eventually you'll run into a challenge where all of your components have local state, but you want the parent to know about the child's state. Lifting state will help you get there. To do this we can pass state as props from parent to children and because it is actually the parent's state that the child is calling, the parent will know about the changes.
+
+```javascript
+function CounterButton ({count, setCount}) {
+  return (
+    <button onClick={() => setCount(count + 1)}>
+      Click me
+    </button>
+  );
+}
+
+function Counters() {
+  // Declare a new state variable, which we'll call "count"
+  const [count1, setCount1] = React.useState(0);
+  const [count2, setCount2] = React.useState(0);
+
+  return (
+    <div>
+      <p>You clicked Count 1: {count1} times</p>
+      <p>You clicked Count 2: {count2} times</p>
+      <CounterButton count={count1} setCount={setCount1} />
+      <CounterButton count={count2} setCount={setCount2} />
+    </div>
+  );
+}
 ```
 
 ### Resources
 - [Reactjs tic tac toe tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [Event handling](https://reactjs.org/docs/handling-events.html)
+- [State Hook](https://reactjs.org/docs/hooks-state.html)
+- [Lifting state](https://reactjs.org/docs/lifting-state-up.html)
+
+## React III
+
+### Main concepts
+- Virtual DOM
+- React Lifecycle
+- useEffect
+- useContext
+
+
+## React IV
+
+You can create any React application you want with the previous React topics. These topics focus on solving challenges for React when building applications at scale.  
+
+### Main concepts
+- portals
+- PropTypes
+- useReducer
+- ref
