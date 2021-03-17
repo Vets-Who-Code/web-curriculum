@@ -61,6 +61,7 @@ Our focus is to get vets hired as developers. To that end the job market is stro
 #### Resources
 
 - [Reactjs Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library)#:~:text=React%20was%20created%20by%20Jordan,JSConf%20US%20in%20May%202013.)
+- [Create react app](https://create-react-app.dev/docs/documentation-intro)
 - [Library vs. Framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/#:~:text=The%20technical%20difference%20between%20a,in%20charge%20of%20the%20flow.)
 - [Todo MVC](https://todomvc.com/)
 - [caniuse](https://caniuse.com/clipboard)
@@ -169,19 +170,19 @@ Check out the example below of a simple way of defining and passing props.
 
 ```javascript
 function Greeting (props) {
-  return <h1>Hello {props.name}</h1>;
+  return <h1>{props.greeting} {props.name}</h1>;
 }
 
 function WelcomePage () {
   return (<main>
-    <Greeting name='Jill' />
+    <Greeting greeting="Alo" name="Jill" />
   </main>)
 }
 ```
 
 You'll see sometimes in code that props will be [destructured](https://dmitripavlutin.com/javascript-object-destructuring/).
 ```javascript
-function Greeting ({ name }) {
+function Greeting ({ name, greeting }) {
   return <h1>Hello {name}</h1>;
 }
 ```
@@ -216,7 +217,7 @@ function () {
 
 ### Conditional rendering
 
-Conditional rendering is just if/else statements. There are a few ways to conditionally render JSX.
+Conditional rendering is just if/else statements. There are a few ways to conditionally render JSX. If you're conditionally rendering a component I'd recommend using [React router](https://reactrouter.com/)'s `<Switch>` and `<Route>` components.
 
 - Save a variable
 ```javascript
@@ -228,7 +229,7 @@ function () {
   } else {
     Saying = <h1>Goodbye, world!</h1>;
   }
-  return <Saying>;
+  return <>{Saying}</>;
 }
 ```
 
@@ -427,7 +428,7 @@ React data updates can happen a lot and when that happens the app rerenders. Whe
 `useEffect` takes 2 arguments.
 1. A callback function (this is what gets run when the effect is called).
   - You can return a function from this callback that will run on component unmount for cleanup.
-1. An array of dependencies
+2. An array of dependencies
   - Any data your effect needs to know about needs to be put in this array.
   - No dependencies will run the effect once, only on component mount.
   - Note: it is really easy to make infinitely updating components. (A piece of state is a dependency and you update the state in the effect.) You will get used to this, don't be afraid.
@@ -485,11 +486,91 @@ function SomeNestedComponent () {
 
 
 ## React IV
-
-You can create any React application you want with the previous React topics. These topics focus on solving challenges for React when building applications at scale.  
+You can create any React application you want with the previous React topics. These topics focus on solving challenges for React when building applications at scale. This is not an extensive list of advanced React methods/patterns. This lesson is more of a starting point if you wanted to dive even deeper into React.
 
 ### Main concepts
-- portals
-- PropTypes
-- useReducer
-- ref
+- Additional methods
+- Good practices
+- Forms
+- Custom hooks
+- Testing
+
+### Additional methods
+- **Portals:** give you the ability to connect React functionality to DOM nodes that exist outside the current React app.
+- **useReducer:** when you have a lot of `useState` or some complicated state management cases. Example: Fetching data could need `isError`, `isLoading`, `isCancelled`, `data` states. `useReducer` could help simplify this.
+
+### Good practice
+- **Proptype checking:** A big reason folks use TypeScript is because when you have type checking your editor will scream at you when you pass the wrong type. We can type check React props using `Proptype`. At the resources link you can see the syntax. This is something good to get familiar with cause at enterprise scale you should be declaring propTypes.
+
+### Forms
+Uncontrolled vs controlled components. Use uncontrolled components when you just want the HTML to handle the form's data. Controlled components are used when React handles the form data. The reason I'm brining this up is that you'll probably swing between controlled/uncontrolled components. React throws a warning when you do this. I've haven't been bothered by it yet. Just wanted to make sure you're aware.
+
+```javascript
+// Uncontrolled
+function () {
+  return (
+    <form>
+      <input name="firstName" />
+    </form>
+  );
+}
+
+// Controlled
+function () {
+  const [firstName, setFirstName] = React.useState('');
+
+  return (
+    <form>
+      <input 
+        onChange={(event) => setFirstName(event.target.value)} 
+        value={firstName}
+      />
+    </form>
+  );
+}
+```
+
+### Custom hooks
+Eventually you're going to implement the same state logic in multiple components. What you'll want to do is build a single function that does that common logic and include it in all the places it's shared. Let's work with our form component. Imagine you have this first name input in multiple places. You can simplify including the input.
+
+```javascript
+// Custom useForm hook
+function useForm ({ handleSubmit }) {
+  const [firstName, setFirstName] = React.useState('');
+  
+  let submitHandler = handleSubmit;
+  if(!submitHandler) submitHandler = (event) => console.log(event);
+
+  return (
+    <form onSubmit={submitHandler}>
+      <input 
+        onChange={(event) => setFirstName(event.target.value)} 
+        value={firstName}
+      />
+    </form>
+  );
+}
+
+// Consumes useForm
+function () {
+  const handleSubmit = (event) =>  { /* do something with event values onSubmit */ }
+  const FormComponent = useForm({ handleSubmit });
+
+  return <FormComponent />;
+}
+```
+
+### React testing
+[Create React App](https://create-react-app.dev/docs/running-tests/) comes packaged with a few packages that'll get you up and running writing frontend tests.
+
+- [Jest](https://jestjs.io/): This is the test runner  (defines how you write tests).
+- [React testing Library](https://testing-library.com/docs/react-testing-library/intro/): Enables you to render and query isolated React components.
+- [jest-dom](https://github.com/testing-library/jest-dom): A helpful assertion library for testing DOM elements.
+
+### Resources
+- [Portals](https://reactjs.org/docs/portals.html)
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+- [Proptypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+- [Controlled components](https://reactjs.org/docs/forms.html#controlled-components)
+- [Custom hooks](https://dev.to/wellpaidgeek/how-to-write-custom-hooks-in-react-1ana)
+- [CRA Testing](https://create-react-app.dev/docs/running-tests/)
