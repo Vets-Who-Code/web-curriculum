@@ -157,7 +157,7 @@
 
 # Week 12 - React II
 - Async & Routing
--  Class Components
+- Class Components
 - Error Boundaries
 - Context
 - Portals
