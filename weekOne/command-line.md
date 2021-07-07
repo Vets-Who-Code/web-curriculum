@@ -2,15 +2,15 @@
 The window, which is usually called the command line or command-line interface, is a text-based application for viewing, handling, and manipulating files on your computer. It's much like Windows Explorer or Finder on the Mac, but without the graphical interface. Other names for the command line are: cmd, CLI, prompt, console or terminal. It is one of two ways to interact with your computer. Here we are going to do a simple primer of all the commands needed to start a project.
 Shortcut To Open the Terminal On Mac
 To open your terminal on the mac press the  ⌘ and space button together. Then type in Terminal.
-Let's begin by listing ls the contents of the terminal. Type the command below:
+Begin by listing ls the contents of the terminal. Type the command below:
 ```console
 $ ls
 ```
-That should list all the folders on your machine from there, let's make your project directory ```mkdir ``` and let's change directories ```cd``` to the project folder.
+That should list all the folders on your machine from there, make your project directory ```mkdir ``` and let's change directories ```cd``` to the project folder.
 ```console
 $ mkdir projects && cd projects
 ```
-From here let's make our profile project folder, then let's create a file. We are gonna use the same command as above then add an index file to the project by using the touch command:
+From here  make the profile project folder, then let's create a file. We are going to use the same command as above then add an index file to the project by using the touch command:
 ```console
 $ mkdir profile-site && cd profile-site
 $ touch index.html
