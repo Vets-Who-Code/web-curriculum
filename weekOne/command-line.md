@@ -6,11 +6,11 @@ Begin by listing ls the contents of the terminal. Type the command below:
 ```console
 $ ls
 ```
-That should list all the folders on your machine from there, make your project directory ```mkdir ``` and let's change directories ```cd``` to the project folder.
+That should list all the folders on your machine from there. Now make your project directory by typing ```mkdir projects``` and let's change directories by typing ```cd projects``` so we can get inside the project folder. we can do the commands together by typing ```&&```.
 ```console
 $ mkdir projects && cd projects
 ```
-From here  make the profile project folder, then let's create a file. We are going to use the same command as above then add an index file to the project by using the touch command:
+Now that the project folder is made, time to create a file. We are going to use the same command as above to make a ```profile-site``` folder and change directory into the ```profile-site``` folder then use the ```touch``` command to create an index file in the ```profile-site```
 ```console
 $ mkdir profile-site && cd profile-site
 $ touch index.html
