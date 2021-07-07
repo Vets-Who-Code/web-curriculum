@@ -2,7 +2,7 @@
 
 <h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
 
-# [Week 1 - Internet functionality and code work flows.](weekOne)
+# [Week 1 - Internet functionality and code work flows.](weekOne/week-one-subjects.md)
 
 - The Internet
 - Command Line
