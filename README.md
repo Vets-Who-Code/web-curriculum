@@ -3,8 +3,6 @@
 <h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
 
 # [Week 1 - Internet functionality and code work flows.](weekOne/week-one-subjects.md)
-
-- The Internet
 - [Command Line](weekOne/command-line.md)
 - VS Code
 - Markdown
@@ -13,13 +11,11 @@
 # Week 2 - HTML5 && CSS3
 
 - Basic HTML Elements
-- Metadata HTML Elements
 - Content Grouping HTML Elements
 - Text Level Semantic HTML Elements
 - Form HTML Elements
 - Content Embedding HTML Elements
 - Images / Multimedia HTML Elements
-- Global HTML Attributes
 - Intro To CSS
 - Box Model
 - Styling Text
@@ -29,16 +25,12 @@
 
 # Week 3 - UX/Interaction Design
 
-- Design Psychology ( User Focused Design)
+- Design Psychology ( User-Focused Design)
 - Color Theory
-- Human Computer Interaction
 - Balance
 - Typography
 - Contrast
 - Consistency
-- Design Thinking
-- Design Systems & Style Guides
-- Interaction Design Methodologies: _Goal Driven Design_, _Usability_, _The Five Dimensions_, _Cognitive Psychology_, and _Human Interface Guidelines_
 - Design Strategy
 
 # Week 4 - Web Accessibility
@@ -48,16 +40,10 @@
 - Skip Links
 - Aria
 - Color Ratio
-- Live Regions
 
-# Week 5 SMACSS
-- Categorization
-- Naming Conventions
-- State- Based Design
+# Week 5 - JavaScript
 
-# Week 6 - JavaScript && jQuery && ES6.
-
-- ES3 - purpose and how to use
+## JavaScript Basics - purpose and how to use:
     - Primitives
     - Conditionals
     - Arrays
@@ -66,7 +52,7 @@
     - Objects
     -Nested Functions
 
-- DOM manipulation with JS && jQuery
+- DOM manipulation with JS
     - Create
     - Replace
     - Unwrap
@@ -80,10 +66,6 @@
     - Clone
     - Iteration
 
-- jQuery
-    - Events
-    - Effects
-    - Ajax
 
 - ES6
     - Let and Const
@@ -97,18 +79,12 @@
     - Sets
     - Static Methods
     - Getters and Setters
-- JSON
-- Scope / Closures / Hoisting
+    - JSON
+    - Scope / Closures / Hoisting
 
 # Week 7 : APIs && Serving To The Web
-
--  DOM manipulation ( Again)
--  Fetch
-- Animation and Manipulating Graphics
-- Audio And Video APIs
-- Device APIs
-- Client-side Storage APIs
-- Third Party APIs
+-  Using Browser APIs
+- Using Third Party APIs
 - Serving to The Web
     - Github Pages
     - Netlify
