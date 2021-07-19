@@ -2,13 +2,13 @@
 
 <h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
 
-# [Week 1 - Internet functionality and code work flows.](weekOne/week-one-subjects.md)
+## [Week 1 - Internet functionality and code work flows.](weekOne/week-one-subjects.md)
 - [Command Line](weekOne/command-line.md)
-- VS Code
+- [VS Code](weekOne/vs-code.md)
 - Markdown
 - Git / Git Workflow
 
-# Week 2 - HTML5 && CSS3
+## Week 2 - HTML5 && CSS3
 
 - Basic HTML Elements
 - Content Grouping HTML Elements
@@ -23,7 +23,7 @@
 - Flexbox
 - CSS Grid
 
-# Week 3 - UX/Interaction Design
+## Week 3 - UX/Interaction Design
 
 - Design Psychology ( User-Focused Design)
 - Color Theory
@@ -33,7 +33,7 @@
 - Consistency
 - Design Strategy
 
-# Week 4 - Web Accessibility
+## Week 4 - Web Accessibility
 - Keyboard Shortcuts
 - Focus Based Elements
 - Focus Control
@@ -41,9 +41,7 @@
 - Aria
 - Color Ratio
 
-# Week 5 - JavaScript
-
-## JavaScript Basics - purpose and how to use:
+## Week 5 JavaScript Basics - purpose and how to use:
     - Primitives
     - Conditionals
     - Arrays
@@ -82,7 +80,7 @@
     - JSON
     - Scope / Closures / Hoisting
 
-# Week 7 : APIs && Serving To The Web
+## Week 6 : APIs && Serving To The Web
 -  Using Browser APIs
 - Using Third Party APIs
 - Serving to The Web
@@ -91,38 +89,9 @@
     - Surge
 
 
-<h1 align="center">BLOCK 2 - Computer 💻  Science 🔬 With JavaScript </h1>
+<h1 align="center">BLOCK 2 - React && Gatsby ⚛️ </h1>
 
-# Week 8: Computer Science I
-- Thinking like a programmer
-- Big O
-  - The metric for algorithms
-- Call Stack
-  - How code is interpreted by the machine
-- Recursion
-  - The art of the hand-off
-
-# Week 9 Computer Science II
-- Object Oriented Programming
-  - Classes and Objects
-- Data Structures
-    - Set
-    - Stack
-    - Queue
-    - Map
-- Intro to algorithms
-  - Solving problems with code
-
-# Week 10 Computer Science III
-- Sorting
-  - Implement and understand sorting algorithms
-- Primality and Practical algorithms
-  - Deeper dive into algorithms
-- Review
-
-<h1 align="center">BLOCK 3 - React && JAMstack ⚛️ </h1>
-
-# Week 11 - React I
+## Week 7 | React I
 
 - React Basics
 - Tooling
@@ -131,20 +100,20 @@
 - Effects
 - React Dev Tools
 
-# Week 12 - React II
+## Week 8 | React II
 - Async & Routing
 - Class Components
 - Error Boundaries
 - Context
 - Portals
 
-# Week 13 Gatsby
+## Week 9 | Gatsby
 
 - Set Up
 - MDX
 - Outside Data
 
-# Week 14 GraphQL
+## Week 10 | GraphQL
 
 - Schemas
 - Definition Language
@@ -155,7 +124,7 @@
 - Interfaces
 - Auth
 
-# Week 15: Jest
+## Week 11 | Jest
 
 - Introduction
 - Layout
@@ -167,16 +136,9 @@
 - Automocking
 - Coverage report
 
-<h1 align="center"> BLOCK 4 - Official VWC Member: Interview prep </h1>
+<h1 align="center">BLOCK 3 - Beginner Serverless and DevOps </h1>
 
-# Metrics
-- Resume writing
-- Github Pruning
-- Codepen at least once a week
-- Dev.to post once a week
-- Daily Code Challenge via Repl.it
-- Daily interview Question in code-challenge channel
-- Reporting to your assigned team and contributing
-- Portfolio Building
+## Week 12 | Docker
+## Week 13 | Github Actions
 
-
+## Week 14 | AWS
