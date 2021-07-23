@@ -10,7 +10,7 @@ First you need to download Visual Studio Code. Go [here](https://code.visualstud
 
 ## The Parts Of Visual Studio Code
 
-Even though Visual Studio Code is highly customizable via settings.json, there are five areas of Visual Studio Code:
+Even though Visual Studio Code is highly customizable via the settings.json, there are five areas of Visual Studio Code:
 
 - **Editor**: This is the area you write code. Primary area of VS code.
 - **SideBar**: Controls views to help with programming.
