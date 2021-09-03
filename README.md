@@ -1,6 +1,6 @@
-<h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
+<h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Courses</h1>
 
-<h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
+<h1 align="center">Core Courses 🔧</h1>
 
 ## [Week 1 - Internet functionality and code work flows.](weekOne/week-one-subjects.md)
 - [Command Line](weekOne/command-line.md)
