@@ -139,6 +139,13 @@
 <h1 align="center">BLOCK 3 - Beginner Serverless and DevOps </h1>
 
 ## Week 12 | Docker
+- Getting Started
+- Webapps with Docker
+- Multi Container Environments
+
 ## Week 13 | Github Actions
+- Creating A workflow
+- Viewing workflow results
+
 
 ## Week 14 | AWS
