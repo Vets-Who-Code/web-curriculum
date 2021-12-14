@@ -2,9 +2,10 @@
 
 <h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
 
-## [Week 1 - Internet functionality and code work flows.](weekOne/week-one-subjects.md)
-- [Command Line](weekOne/command-line.md)
-- [VS Code](weekOne/vs-code.md)
+## Week 1 - Internet functionality and code work flows.
+
+- Command Line
+- VS Code
 - Markdown
 - Git / Git Workflow
 
@@ -25,7 +26,7 @@
 
 ## Week 3 - UX/Interaction Design
 
-- Design Psychology ( User-Focused Design)
+- Design Psychology (User-Focused Design)
 - Color Theory
 - Balance
 - Typography
@@ -34,6 +35,7 @@
 - Design Strategy
 
 ## Week 4 - Web Accessibility
+
 - Keyboard Shortcuts
 - Focus Based Elements
 - Focus Control
@@ -42,52 +44,53 @@
 - Color Ratio
 
 ## Week 5 JavaScript Basics - purpose and how to use:
-    - Primitives
-    - Conditionals
-    - Arrays
-    - Loops
-    - Functions
-    - Objects
-    -Nested Functions
+
+- Primitives
+- Conditionals
+- Arrays
+- Loops
+- Functions
+- Objects
+- Nested Functions
 
 - DOM manipulation with JS
-    - Create
-    - Replace
-    - Unwrap
-    - Remove ( Destroy )
-    - Empty
-    - Inserting
-    - Grabbing the Text
-    - get and set Content
-    - Append and Prepend
-    - Wrap
-    - Clone
-    - Iteration
 
+  - Create
+  - Replace
+  - Unwrap
+  - Remove (Destroy)
+  - Empty
+  - Inserting
+  - Grabbing the Text
+  - get and set Content
+  - Append and Prepend
+  - Wrap
+  - Clone
+  - Iteration
 
 - ES6
-    - Let and Const
-    - Arrow Functions
-    - Default Parameters
-    - Async/Await
-    - Promises
-    - For Of Loops
-    - Spread Operators and Rest Parameters
-    - Maps
-    - Sets
-    - Static Methods
-    - Getters and Setters
-    - JSON
-    - Scope / Closures / Hoisting
+  - Let and Const
+  - Arrow Functions
+  - Default Parameters
+  - Async / Await
+  - Promises
+  - For Of Loops
+  - Spread Operators and Rest Parameters
+  - Maps
+  - Sets
+  - Static Methods
+  - Getters and Setters
+  - JSON
+  - Scope / Closures / Hoisting
 
 ## Week 6 : APIs && Serving To The Web
--  Using Browser APIs
+
+- Using Browser APIs
 - Using Third Party APIs
 - Serving to The Web
-    - Github Pages
-    - Netlify
-    - Surge
-
+  - Github Pages
+  - Netlify
+  - Surge
 
 <h1 align="center">BLOCK 2 - React && Gatsby ⚛️ </h1>
 
@@ -101,6 +104,7 @@
 - React Dev Tools
 
 ## Week 8 | React II
+
 - Async & Routing
 - Class Components
 - Error Boundaries
@@ -139,13 +143,14 @@
 <h1 align="center">BLOCK 3 - Beginner Serverless and DevOps </h1>
 
 ## Week 12 | Docker
+
 - Getting Started
 - Webapps with Docker
 - Multi Container Environments
 
 ## Week 13 | Github Actions
+
 - Creating A workflow
 - Viewing workflow results
-
 
 ## Week 14 | AWS
