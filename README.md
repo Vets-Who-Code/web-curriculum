@@ -1,156 +1,92 @@
 <h1 align="center"><img src="/images/vwc.gif" alt="Vets Who Code" width="100px" /> Vets Who Code Curriculum </h1>
 
-<h1 align="center">BLOCK   1 - The Big Three 🔧</h1>
+<h1 align="center">BLOCK   1 - Prework Review 🔧</h1>
 
-## Week 1 - Internet functionality and code work flows.
+## Week 1 - Dev work flow
 
 - Command Line
 - VS Code
 - Markdown
 - Git / Git Workflow
+- Github Pages
 
-## Week 2 - HTML5 && CSS3
+## Week 2 - Javascript
 
-- Basic HTML Elements
-- Content Grouping HTML Elements
-- Text Level Semantic HTML Elements
-- Form HTML Elements
-- Content Embedding HTML Elements
-- Images / Multimedia HTML Elements
-- Intro To CSS
-- Box Model
-- Styling Text
-- CSS Layout
-- Flexbox
-- CSS Grid
-
-## Week 3 - UX/Interaction Design
-
-- Design Psychology (User-Focused Design)
-- Color Theory
-- Balance
-- Typography
-- Contrast
-- Consistency
-- Design Strategy
-
-## Week 4 - Web Accessibility
-
-- Keyboard Shortcuts
-- Focus Based Elements
-- Focus Control
-- Skip Links
-- Aria
-- Color Ratio
-
-## Week 5 JavaScript Basics - purpose and how to use:
-
+- JS Dev tools (Console tab)
+- Load JS (Source tab/`<script>`)
 - Primitives
 - Conditionals
 - Arrays
 - Loops
 - Functions
 - Objects
-- Nested Functions
 
-- DOM manipulation with JS
+## Week 3 - HTML
 
-  - Create
-  - Replace
-  - Unwrap
-  - Remove (Destroy)
-  - Empty
-  - Inserting
-  - Grabbing the Text
-  - get and set Content
-  - Append and Prepend
-  - Wrap
-  - Clone
-  - Iteration
+- Layout sections
+- Forms
+- Interactive content
 
-- ES6
-  - Let and Const
-  - Arrow Functions
-  - Default Parameters
-  - Async / Await
-  - Promises
-  - For Of Loops
-  - Spread Operators and Rest Parameters
-  - Maps
-  - Sets
-  - Static Methods
-  - Getters and Setters
-  - JSON
-  - Scope / Closures / Hoisting
+## Week 4 - CSS
 
-## Week 6 : APIs && Serving To The Web
+- Debugging (elements tab)
+- Box model
+- Flexbox
+- Grid
+- SMACSS
 
-- Using Browser APIs
-- Using Third Party APIs
-- Serving to The Web
-  - Github Pages
-  - Netlify
-  - Surge
+<h1 align="center">BLOCK 2 - Frontend Tooling ⚛️ </h1>
 
-<h1 align="center">BLOCK 2 - React && Gatsby ⚛️ </h1>
+## Week 5 - DOM API
 
-## Week 7 | React I
+- Select HTML elements
+- Add/remove elements
+- Update element properties
+- DOM events
 
-- React Basics
-- Tooling
-- JSX
-- Hooks
-- Effects
-- React Dev Tools
+## Week 6 - 3rd Party APIs
 
-## Week 8 | React II
+- Promises
+- Fetch
+- JSON
+- REST
 
-- Async & Routing
-- Class Components
-- Error Boundaries
-- Context
-- Portals
+## Week 7 - JS Build/Bundle
 
-## Week 9 | Gatsby
+- NPM
+- ParcelJS
 
-- Set Up
-- MDX
-- Outside Data
+## Week 8 - React
 
-## Week 10 | GraphQL
+- `create-react-app`
+- props
+- Render lists
+- Conditional Rendering
+- Event listeners
+- React hooks (`useState`, `useEffect`, `useContext`)
+- Custom hooks
 
-- Schemas
-- Definition Language
-- Scalar & Object Types
-- Validations
-- Query & Mutation Types
-- Resolvers
-- Interfaces
-- Auth
+<h1 align="center">BLOCK 3 - Serverless and DevOps </h1>
 
-## Week 11 | Jest
+## Week 9 - NodeJS
 
-- Introduction
-- Layout
-- Describe it
-- Assertions
-- Async tests
-- Lifecycle
-- Snapshot testing
-- Automocking
-- Coverage report
+- process (env/argv)
+- CommonJS
+- HTTP Requests
+- reading/writing to files (fs/path)
 
-<h1 align="center">BLOCK 3 - Beginner Serverless and DevOps </h1>
+## Week 10 - Docker
 
-## Week 12 | Docker
+- Dockerfile
+- Build/Run images
 
-- Getting Started
-- Webapps with Docker
-- Multi Container Environments
+## Week 11 - Github Actions
 
-## Week 13 | Github Actions
+- Workflows
+- Events
+- Jobs
 
-- Creating A workflow
-- Viewing workflow results
+## Week 12 - AWS
 
-## Week 14 | AWS
+- Lambda
+- SAM
