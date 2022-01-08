@@ -50,7 +50,7 @@
 
 ## Week 7 - JS Build/Bundle
 
-- NPM
+- Dependencies/scripts
 - ParcelJS
 
 ## Week 8 - React
