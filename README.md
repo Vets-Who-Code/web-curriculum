@@ -31,6 +31,8 @@
 - Layout sections
 - Forms
 
+<h1 align="center">BLOCK 2 - Frontend Tooling ⚛️ </h1>
+
 ## Week 5 - CSS
 
 - Debugging (elements tab)
@@ -39,13 +41,11 @@
 - Grid
 - SMACSS
 
-<h1 align="center">BLOCK 2 - Frontend Tooling ⚛️ </h1>
-
 ## Week 6 - 3rd Party APIs
 
+- JSON
 - Promises
 - Fetch
-- JSON
 - REST
 
 ## Week 7 - JS Build/Bundle
