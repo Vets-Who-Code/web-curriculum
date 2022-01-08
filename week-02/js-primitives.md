@@ -4,7 +4,7 @@ Primitives are the most basic values that Javascript can have. There are several
 
 ## Activities
 
-_notes_: Log each of these variables' values
+_notes_: `console.log` (log) each of these variables' values
 
 - Create 2 variables assign each one to a string
 - Create 2 variables assign each one to a number
