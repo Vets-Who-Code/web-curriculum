@@ -12,8 +12,7 @@
 
 ## Week 2 - Javascript
 
-- JS Dev tools (Console tab)
-- Load JS (Source tab/`<script>`)
+- JS Dev tools
 - Primitives
 - Conditionals
 - Arrays
