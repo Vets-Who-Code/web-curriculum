@@ -1,74 +1,38 @@
-# Week 2, Day  1
+# UX Week
 
-## User Stories
+## Design Psychology
 
-User stories are simple small snippets of sharing a problem in a way that you can best figure out how to solve it.
-Always be thinking, " As a ___, I want __, so that ___".
-
-## How to Blog For Tech
-
-1. Know your Audience
-2. Give Value
-3. K.I.S.S.
-
-Use [datayze](https://datayze.com/readability-analyzer.php) to grade your blogposts. Try to keep them at a 7th grade reading level.
-
-### Blogpost Homework
-#### Curate, Don't Consume : VWC
-
-#### Who Should curate?
-Entry level devs who don't have the experience of working yet?
-
-#### Why?
-Part of the reason entry level devs tend to struggle is cause they have githubs that are bloated with Typical CRUD Apps. As a new entry building and curating your little peice of the web that tells your story and shows your interests helps your chances of reaching your goals.
+Design Psychology is using human behavior and cues for the desired result.
+Your job as a professional artisan of the web it to not make it hard on your user.
+To do that, you need to focus on a few things
+1.  Weber’s law of just noticeable difference
+2. Understand that we respond to color differently
+3. The sensory adaptation phenomenon
+4. Type: bigger is better!
+5. Perceptual set
 
 
-#### How?
+## Color Theory
+Color theory is a term used to describe the collection of rules and guidelines regarding the use of color in art and design
 
-Buy your domain
-Learn how to serve pages to the web
-Build Around your Passion
+### Rules of Color Theory
 
-
-## Kanban and Trello
-Kanban is a systemic way of doing small repeatable and trackable steps to complete projects that was made popular in Japan, it's country of origin.
-
-Trello is a SAAS that also has a free basic platform that can be used to kanban.
-
-Follow my [Kanban](https://trello.com/b/huicM1ww/jeromes-vwc-todos) to see tix you may need.
-
-## HTML
-
-What is HTML?
-Hypertext Markup Language.
-
-What is the importance  of valid HTML?
-Its important for the structure of your product, for SEO and for Accessibility in the browser.
-
-### Basic HTML Elements
-
-body
-div
-head
-title
-HTML
-header Elements
-paragraph tags
-anchor tags
-style
-Ol, ul
-span
-script tag
-img
-button
-footer
-navigation
-Section
+1. Understanding Color
+2. RGB: the additive color mixing model
+3. CMYK: the subtractive color mixing model
+4. The color wheel
+5. Hue, shade, tint and tone
+6. Color schemes
+7. Why should you care about color theory?
 
 
-#### HTML Homework
+## Human-computer Interaction
 
-Start thinking about your portfolio placement of basic HTML elements and place them on a file.
+Human-computer interaction (HCI) is a multidisciplinary field of study focusing on the design of computer technology and, in particular, the interaction between humans (the users) and computers. While initially concerned with computers, HCI has since expanded to cover almost all forms of information technology design.
 
+The Corner Stones  of HCI
+1. Computer Science
+2. Human Factors Engineering
+3. Cognitive Science
 
-
+This is more academic and focuses on the the hardcore facts of research to understand user behaviors, needs, and motivations through observation techniques, task analysis.

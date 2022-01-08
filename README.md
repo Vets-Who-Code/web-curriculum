@@ -15,18 +15,24 @@
 - JS Dev tools
 - Primitives
 - Conditionals
-- Arrays
 - Loops
 - Functions
 - Objects
+- Arrays
 
-## Week 3 - HTML
+## Week 3 - DOM API
+
+- Select elements
+- CRUD elements
+- DOM events
+
+## Week 4 - HTML
 
 - Layout sections
 - Forms
 - Interactive content
 
-## Week 4 - CSS
+## Week 5 - CSS
 
 - Debugging (elements tab)
 - Box model
@@ -35,13 +41,6 @@
 - SMACSS
 
 <h1 align="center">BLOCK 2 - Frontend Tooling ⚛️ </h1>
-
-## Week 5 - DOM API
-
-- Select HTML elements
-- Add/remove elements
-- Update element properties
-- DOM events
 
 ## Week 6 - 3rd Party APIs
 
