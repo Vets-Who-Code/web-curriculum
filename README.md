@@ -30,7 +30,6 @@
 
 - Layout sections
 - Forms
-- Interactive content
 
 ## Week 5 - CSS
 
