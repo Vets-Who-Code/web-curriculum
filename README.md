@@ -74,8 +74,6 @@
 ## Week 10 - Github Actions
 
 - Workflows
-- Events
-- Jobs
 
 ## Week 11 - Docker
 
