@@ -66,21 +66,21 @@
 
 ## Week 9 - NodeJS
 
-- process (env/argv)
 - CommonJS
+- env/argv
+- fs
 - HTTP Requests
-- reading/writing to files (fs/path)
 
-## Week 10 - Docker
-
-- Dockerfile
-- Build/Run images
-
-## Week 11 - Github Actions
+## Week 10 - Github Actions
 
 - Workflows
 - Events
 - Jobs
+
+## Week 11 - Docker
+
+- Dockerfile
+- Build/Run images
 
 ## Week 12 - AWS
 
