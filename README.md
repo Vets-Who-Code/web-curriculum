@@ -77,10 +77,8 @@
 
 ## Week 11 - Docker
 
-- Dockerfile
 - Build/Run images
 
 ## Week 12 - AWS
 
-- Lambda
 - SAM
