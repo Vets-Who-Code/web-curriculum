@@ -12,22 +12,28 @@
 
 ## Week 2 - Javascript
 
-- JS Dev tools (Console tab)
-- Load JS (Source tab/`<script>`)
+- JS Dev tools
 - Primitives
 - Conditionals
-- Arrays
 - Loops
 - Functions
 - Objects
+- Arrays
 
-## Week 3 - HTML
+## Week 3 - DOM API
+
+- Select elements
+- CRUD elements
+- DOM events
+
+## Week 4 - HTML
 
 - Layout sections
 - Forms
-- Interactive content
 
-## Week 4 - CSS
+<h1 align="center">BLOCK 2 - Frontend Tooling ⚛️ </h1>
+
+## Week 5 - CSS
 
 - Debugging (elements tab)
 - Box model
@@ -35,36 +41,26 @@
 - Grid
 - SMACSS
 
-<h1 align="center">BLOCK 2 - Frontend Tooling ⚛️ </h1>
-
-## Week 5 - DOM API
-
-- Select HTML elements
-- Add/remove elements
-- Update element properties
-- DOM events
-
 ## Week 6 - 3rd Party APIs
 
+- JSON
 - Promises
 - Fetch
-- JSON
 - REST
 
 ## Week 7 - JS Build/Bundle
 
-- NPM
+- Dependencies/scripts
 - ParcelJS
 
 ## Week 8 - React
 
-- `create-react-app`
+- JSX
 - props
-- Render lists
-- Conditional Rendering
+- React hooks
+- lists
 - Event listeners
-- React hooks (`useState`, `useEffect`, `useContext`)
-- Custom hooks
+- Conditional Rendering
 
 <h1 align="center">BLOCK 3 - Serverless and DevOps </h1>
 
