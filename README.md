@@ -55,13 +55,12 @@
 
 ## Week 8 - React
 
-- `create-react-app`
+- JSX
 - props
-- Render lists
-- Conditional Rendering
+- React hooks
+- lists
 - Event listeners
-- React hooks (`useState`, `useEffect`, `useContext`)
-- Custom hooks
+- Conditional Rendering
 
 <h1 align="center">BLOCK 3 - Serverless and DevOps </h1>
 

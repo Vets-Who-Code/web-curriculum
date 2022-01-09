@@ -4,8 +4,9 @@ There are several Frontend builders/bundlers. For this course we're going to use
 
 ## Activities
 
-- Follow the Parcel getting started tutorial.
+- Follow the [Parcel getting started tutorial](https://parceljs.org/getting-started/webapp/).
+- Follow the [Parcel React Recipe tutorial](https://parceljs.org/recipes/react/) to get a React app up and going
 
 ## Resources
 
-- [Parcel getting started](https://parceljs.org/getting-started/webapp/)
+- [Parceljs](https://parceljs.org/)
