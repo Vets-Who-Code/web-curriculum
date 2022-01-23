@@ -295,3 +295,14 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
   - Connect CI/CD pipelines and AWS
   - Deploy to AWS
   - deploy to Netlify
+
+  ## Week 14 - Preparing for the future
+  - Focus on the Capstone project
+  - Ensure you have a fully reviewed resume
+  - Ensure you have a portfolio
+  - Ensure you have a LinkedIn profile
+  - Ensure you have a GitHub profile
+  - Continue to have 1:1's with your mentor
+  - Continue to have 1:1's with Jerome
+  - Follow content plan provided by HR experts
+  - Sign up for at least one mock interview session a month ( These will be based off of loop Format used at MMANG jobs)
