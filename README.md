@@ -16,9 +16,9 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Caree Youngman
 - Ken Wheeler
 
-## Phase One: Onboarding and Fundamentals
+## Phase One | Onboarding and Fundamentals
 ​​
-### Week 1 - Developer Workflow.
+### Week 1 | Developer Workflow.
 ​
 - Command Line
 - Git
@@ -32,14 +32,14 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Markdown ​
 - VS Code​
 
-### Week 2 - HTML
+### Week 2 | HTML
 ​
 - HTML
 - Emmet
 - Layout Sections
 - Forms
 
-### Week 3 - CSS3
+### Week 3 | CSS3
 
 - Box model
 - The different ways to add colors
@@ -70,7 +70,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Warnings
 - Performance
 
-### Week 4 Chrome Dev Tools
+### Week 4 | Chrome Dev Tools
 - Inspect
 - Console
 - Network
@@ -83,7 +83,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Audits
 - Browser
 
-### Week 5 Accessibility
+### Week 5 | Accessibility
 
 - What is Accessibility?
 - ARIA
@@ -92,14 +92,14 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Accessibility Standards
 - Accessibility Techniques
 
-### Week 6 UX and UX Toolchain
+### Week 6 | UX and UX Toolchain
 - What is UX Design
 - UX Design Process
 - UX Design Tools and toolchain​
 
-## Phase II Javascript
+## Phase II | Javascript
 
-### Week 7 - JS I
+### Week 7 |  JS I
 ​
 - Loading JS into a HTML document
 - Variables
@@ -109,14 +109,14 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Functions
 - CRUD​
 
-### Week 8 - DOM Manipulation
+### Week 8 | DOM Manipulation
 ​
 - Select elements
 - Add/remove elements
 - Update element attributes
 - Add event listeners​
 
-### Week 7 - JS II
+### Week 9 | JS II
 
 - Scope
 - Closures
@@ -129,7 +129,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Create object constructor
 - REST APIs
 
-### Week 8 - JS III
+### Week 10 | JS III
 
 Understand the purpose of Babel
 - `let` and `const`
@@ -145,14 +145,15 @@ Understand the purpose of Babel
 - JS Testing
 - Nodejs
 
-## Phase III - React
+## Phase III | React
 ​​
-### Week 9 - React
+### Week 11 | React
 ​
 - React
 - Debugging React
 - Jest
-### Week 10 - Next.js
+
+### Week 12 | Next.js
 
 - Understand the difference between SPA, and SSR vs. SSG
 - `create-next-app` to generate and develop apps
@@ -164,23 +165,23 @@ Understand the purpose of Babel
 - _BONUS_ Dynamic routes
 - _BONUS_ Static/Dynamic API routes​
 
-## Phase IV - Cloud and CI/CD
-### Week 11 - AWS I
+## Phase IV | Cloud and CI/CD
+### Week 13 | AWS I
 ​
 - Understand the difference between server and client
 - Lambda/API Gateway​
 
-### Week 12 - AWS II
+### Week 14 | AWS II
 ​
 - AWS Amplify
 - Graphql
 - Harper Db
 
-### Week 13 - CI/CD With Github Actions
+### Week 15 | CI/CD With Github Actions
 
 - Github Actions
 
-### Week 14 - Preparing for the future
+### Week 16 | Preparing for the future
 
 - Focus on the Capstone project
 - Ensure you have a thoroughly reviewed resume
