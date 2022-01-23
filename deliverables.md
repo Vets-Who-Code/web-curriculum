@@ -53,7 +53,7 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
   - Edit code and save it
   - Use command pallette
 ​
-## Week 2 - HTML && CSS
+## Week 2 - HTML
 ​
 - HTML
   - Create a HTML document
@@ -63,12 +63,75 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
   - Block and inline elements
   - Add multimedia content
   - Understand HTML attributes
+  - Understand HTML5 Semantics
+  - Understand HTML5 Elements
+  - Understand HTML5 Attributes
+  - Understand HTML5 Hyperlinks
+  - Understand HTML5 Lists
+  - Understand HTML5 Tables
+  - Understand HTML5 Forms
+## Week 3 - CSS3
 - CSS
-  - Box model
-  - Colors
-  - font apis (`font*`)
+  - Understand and Use Box model
+  - Understand and Use the different ways to add colors
+    - RGB, HEX, HSL, HSLA, and HSB
+  - Understand and Use the different ways to add borders
+  - Understand and Use font apis (`font*`)
+  - Understand and Use Selectors
+  - Understand and Use Root Element
+  - Understand and Use Media Queries
+  - Understand and Use Pseudo Classes
+  - Understand and Use Pseudo Elements
+  - Understand and Use CSS3 Animations
+  - Understand and Use CSS3 Transitions
+  - Understand and Use CSS3 Transforms
+  - Understand and Use CSS3 Gradients
+  - Understand and Use Flexbox
+  - Understand and Use Grid
+  - Understand and Use CSS Paint API
+  - Understand and Use CSS Custom Properties
+  - Understand and Use CSS Variables
+  - Understand and Use CSS Syntax
+  - Understand and Use CSS Preprocessors
+  - Understand and Use CSS Frameworks
+  - Understand and Learn about Basic Front End Architecture Systems
+    - Understand and Use SMACSS
 - Debug
   - Troubleshoot HTML/CSS (browser's `Elements` tab)
+  - Troubleshoot CSS (browser's `Styles` tab)
+  - See Critical and Uncritical CSS
+  - See CSS Errors
+  - See CSS Warnings
+  - See CSS Performance
+
+## Week 4 Chrome Dev Tools
+  - Inspect
+  - Console
+  - Network
+  - Elements
+  - Styles
+  - Resources
+  - Application
+  - Security
+  - Performance
+  - Audits
+  - Browser
+
+## Week 5 Accessibility
+  - What is Accessibility
+  - ARIA
+  - WAI-ARIA
+  - Accessibility Best Practices
+  - Accessibility Standards
+  - Accessibility Techniques
+
+## Week 6 UX and UX Toolchain
+  - UX Design
+  - UX D
+  - UX Design Process
+  - UX Design Tools
+  - UX Design
+
 ​
 ## Week 3 - JS I
 ​
