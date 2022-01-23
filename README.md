@@ -138,20 +138,20 @@ took the time to review our curriculum to help us help our veterans:
 - Understand some `this` binding issues
 - Create object constructor
 
-  ## Week 8 - JS III
-  - Understand purpose for Babel
-  - `let` and `const`
-  - Arrow functions
-  - `async`/`await`
-  - object destructuring​
-  - Rest/Spread operators
-  - `class`, `constructor`, method syntaxes
-  - `for...of` and `for...in` loops
-  - optional chaining
-  - Debug
-  - Breakpoints
-  - JS Testing
-  - Nodejs
+## Week 8 - JS III
+- Understand purpose for Babel
+- `let` and `const`
+- Arrow functions
+- `async`/`await`
+- object destructuring​
+- Rest/Spread operators
+- `class`, `constructor`, method syntaxes
+- `for...of` and `for...in` loops
+- optional chaining
+- Debug
+- Breakpoints
+- JS Testing
+- Nodejs
 
 # Phase III - React
 ​​
