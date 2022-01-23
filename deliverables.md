@@ -283,8 +283,8 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
   - Understand Schema scalar types
   - Update Schema with 1:1 relationships
   - Perform Query and mutate data from Frontend application
-- Dynamo Db
-  - Navigate Dynamo Db console
+- Harper Db
+  - Navigate Harper Db console
   - Update tables from console
   - Update database from application
 
