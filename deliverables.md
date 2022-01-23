@@ -119,21 +119,41 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
 
 ## Week 5 Accessibility
   - What is Accessibility
-  - ARIA
+  - Using ARIA
   - WAI-ARIA
-  - Accessibility Best Practices
-  - Accessibility Standards
-  - Accessibility Techniques
+  - What Are Accessibility Best Practices
+  - What are Accessibility Standards
+  - Use Accessibility Techniques
 
 ## Week 6 UX and UX Toolchain
-  - UX Design
-  - UX D
+  - What is UX Design
+    - Understand tenants of design psychology
+    - Understand color theory
+    - Understand human computer interaction
+    - Understand design thinking
+    - (color, balance, typography, contrast, consistency)
+    - Implement design systems
+    - Implement style guides
+    - Understand interaction design methodologies
+    - (Goal Driven Design, Usability, The Five Dimensions, Cognitive Psychology, and Human Interface Guidelines)
+    - Understand design strategies
   - UX Design Process
-  - UX Design Tools
-  - UX Design
+    - Start UX Research
+    - Build a UX Wireframe
+    - Build a UX Prototype
+    - Build a UX Design Document
+  - Learn UX Design Tools and toolchain
+    - Figma
+      - What is Figma
+      - How to use Figma
+      - Build a Vets Who Code Figma Feature Prototype
+      - Visual Studio Code extension for Figma
+    - Zeplin
+      - Visual Studio Code extension for Zeplin
+    - BONUS: Use Storybook
 
 ​
-## Week 3 - JS I
+## Week 7 - JS I
 ​
 - Load JS into a html document `<script>`
 - Debug and log (console.log, browser `console` tab, Nodejs console)
@@ -145,7 +165,7 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
 - Create/update objects
   - _Bonus_ Add properties/methods to objects
 ​
-## Week 4 - DOM Manipulation
+## Week 8 - DOM Manipulation
 ​
 - JS
   - Select elements
@@ -165,52 +185,7 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
 - Debug
   - Troubleshoot z-index (browser `Layers` tab)
 ​
-## Week 5 - UI
-​
-- Figma
-  - Design web pages using tool
-  - Share designs
-- SMACSS
-  - Use naming convention to write class names
-- Responsive/Mobile design
-  - Use Media queries
-  - Use CSS Grid
-- Accessibility
-  - Understand what is web accessibility
-  - Understand how to evaluate accessibility
-  - Understand how to develop with accessibility considerations
-    - (focus, color ratio)
-  - Use ARIA attributes
-- Auditing
-  - Audit web page performance/accessibility (browser `Lighthouse` tab)
-​
-## Week 6 - UX
-​
-- Draw.io
-  - Build wire frames
-  - Iterate and receive feedback on wire frames
-- Figma
-  - Build reusable components
-  - Create color palette
-- Concepts
-  - Understand tenants of design psychology
-  - Understand color theory
-  - Understand human computer interaction
-  - Understand design thinking
-    - (color, balance, typography, contrast, consistency)
-  - Implement design systems
-  - Implement style guides
-  - Understand interaction design methodologies
-    - (Goal Driven Design, Usability, The Five Dimensions, Cognitive Psychology, and Human Interface Guidelines)
-  - Understand design strategies
-​
 ## Week 7 - JS II
-​
-- Nodejs
-  - Setup a `http-server`
-  - Install JS dependencies via npm
-  - Create JS bundles
-  - Create simple npm scripts
 - JS
   - Understand scope
   - Understand closures
@@ -219,22 +194,37 @@ Phase deliverables: Collaboratively plan, build, test, and deploy well designed 
   - Perform AJAX requests 
   - Use Promises
   - Parse/stringify JSON data
-- Debug
+  - Understand some `this` binding issues
+  - Create object constructor with `function`
+
+  ## Week 8 - JS III
+  - Understand purpose for Babel
+  - Use `let` and `const`
+  - Use Arrow functions
+  - Use `async`/`await`
+  - Use object destructuring​
+  - Use Rest/Spread operators
+  - Use `class`, `constructor`, method syntaxes
+  - Use `for...of` and `for...in` loops
+  - Use optional chaining
+  - Debug
   - Troubleshoot using breakpoints in VS Code/browser
-- JS Testing
-  - Setup Jest
-  - Run Jest tests
-  - Create expectations/assertions
-  - Spy on functions
-  - Mock functions
-​
+  - JS Testing
+    - Setup Jest
+    - Run Jest tests
+    - Create expectations/assertions
+    - Spy on functions
+    - Mock functions
+  - Nodejs
+    - Setup a http-server
+    - Install JS dependencies via npm
+    - Create JS bundles
+    - Create simple npm scripts
 - Deploy to Static content provider (netlify, surge, Github pages)
-​
-# Phase 2
-​
-Phase deliverables: Collaboratively plan, build, test, and deploy full stack serverless web apps using frameworks, libraries, and 3rd party APIs.
-​
-## Week 8 - React I
+
+# Phase II - React
+​​
+## Week 9 - React
 ​
 - React
   - Install and run `create-react-app`
@@ -244,38 +234,27 @@ Phase deliverables: Collaboratively plan, build, test, and deploy full stack ser
   - Conditionally render components
   - Setup event listeners
   - Use React hooks (`useState`, `useEffect`, `useContext`)
-- ES6 
-  - Understand purpose for Babel
-  - Use `let` and `const`
-  - Use Arrow functions
-  - Use `async`/`await`
-  - Use object destructuring
-- SASS
-  - Understand CSS preprocessing
-  - Understand CSS in JS
-  - Use Sass nesting
-  - Use Sass modules
-​
-  ## Week 9 - JS III
-​
-- JS
-  - Understand some `this` binding issues
-  - Create object constructor with `function`
-- ES6
-  - Use Rest/Spread operators
-  - Use `class`, `constructor`, method syntaxes
-  - Use `for...of` and `for...in` loops
-  - Use optional chaining
-- React
-  - Use React Router
+  - Use React router (`Link`, `Switch`, `Route`)
   - Test React components
   - Use React Testing Library to Render containers
   - Use `jest-dom` for assertions
 - Debug
   - Troubleshoot browser storage (browser `application` tab)
   - Troubleshoot data fetching (browser `network` tab )
+
+  ## Week 10 - Next.js
+- Understand the difference between SPA, and SSR vs SSG
+- Use `create-next-app` to generate and develop apps
+- CRUD and navigate between pages
+- Understand Next.js pre-rendering
+- Generate static content (SSG) with `getStaticProps`
+- Use `getServerSideProps` to SSR
+- _bonus_ Build dynamic routes
+- _bonus_ Create static/dynamic API routes
 ​
-## Week 10 - AWS I
+# Phase III - Cloud and CI/CD
+
+## Week 11 - AWS I
 ​
 - Understand difference between server and client
 - Lambda/Api Gateway
@@ -292,21 +271,8 @@ Phase deliverables: Collaboratively plan, build, test, and deploy full stack ser
   - Deploy Express server to Lambda/Api Gateway
   - Test endpoints using Jest
   - _bonus_ Test frontend using Cypress
-​
-## Phase 3
-​
-Phase deliverables: Collaboratively build enterprise scale web applications.
-​
-## Week 11 - Next.js
-- Understand the difference between SPA, and SSR vs SSG
-- Use `create-next-app` to generate and develop apps
-- CRUD and navigate between pages
-- Understand Next.js pre-rendering
-- Generate static content (SSG) with `getStaticProps`
-- Use `getServerSideProps` to SSR
-- _bonus_ Build dynamic routes
-- _bonus_ Create static/dynamic API routes
-​
+​​
+
 ## Week 12 - AWS II
 ​
 - Amplify
@@ -322,15 +288,10 @@ Phase deliverables: Collaboratively build enterprise scale web applications.
   - Update tables from console
   - Update database from application
 
-## Phase 4
-
-Phase deliverables: Continuously learn and build a career in software development.
-
-## Week 13 - 
-  - Think about algorithms ()
-  - Classify algorithmic complexity
-  - Optimize algorithms
-  - Understand use cases (this is for job interviews)
-
-## Week 14 -
-  - Implement basic data structures (hash, stack, queue)
+  ## Week 13 - CI/CD With Github Actions
+  - Be be able to describe what is CI/CD
+  - Setup Github Actions
+  - Setup CI/CD pipelines with Github Actions
+  - Connect CI/CD pipelines and AWS
+  - Deploy to AWS
+  - deploy to Netlify
