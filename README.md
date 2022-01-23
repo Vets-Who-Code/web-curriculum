@@ -137,28 +137,18 @@ took the time to review our curriculum to help us help our veterans:
 
   ## Week 8 - JS III
   - Understand purpose for Babel
-  - Use `let` and `const`
-  - Use Arrow functions
-  - Use `async`/`await`
-  - Use object destructuring​
-  - Use Rest/Spread operators
-  - Use `class`, `constructor`, method syntaxes
-  - Use `for...of` and `for...in` loops
-  - Use optional chaining
+  - `let` and `const`
+  - Arrow functions
+  - `async`/`await`
+  - object destructuring​
+  - Rest/Spread operators
+  - `class`, `constructor`, method syntaxes
+  - `for...of` and `for...in` loops
+  - optional chaining
   - Debug
-  - Troubleshoot using breakpoints in VS Code/browser
+  - Breakpoints
   - JS Testing
-    - Setup Jest
-    - Run Jest tests
-    - Create expectations/assertions
-    - Spy on functions
-    - Mock functions
   - Nodejs
-    - Setup a http-server
-    - Install JS dependencies via npm
-    - Create JS bundles
-    - Create simple npm scripts
-- Deploy to Static content provider (netlify, surge, Github pages)
 
 # Phase III - React
 ​​
@@ -170,7 +160,7 @@ took the time to review our curriculum to help us help our veterans:
 ## Week 10 - Next.js
 
 - Understand the difference between SPA, and SSR vs SSG
-- Use `create-next-app` to generate and develop apps
+-   `create-next-app` to generate and develop apps
 - CRUD
 - Navigation
 - Pre-rendering
