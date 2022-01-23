@@ -6,6 +6,8 @@ Massive shout out to the veteran developers that helped build the curriculum
 - Jerome Hardaway
 - Schuster Braun
 - Mike White
+
+
 Also, we would like to extend a sincere level of gratitude to the members of our board that took the time to review our curriculum to help us help our veterans:
 - Brian Holt
 - Kyle Shevlin
