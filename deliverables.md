@@ -8,16 +8,11 @@ At the end of this course students should be able to collaboratively plan, build
 ​
 ## Phase 1
 ​
-Phase deliverables: Collaboratively plan, build, test, and deploy well designed frontend websites assisted by lightweight libraries. These websites should show industry best practices.
+Phase deliverables: Collaboratively plan, build, test, and deploy well designed frontend websites. These websites should show industry best practices.
 ​
 ## Week 1 - Internet functionality and code work flows.
 ​
 - Internet Basics
-  - Understand the impact of the internet and its ever expanding market=
-    - (Context for why we chose web development for a boot camp)
-  - Differentiate between browser, server, and PC
-  - _Bonus_ Understand what a router does
-  - _Bonus_ Understand DNS' relationship with ip addresses
 - CLI (navigate file system)
 ​
   - Understand your file system and how to navigate to files and folders
