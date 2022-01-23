@@ -46,6 +46,7 @@ took the time to review our curriculum to help us help our veterans:
 - Emmet
 - Layout Sections
 - Forms
+
 ## Week 3 - CSS3
 
 - CSS
@@ -77,32 +78,34 @@ took the time to review our curriculum to help us help our veterans:
   - Errors
   - Warnings
   - Performance
-
+  
 ## Week 4 Chrome Dev Tools
-  - Inspect
-  - Console
-  - Network
-  - Elements
-  - Styles
-  - Resources
-  - Application
-  - Security
-  - Performance
-  - Audits
-  - Browser
+- Inspect
+- Console
+- Network
+- Elements
+- Styles
+- Resources
+- Application
+- Security
+- Performance
+- Audits
+- Browser
 
 ## Week 5 Accessibility
-  - What is Accessibility?
-  - ARIA
-  - WAI-ARIA
-  - Accessibility Best Practices
-  - Accessibility Standards
-  - Accessibility Techniques
+
+- What is Accessibility?
+- ARIA
+- WAI-ARIA
+- Accessibility Best Practices
+- Accessibility Standards
+- Accessibility Techniques
 
 ## Week 6 UX and UX Toolchain
-  - What is UX Design
-  - UX Design Process
-  - Learn UX Design Tools and toolchain
+
+- What is UX Design
+- UX Design Process
+- Learn UX Design Tools and toolchain
 ​
 ## Phase II Javascript
 
@@ -184,16 +187,18 @@ took the time to review our curriculum to help us help our veterans:
 - Graphql
 - Harper Db
 
-  ## Week 13 - CI/CD With Github Actions
-  - Github Actions
+## Week 13 - CI/CD With Github Actions
 
-  ## Week 14 - Preparing for the future
-  - Focus on the Capstone project
-  - Ensure you have a fully reviewed resume
-  - Ensure you have a portfolio
-  - Ensure you have a LinkedIn profile
-  - Ensure you have a GitHub profile
-  - Continue to have 1:1's with your mentor
-  - Continue to have 1:1's with Jerome
-  - Follow content plan provided by HR experts
-  - Sign up for at least one mock interview session a month ( These will be based off of loop Format used at MMANG jobs)
+- Github Actions
+
+## Week 14 - Preparing for the future
+
+- Focus on the Capstone project
+- Ensure you have a fully reviewed resume
+- Ensure you have a portfolio
+- Ensure you have a LinkedIn profile
+- Ensure you have a GitHub profile
+- Continue to have 1:1's with your mentor
+- Continue to have 1:1's with Jerome
+- Follow content plan provided by HR experts
+- Sign up for at least one mock interview session a month ( These will be based off of loop Format used at MMANG jobs)
