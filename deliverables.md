@@ -2,7 +2,7 @@
 ​
 Students should have the skills listed below as take aways for each lesson. This clarity will help students prioritize content as primary, secondary, and tertiary details. The focus should help students know what content is foundational.
 ​
-At the end of this course students should be able to collaboratively plan, build, and deploy tested full stack web apps to multiple cloud services at enterprise level scale.
+At the end of this course students should be able to collaboratively plan, build, and deploy tested web applications to a cloud service.
 ​
 # Students should be able to:
 ​
@@ -10,37 +10,54 @@ At the end of this course students should be able to collaboratively plan, build
 ​
 Phase deliverables: Collaboratively plan, build, test, and deploy well designed frontend websites. These websites should show industry best practices.
 ​
-## Week 1 - Internet functionality and code work flows.
+## Week 1 - Dev Workflow.
 ​
-- Internet Basics
+- Setting up thier first dev environment.
 - CLI (navigate file system)
 ​
   - Understand your file system and how to navigate to files and folders
-  - `ls`, `cd`
-​
-- VS Code
-  - Open code in a workspace
-  - Edit code and save it
-  - Add plugins/extensions
-  - Use command pallette
-​
-- VCS (Git/Git workflow)
-  - Save work to VCS (Github)
+  - `ls`, `cd`, `mkdir`, `pwd`, `touch`, `rm`, `mv`, `cp`, `cat`, `less`, `more`, `grep`, `sed`, `head`,  and `tail`
+  - Install Git, Github and Github CLI
+  - Install Fig and Fig CLI
+
+-  Git/Github/Git workflow/
+  - Create a Github Readme profile repo
+  - Create A Project board to track your tasks 
+  - Commit and push your first commit
   - View work on Github
-  - Pull (clone) work from VCS
-  - Create a branch
-  - Merge created branch
-​
-- Markdown
+  - Pull (clone) Vets Who Code projects from Github
+  - Go To web app and add an issue about your name on the project readme.
+  - Go to web branch and check out a branch with your name on it.
+  - Add name to readme using vs code dev in browser
+  - Make a PR
+  - Merge PR
+  - Respond in discussions
+  - Close issue
+
+  - Markdown
   - Save a `README.md` file at root of project
   - View `README.md` on Github
   - Reference Github Markdown syntax
+  - Add a title to your `README.md` file
+  - Add a description to your `README.md` file
+  - Add a table of contents to your `README.md` file
+  - Add a list of your deliverables to your `README.md` file
+  - Add a list of your skills to your `README.md` file
+  - Add a list of your resources to your `README.md` file
+  - Add a list of your collaborators to your `README.md` file
+  ​
+- VS Code Dev
+  - Install VS Code Dev
+  - Open code in a workspace
+  - Add Vets Who Code extension
+  - Edit code and save it
+  - Use command pallette
 ​
 ## Week 2 - HTML && CSS
 ​
 - HTML
   - Create a HTML document
-    - Add a `head`, `body`
+    - Using Emmet, build a basic HTML Document
   - Load a HTML document in the browser
   - Add metadata to page
   - Block and inline elements
