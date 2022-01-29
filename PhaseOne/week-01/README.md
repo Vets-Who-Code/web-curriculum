@@ -22,12 +22,12 @@ At this phase, you've completed the prework and have
 - Command Line
     - Fig
 - Git
-- Github CLI
-- Github
-- Github ReadMe Profile
-- Github Discussions
-- Codespaces
-- Github pages
+- GitHub
+    - GitHub CLI
+    - GitHub Discussions
+    - Codespaces
+    - GitHub ReadMe Profile
+    - GitHub pages
 - Markdown
 - VS Code
 
