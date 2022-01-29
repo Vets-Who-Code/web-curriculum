@@ -11,8 +11,6 @@ In Week 1, were going to
 - improve our Markdown skills,
 - and publish our projects to GitHub pages. 
 
-
-
 ## Prerequisites
 At this phase, you've completed the prework and have 
 - VS Code setup and ready to go
