@@ -1,7 +1,7 @@
 # Week 1 - Developer Workflow
 
-## Goals
-When this week is complete were going to created a GitHub ReadMe Profile and set up or workflow so that we can push our source code to GitHub and show our projects using GitHub Pages
+## Goals 🌟
+When this week is complete, we will have a GitHub ReadMe Profile, and we'll have set up our workflow so that we can push our source code to GitHub and show our projects using GitHub Pages.
 
 In Week 1, were going to 
 - start projects using the command line, 
@@ -11,7 +11,7 @@ In Week 1, were going to
 - improve our Markdown skills,
 - and publish our projects to GitHub pages. 
 
-## Prerequisites
+## Prerequisites 
 At this phase, you've completed the prework and have 
 - VS Code setup and ready to go
 - you've dug into the Command Line a bit, 
