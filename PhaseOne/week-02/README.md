@@ -1,7 +1,7 @@
 # Week 2 - HTML
 
 ## Goals 🌟
-When this week is complete, we will have
+When this week is complete, we will have a complete website and several forms that we've pushed to GitHub Pages that are ready for styling.
 
 In Week 2, were going to:
 
