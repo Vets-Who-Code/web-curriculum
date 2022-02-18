@@ -42,6 +42,7 @@ You've completed week 1 and you're starting to get comfortable with your develop
         - the select element
         - the button element
     - Create a Simple Form
+    - Create a Complex Form
 
 ## Next Step
 Our next step will be to move on to Week 3 where we are going to learn how to style our sites.
