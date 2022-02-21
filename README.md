@@ -167,12 +167,11 @@ Understand the purpose of Babel
 
 ## Phase IV | Cloud and CI/CD
 ### Week 13 | AWS I
-​
 - Understand the difference between server and client
 - Lambda/API Gateway​
 
 ### Week 14 | AWS II
-​
+
 - AWS Amplify
 - Graphql
 - Harper Db
