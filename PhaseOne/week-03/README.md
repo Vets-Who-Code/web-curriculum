@@ -1,11 +1,16 @@
 # Week 3 - CSS
 
 ## Goals 🌟
-When this week is complete, we will have a 
+When this week is complete, we will have a styled our website and form project from week 2 and published our site to GitHub pages.
 
 In Week 3, were going to:
 
-- build 
+- add styles to our website,
+- build a fully responsive website,
+- create stylish layouts using Flexbox and Grid,
+- create animations to enhance features of our website,
+- incorporate a style guide to help maintain our stylesheets,
+- and through out this week we'll build our HTML and CSS troubleshooting skills.
 
 
 ## Prerequisites 
@@ -60,4 +65,4 @@ You've completed week 2
 - Performance
 
 ## Next Step
-Our next step will be to move on to Week 4...
+Our next step will be to move on to Week 4 where we'll be learning how to add interactivity to our websites using JavaScript.
