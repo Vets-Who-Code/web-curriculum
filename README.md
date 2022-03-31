@@ -108,6 +108,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Arrays
 - Functions
 - CRUD​
+- Data Structures and Algorithms I
 
 ### Week 8 | DOM Manipulation
 ​
@@ -128,10 +129,10 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Understand some of `this` binding issues
 - Create object constructor
 - REST APIs
-
+- Data Structures and Algorithms II
 ### Week 10 | JS III
 
-Understand the purpose of Babel
+- Understand the purpose of Babel
 - `let` and `const`
 - Arrow functions
 - async/await
@@ -144,6 +145,7 @@ Understand the purpose of Babel
 - Breakpoints
 - JS Testing
 - Nodejs
+- Data Structures and Algorithms III
 
 ## Phase III | React
 ​​
