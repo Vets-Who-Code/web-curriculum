@@ -1,7 +1,0 @@
-# Overview
-
-
-## Activities
-
-
-## Resources
