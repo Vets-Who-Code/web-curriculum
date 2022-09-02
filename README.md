@@ -20,6 +20,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 ​​
 ### Week 1 | Developer Workflow.
 ​
+
 - Command Line
 - Git
 - Github CLI
