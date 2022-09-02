@@ -73,18 +73,6 @@ const main = async () => {
     const syllabusPath = path.join(process.cwd(), 'README.md');
     fs.writeFileSync(syllabusPath, newSyllabusText);
 
-    console.log({ syllabus, lessonFilePaths })
-
-
-
-
-    // const options: Partial<SimpleGitOptions> = {
-    //     baseDir: process.cwd(),
-    //     binary: 'git',
-    //     maxConcurrentProcesses: 6,
-    //     trimmed: false,
-    // };
-
     const git: SimpleGit = simpleGit();
     try {
         await git.addRemote('origin', vwcRemote);
@@ -111,9 +99,13 @@ const main = async () => {
     if (!process.env.DRY_RUN) {
         console.log('Updating Git with new generated curriculum');
         git.add(process.cwd() + '*')
-            // TODO: ADD PR #
-            .commit('Automated commit')
-            .push('origin', 'master');
+            .commit('Automated commit');
+
+        console.log('============>');
+        console.log('We got to figure out our branch', process.env.GITHUB_REF)
+        console.log('============>');
+
+        // .push('origin', 'master');
     }
 }
 

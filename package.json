@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:generate:curriculum": "DRY_RUN=true ts-node ./scripts/generateCurriculum.ts",
-    "generate:curriculum": "ts-node ./scripts/generateCurriculum.ts"
+    "generate:curriculum:ci": "ts-node-transpile-only ./scripts/generateCurriculum.ts"
   },
   "repository": {
     "type": "git",

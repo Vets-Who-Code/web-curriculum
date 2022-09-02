@@ -11,11 +11,11 @@ jobs:
       - uses: Khan/pull-request-comment-trigger@master
         id: check
         with:
-          trigger: 'generate'
+          trigger: '@generate'
           reaction: rocket
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-      # - uses: actions/checkout@v3
-      # - name: Install modules and run it
-        # run: yarn && GITHUB_REF=${GITHUB_REF##*/} yarn generate:curriculum:ci
-        # if: steps.check.outputs.triggered == 'true'
+      - uses: actions/checkout@v3
+      - name: Install modules and run it
+        run: yarn && GITHUB_REF=${GITHUB_REF##*/} yarn generate:curriculum:ci
+        if: steps.check.outputs.triggered == 'true'
