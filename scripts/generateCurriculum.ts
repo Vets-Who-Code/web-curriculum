@@ -44,24 +44,36 @@ const main = async () => {
         }
     }))
 
-    // Update syllabus
-    const syllabusPath = path.join(process.cwd(), 'README.md');
-    fs.writeFileSync(syllabusPath, syllabus);
-
     // Ensure the md folder exists
     const mdFolderPath = buildContentPath('');
     cheapMkdir(mdFolderPath)
 
     // Write all the lesson files
-    rawLessons.forEach(({ text, subject }) => {
+    const lessonFilePaths = rawLessons.map(({ text, subject }) => {
         const [folder, file] = subject.split('/');
         const subjectFolder = buildContentPath(folder);
-        const contentPath = buildContentPath(`${folder}/${file}.md`)
+        const contentPath = buildContentPath(`${folder}/${file}.md`);
 
         cheapMkdir(subjectFolder);
 
         fs.writeFileSync(contentPath, text);
     });
+
+    // Add syllabus links
+    const newSyllabusText = syllabus.split('\r').map(l => l.replace('\n', '')).map(line => {
+        if (line.startsWith('- ')) {
+            const subjectTitle = line.replace('- ', '');
+
+            return `- [${subjectTitle}](md/${subjectTitle}.md)`
+        }
+        return line;
+    }).join('\r');
+
+    // Update syllabus
+    const syllabusPath = path.join(process.cwd(), 'README.md');
+    fs.writeFileSync(syllabusPath, newSyllabusText);
+
+    console.log({ syllabus, lessonFilePaths })
 
 
 
