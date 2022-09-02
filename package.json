@@ -1,0 +1,36 @@
+{
+  "name": "web-curriculum",
+  "version": "1.0.0",
+  "description": "This curriculum is designed to be a resource to learn in a guided practical manner how to learn how to build software the way you would in a tech team at a company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:generate:curriculum": "DRY_RUN=true ts-node ./scripts/generateCurriculum.ts",
+    "generate:curriculum:ci": "ts-node-transpile-only ./scripts/generateCurriculum.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vets-Who-Code/web-curriculum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vets-Who-Code/web-curriculum/issues"
+  },
+  "homepage": "https://github.com/Vets-Who-Code/web-curriculum#readme",
+  "dependencies": {
+    "node-fetch": "2",
+    "simple-git": "^3.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "@types/node": "^18.7.14",
+    "@types/node-fetch": "^2.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
