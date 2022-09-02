@@ -44,6 +44,9 @@ const main = async () => {
         }
     }))
 
+    // Update syllabus
+    const syllabusPath = path.join(process.cwd(), 'README.md');
+    fs.writeFileSync(syllabusPath, syllabus);
 
     // Ensure the md folder exists
     const mdFolderPath = buildContentPath('');
@@ -83,23 +86,23 @@ const main = async () => {
         }
     }
 
-
-
-
     // Ensure remote origin is what we want
     const remotes = await git.getRemotes(true);
     remotes.forEach(r => {
         if (r.name === 'origin') {
-            if (r.refs.fetch === vwcRemote) {
+            if (r.refs.fetch !== vwcRemote) {
                 throw new Error("VWC remote url isnt setup");
             }
         }
     });
 
-
-
-    console.log({ remotes }, remotes[0].refs);
-
+    if (!process.env.DRY_RUN) {
+        console.log('Updating Git with new generated curriculum');
+        git.add(process.cwd() + '*')
+            // TODO: ADD PR #
+            .commit('Automated commit')
+            .push('origin', 'master');
+    }
 }
 
 main();
