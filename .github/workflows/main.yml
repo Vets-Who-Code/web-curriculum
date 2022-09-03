@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@master
         with:
           ref: ${{ github.ref }}
-      - name: Install modules and run it 
+      - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'
       - name: Generate Curriculum
