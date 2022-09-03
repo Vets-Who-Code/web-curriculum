@@ -88,7 +88,7 @@ const main = async () => {
         }
     }
 
-    // Ensure remote origin is what we want
+    // Ensure remote origin is what we want 
     const remotes = await git.getRemotes(true);
     remotes.forEach(r => {
         if (r.name === 'origin') {
