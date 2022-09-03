@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const vwcRemote = 'git@github.com:Vets-Who-Code/web-curriculum.git';
+const vwcCIRemote = 'https://github.com/Vets-Who-Code/web-curriculum';
 type TargetType = 'syllabus' | 'subject';
 const buildUrl = (target: TargetType, fileName: string = '') => {
     const root = 'http://raw.githubusercontent.com/axecopfire/graph-curric/main/';
@@ -78,7 +79,6 @@ const main = async () => {
     try {
         await git.addRemote('origin', vwcRemote);
     } catch (error) {
-        console.error({ error })
         if (!(error instanceof Error)) {
             throw new Error(`unexpected error fetching remote origin \n${error}`);
         }
@@ -92,8 +92,7 @@ const main = async () => {
     const remotes = await git.getRemotes(true);
     remotes.forEach(r => {
         if (r.name === 'origin') {
-            if (r.refs.fetch !== vwcRemote) {
-                console.log(JSON.stringify(r, null, 4));
+            if (r.refs.fetch !== vwcRemote && r.refs.fetch !== vwcCIRemote) {
                 throw new Error("VWC remote url isnt setup");
             }
         }
