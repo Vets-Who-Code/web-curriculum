@@ -16,6 +16,8 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
       - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'

@@ -111,7 +111,7 @@ const main = async () => {
         })
         console.log('============>');
 
-        // .push('origin', 'master');
+        // .push('origin', process.env.GITHUB_REF_NAME);
     }
 }
 
