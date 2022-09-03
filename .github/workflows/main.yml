@@ -19,6 +19,6 @@ jobs:
       - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'
-      - name: Generate Curriculums
+      - name: Generate Curriculum
         run: GITHUB_REF=${GITHUB_REF##*/} yarn generate:curriculum:ci
         if: steps.check.outputs.triggered == 'true'
