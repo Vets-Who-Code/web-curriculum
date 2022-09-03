@@ -16,6 +16,9 @@ jobs:
       - uses: actions/checkout@master
         with:
           ref: ${{ github.head_ref }}
+      - name: Dump GitHub context
+        id: github_context_step
+        run: echo '${{ toJSON(github) }}'
       - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'
