@@ -19,7 +19,7 @@ jobs:
       - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'
-      - name: Generate Curriculum
+      - name: Generate Curriculum 
         run: yarn generate:curriculum:ci
         if: steps.check.outputs.triggered == 'true'
         env: 
