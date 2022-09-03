@@ -24,4 +24,5 @@ jobs:
         if: steps.check.outputs.triggered == 'true'
         env: 
           GITHUB_HEAD_REF: '${{ github.head_ref }}'
+          GITHUB_ACTOR: '${{ github.actor }}'
 
