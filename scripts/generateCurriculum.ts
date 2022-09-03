@@ -104,7 +104,11 @@ const main = async () => {
             .commit('Automated commit');
 
         console.log('============>');
-        console.log('We got to figure out our branch', process.env.GITHUB_REF)
+        console.log('We got to figure out our branch', {
+            GITHUB_REF: process.env.GITHUB_REF,
+            GITHUB_HEAD_REF: process.env.GITHUB_HEAD_REF,
+            GITHUB_REF_NAME: process.env.GITHUB_REF_NAME
+        })
         console.log('============>');
 
         // .push('origin', 'master');
