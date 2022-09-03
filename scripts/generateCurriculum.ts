@@ -28,13 +28,13 @@ const cheapMkdir = (p: string) => {
 const main = async () => {
     const syllabus = await fetch(buildUrl('syllabus')).then(r => r.text());
 
-    // Parse the syllabus file for lesson paths
+    console.log("Parsing the Syllabus for lesson text")
     const lessonList = syllabus.split('\r').map(l => l.replace('\n', '')).reduce((acc: string[], line) => {
         if (!line.startsWith('- ')) return acc;
         return [...acc, line.replace('- ', '')];
     }, []);
 
-    // Get all the lesson text
+    console.log("Getting all the lessons' text");
     const rawLessons = await Promise.all(lessonList.map(async lesson => {
         const lessonUrl = buildUrl('subject', lesson)
         const lessonText = await fetch(lessonUrl).then(r => r.text());
@@ -44,11 +44,11 @@ const main = async () => {
         }
     }))
 
-    // Ensure the md folder exists
+    console.log('Ensuring the markdown folder exists');
     const mdFolderPath = buildContentPath('');
     cheapMkdir(mdFolderPath)
 
-    // Write all the lesson files
+    console.log('Writing all the markdown lessons')
     const lessonFilePaths = rawLessons.map(({ text, subject }) => {
         const [folder, file] = subject.split('/');
         const subjectFolder = buildContentPath(folder);
@@ -59,7 +59,7 @@ const main = async () => {
         fs.writeFileSync(contentPath, text);
     });
 
-    // Add syllabus links
+    console.log('Adding syllabus links');
     const newSyllabusText = syllabus.split('\r').map(l => l.replace('\n', '')).map(line => {
         if (line.startsWith('- ')) {
             const subjectTitle = line.replace('- ', '');
@@ -69,14 +69,16 @@ const main = async () => {
         return line;
     }).join('\r');
 
-    // Update syllabus
+    console.log('Updating syllabus');
     const syllabusPath = path.join(process.cwd(), 'README.md');
     fs.writeFileSync(syllabusPath, newSyllabusText);
 
+    console.log('Adding remote');
     const git: SimpleGit = simpleGit();
     try {
         await git.addRemote('origin', vwcRemote);
     } catch (error) {
+        console.error({ error })
         if (!(error instanceof Error)) {
             throw new Error(`unexpected error fetching remote origin \n${error}`);
         }
@@ -91,6 +93,7 @@ const main = async () => {
     remotes.forEach(r => {
         if (r.name === 'origin') {
             if (r.refs.fetch !== vwcRemote) {
+                console.log(JSON.stringify(r, null, 4));
                 throw new Error("VWC remote url isnt setup");
             }
         }
