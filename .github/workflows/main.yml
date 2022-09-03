@@ -19,6 +19,10 @@ jobs:
       - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'
-      - name: Generate Curriculums
-        run: GITHUB_REF=${GITHUB_REF##*/} yarn generate:curriculum:ci
+      - name: Generate Curriculum
+        run: yarn generate:curriculum:ci
+        env: 
+          GITHUB_BASE_REF: '${{ github.base_ref }}'
+          GITHUB_HEAD_REF: '${{ github.head_ref }}'
+          GITHUB_REF_NAME: '${{ github.ref_name }}'
         if: steps.check.outputs.triggered == 'true'
