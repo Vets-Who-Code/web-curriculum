@@ -109,9 +109,11 @@ const main = async () => {
 
         console.log(commitMessage, 'and pushing to', gitTarget);
 
-        git.add(process.cwd() + '*')
-            .commit(commitMessage)
-            .push('origin', gitTarget);
+        await git.add(process.cwd() + '*')
+        await git.status()
+        await git.commit(commitMessage)
+        await git.status()
+        await git.push('origin', gitTarget);
     }
 }
 
