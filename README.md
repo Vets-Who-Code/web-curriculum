@@ -1,5 +1,6 @@
 # Vets Who Code Web Curriculum Syllabus
 This curriculum is designed to be a resource to learn in a guided practical manner how to learn how to build software the way you would in a tech team at a company.
+Edit
 
 ## Acknowledgments
 Massive shout out to the veteran developers that helped build the curriculum
