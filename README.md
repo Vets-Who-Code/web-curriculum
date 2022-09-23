@@ -1,14 +1,17 @@
 # Vets Who Code Web Curriculum Syllabus
+
 This curriculum is designed to be a resource to learn in a guided practical manner how to learn how to build software the way you would in a tech team at a company.
 
 ## Acknowledgments
+
 Massive shout out to the veteran developers that helped build the curriculum
+
 - Jerome Hardaway
 - Schuster Braun
 - Mike White
 
-
 Also, we would like to extend a sincere level of gratitude to the members of our board that took the time to review our curriculum to help us help our veterans:
+
 - Brian Holt
 - Kyle Shevlin
 - Anna Lee
@@ -17,9 +20,13 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Ken Wheeler
 
 ## Phase One | Onboarding and Fundamentals
+
 ​​
+
 ### Week 1 | Developer Workflow.
+
 ​
+
 - Command Line
 - Git
 - Github CLI
@@ -33,7 +40,9 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - VS Code​
 
 ### Week 2 | HTML
+
 ​
+
 - HTML
 - Emmet
 - Layout Sections
@@ -71,6 +80,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Performance
 
 ### Week 4 | Chrome Dev Tools
+
 - Inspect
 - Console
 - Network
@@ -93,14 +103,17 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Accessibility Techniques
 
 ### Week 6 | UX and UX Toolchain
+
 - What is UX Design
 - UX Design Process
 - UX Design Tools and toolchain​
 
 ## Phase II | Javascript
 
-### Week 7 |  JS I
+### Week 7 | JS I
+
 ​
+
 - Loading JS into a HTML document
 - Variables
 - Conditional
@@ -111,7 +124,9 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Data Structures and Algorithms I
 
 ### Week 8 | DOM Manipulation
+
 ​
+
 - Select elements
 - Add/remove elements
 - Update element attributes
@@ -130,6 +145,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Create object constructor
 - REST APIs
 - Data Structures and Algorithms II
+
 ### Week 10 | JS III
 
 - Understand the purpose of Babel
@@ -148,9 +164,13 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Data Structures and Algorithms III
 
 ## Phase III | React
+
 ​​
+
 ### Week 11 | React
+
 ​
+
 - React
 - Debugging React
 - Jest
@@ -168,7 +188,9 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - _BONUS_ Static/Dynamic API routes​
 
 ## Phase IV | Cloud and CI/CD
+
 ### Week 13 | AWS I
+
 - Understand the difference between server and client
 - Lambda/API Gateway​
 
