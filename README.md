@@ -104,7 +104,9 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [nodejs/fs](md/nodejs/fs.md)
 - [nodejs/dependencies](md/nodejs/dependencies.md)
 
-### Section VI: React
+
+### Section VI: Typescript
+### Section VII: React
 - [js-framework/usestate](md/js-framework/usestate.md)
 - [js-framework/useref](md/js-framework/useref.md)
 - [js-framework/usereducer](md/js-framework/usereducer.md)
@@ -119,6 +121,12 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [js-framework/conditional-rendering](md/js-framework/conditional-rendering.md)
 - [js-framework/api-routes](md/js-framework/api-routes.md)
 
-### Section VII: Next.JS
+### Section VIII: Next.JS
 
-# CI/CD
+# Production Grade Deployment
+
+### Section IX: Testing With Playwright
+
+### Section X: CI/CD With Github Actions
+
+### Section XI: Deployment with Vercel
