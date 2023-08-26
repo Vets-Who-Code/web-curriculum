@@ -92,7 +92,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [new-javascript/babel](md/new-javascript/babel.md)
 - [new-javascript/async,await](md/new-javascript/async,await.md)
 - [new-javascript/arrow-functions](md/new-javascript/arrow-functions.md)
-# [Frameworks](md/course/Phase-3.md)
+# [Phase II: Frameworks](md/course/Phase-3.md)
 
 ### Section V: Node
 - [nodejs/scripting](md/nodejs/scripting.md)
