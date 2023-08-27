@@ -19,17 +19,19 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - Caree Youngman
 - Ken Wheeler
 
-# [Phase 1: Onboarding and Fundamentals](md/course/Phase-1.md)
+## [Phase 1: Onboarding and Fundamentals](md/course/Phase-1.md)
 ## [Modules](md/course/Week-1.md)
 
-### Section I: Onboarding
+### Section II: Onboarding
 - [1.1: Command Line](md/developer-workflow/command-line.md)
 - [1.2: VS Code​](md/developer-workflow/vs-code​.md)
-- [1.3: Git](md/developer-workflow/git.md)]
+- [1.3: Git](md/developer-workflow/git.md)
 - [1.4: Github](md/developer-workflow/github.md)
 - [1.5: Markdown](md/developer-workflow/markdown.md)
 
-### Section II: HTML && CSS
+### Section III: Planning and Coursework with Github Projects
+
+### Section IV: HTML && CSS
 - [1.6: HTML | Layout](md/html/layout-sections.md)
 - [1.7: HTML | Forms](md/html/forms.md)
 - [1.8: HTML | Emmet](md/html/emmet.md)
@@ -50,7 +52,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [css/colors](md/css/colors.md)
 - [css/box-model](md/css/box-model.md)
 - [css/borders](md/css/borders.md)
-### Section III: Accessibility
+### Section V: Accessibility
 - [accessibility/tab-index](md/accessibility/tab-index.md)
 - [accessibility/screenreader](md/accessibility/screenreader.md)
 - [accessibility/keyboard-navigation](md/accessibility/keyboard-navigation.md)
@@ -58,7 +60,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 
 - [design/laws-of ux](md/design/laws-of ux.md)
 - [design/collaborative-design](md/design/collaborative-design.md)
-### Section IV: Javascript
+### Section VI: Javascript
 
 - [js-i/variables](md/js-i/variables.md)
 - [js-i/primitive-data types](md/js-i/primitive-data types.md)
@@ -92,9 +94,9 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [new-javascript/babel](md/new-javascript/babel.md)
 - [new-javascript/async,await](md/new-javascript/async,await.md)
 - [new-javascript/arrow-functions](md/new-javascript/arrow-functions.md)
-# [Phase II: Frameworks](md/course/Phase-3.md)
+## [Phase II: Frameworks](md/course/Phase-3.md)
 
-### Section V: Node
+### Section VII: Node
 - [nodejs/scripting](md/nodejs/scripting.md)
 - [nodejs/process](md/nodejs/process.md)
 - [nodejs/path](md/nodejs/path.md)
@@ -105,8 +107,8 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [nodejs/dependencies](md/nodejs/dependencies.md)
 
 
-### Section VI: Typescript
-### Section VII: React
+### Section VIII: Typescript
+### Section IX: React
 - [js-framework/usestate](md/js-framework/usestate.md)
 - [js-framework/useref](md/js-framework/useref.md)
 - [js-framework/usereducer](md/js-framework/usereducer.md)
@@ -121,12 +123,12 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 - [js-framework/conditional-rendering](md/js-framework/conditional-rendering.md)
 - [js-framework/api-routes](md/js-framework/api-routes.md)
 
-### Section VIII: Next.JS
+### Section X: Next.JS
 
 # Production Grade Deployment
 
-### Section IX: Testing With Playwright
+### Section XI: Testing With Playwright
 
-### Section X: CI/CD With Github Actions
+### Section XII: CI/CD With Github Actions
 
-### Section XI: Deployment with Vercel
+### Section XIII: Deployment with Vercel
