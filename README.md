@@ -21,12 +21,96 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 
 ### Curriculum: Vets Who Code Engineering
 #### Module I: Command Line
-  - ##### Unit 1: Introduction to the Command Line
-    - Lesson 1: What is the Command Line?
-    - Lesson 2: Why Use the Command Line?
 
-### Module II: Visual Studio Code
-- [1.2: VS Code​](md/developer-workflow/vs-code​.md)
+##### Unit 1: Introduction to the Command Line
+- Lesson 1: What is the Command Line?
+- Lesson 2: Why Use the Command Line?
+- Lesson 3: Terminal vs. Shell
+- Lesson 4: Terminal Emulators
+- Lesson 5: Shell Types (Bash, Zsh)
+
+##### Unit 2: Basic Commands
+- Lesson 1: Navigating Directories (`cd`, `ls`, `pwd`)
+- Lesson 2: File Operations (`cp`, `mv`, `rm`, `touch`)
+- Lesson 3: Listing and Filtering Files (`ls`, `find`)
+- Lesson 4: Working with Permissions (`chmod`, `chown`)
+- Lesson 5: Disk and Directory Usage (`df`, `du`)
+- Lesson 6: Wildcards (`*`, `?`)
+- Lesson 7: File Paths (Relative vs. Absolute)
+
+##### Unit 3: Text Manipulation
+- Lesson 1: Viewing Files (`cat`, `less`)
+- Lesson 2: Text Editing (`nano`, `vi`, `emacs`)
+- Lesson 3: Searching and Editing (`grep`, `sed`, `awk`)
+- Lesson 4: Redirects and Pipes (`>`, `>>`, `|`)
+- Lesson 5: Text Comparison (`diff`, `comm`)
+- Lesson 6: Sorting and Uniqueness (`sort`, `uniq`)
+- Lesson 7: Basic Regular Expressions
+
+##### Unit 4: Advanced Features
+- Lesson 1: Shell Scripting Basics
+- Lesson 2: Environmental Variables
+- Lesson 3: Aliases and Shortcuts
+- Lesson 4: Command History (`history`)
+- Lesson 5: Job Control (`fg`, `bg`, `jobs`)
+- Lesson 6: Process Monitoring (`ps`, `pgrep`)
+- Lesson 7: Scheduling Tasks (`cron`, `at`)
+
+##### Unit 5: Command Line Utilities
+- Lesson 1: Package Management (`apt`, `brew`)
+- Lesson 2: Network Tools (`ping`, `curl`, `ssh`)
+- Lesson 3: System Monitoring (`top`, `htop`)
+- Lesson 4: File Compression (`zip`, `tar`, `gzip`)
+- Lesson 5: Data Transfer (`scp`, `rsync`)
+- Lesson 6: Users and Groups (`useradd`, `groupadd`, `sudo`)
+- Lesson 7: System Information (`uname`, `lscpu`)
+
+#### Module II: Visual Studio Code
+
+##### Unit 1: Introduction to VS Code
+- Lesson 1: What is Visual Studio Code?
+- Lesson 2: Installing Visual Studio Code
+- Lesson 3: Exploring the Home Screen
+- Lesson 4: Creating and Saving Your First File
+- Lesson 5: Installing Your First Extension
+- Lesson 6: Understanding the Sidebar
+- Lesson 7: Your First Shortcuts
+
+##### Unit 2: Basic Editing
+- Lesson 1: Typing and Deleting Text
+- Lesson 2: Basic Copy-Paste
+- Lesson 3: Undo and Redo
+- Lesson 4: Finding and Replacing Text
+- Lesson 5: Simple Selection Techniques
+- Lesson 6: Using Basic Code Snippets
+- Lesson 7: Intro to Line Numbers
+
+##### Unit 3: Files and Folders
+- Lesson 1: Creating New Files and Folders
+- Lesson 2: Moving and Renaming Files
+- Lesson 3: Deleting Files and Folders
+- Lesson 4: The File Explorer
+- Lesson 5: Intro to Workspaces
+- Lesson 6: Simple File Search
+- Lesson 7: Working with Multiple Files
+
+##### Unit 4: The Fun of Extensions
+- Lesson 1: What Are Extensions?
+- Lesson 2: Finding Extensions
+- Lesson 3: Installing and Uninstalling Extensions
+- Lesson 4: Recommended Extensions for Our Troops
+- Lesson 5: How to Update Extensions
+- Lesson 6: Disabling and Enabling Extensions
+- Lesson 7: Customizing Your Setup with Extensions
+
+##### Unit 5: Tips and Tricks
+- Lesson 1: Commonly Used Shortcuts
+- Lesson 2: Customizing Appearance (Themes)
+- Lesson 3: Basic Custom Settings
+- Lesson 4: Spell Check in VS Code
+- Lesson 5: How to Zoom In/Out
+- Lesson 6: Word Wrap and Other View Options
+- Lesson 7: Where to Find Help and Resources
 
 ### Module III: Git and Github
 - [1.3: Git](md/developer-workflow/git.md)
