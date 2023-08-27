@@ -1,9 +1,10 @@
 # Vets Who Code Web Curriculum Syllabus
 
-Are you ready to dive into the world of software development? Our meticulously crafted curriculum is here to guide you every step of the way, ensuring a practical and hands-on learning experience that reflects the real-world challenges of working on a tech team. 🖥️
-Designed with your success in mind, our program covers essential to advanced topics, equipping you with a well-rounded skill set upon completion. With an estimated 270 to 360 hours duration, you can choose your own learning pace. Want to accelerate your progress? Dedicate 20 hours per week for four months. Are you looking for a more moderate approach? Invest 14 hours per week for six months. The choice is yours! ⏰
-And that's not all: we believe in the power of mentorship. That's why we'll assign you a dedicated mentor who will support and guide you for six months. They'll provide insights, answer questions, and help you overcome any obstacles along the way. 🤝
-Join us on this transformative journey and unlock the boundless possibilities of the tech sector. Get ready to gain practical skills, experience hands-on learning, and set yourself up for success in the ever-evolving world of software development. Let's make your dreams of a tech career a reality! 💪
+At #VetsWhoCode, we believe in the power of practical and hands-on learning. Our meticulously crafted curriculum serves as a comprehensive guide for learning software development, providing you with the knowledge and skills needed to succeed at a company's tech team. 🖥️
+Consisting of 13 in-depth modules and an estimated duration of 195 to 260 hours, our program offers the flexibility to meet a range of learning goals and timelines. Whether you're dedicating 8 hours per week or more, we've got you covered. 💪
+Our no-nonsense approach focuses on tangible results rather than lofty ideals. We provide you with all the tools and resources you need to master essential advanced topics, empowering you to set yourself up for success in the ever-evolving world of software development. 💻
+At #VetsWhoCode, we value quality over quantity. Every word in our curriculum serves a purpose, contributing to the overall message of inclusion, respect, and opportunity for veterans. We understand your unique challenges and barriers, and we're here to help you overcome them with practical solutions and guidance. 🤝
+Join us on this transformative journey and unlock your potential in the tech sector. You have the skills, and we have the curriculum and resources to help you succeed. Let's make your tech career aspirations a reality! �
 
 
 ## Acknowledgments
