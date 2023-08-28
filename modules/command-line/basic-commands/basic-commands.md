@@ -1,0 +1,3 @@
+# Unit 2: Basic Commands - Overview
+
+Mastering the command line involves knowing the right tools for the job. This unit delves into the essential commands that form the backbone of any command-line operation. You'll start by learning how to navigate directories efficiently, followed by file operations like copying, moving, and deleting. The unit also covers listing and filtering files, file permissions, and disk and directory usage. The section wraps up with wildcard operations and understanding file paths. With the completion of this unit, you'll have the tools needed to manage your files and directories effectively, making your time on the command line both productive and efficient.
