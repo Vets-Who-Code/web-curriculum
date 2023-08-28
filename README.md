@@ -25,35 +25,12 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 ## Curriculum: Vets Who Code Engineering
 
 ### Collection I: Web Development Foundations
-#### Module: Command Line
+(#### Module: Command Line)[command-line]
 ---
 ##### Unit 1: Getting to Know the Command Line
-1. **Lesson: What is the Command Line?**
-   - Definition
-   - Historical Context
-   - CLI vs GUI
-   - Shell Architecture
-2. **Lesson: Why Use the Command Line?**
-   - Speed
-   - Versatility
-   - Automation
-   - Remote Management
-3. **Lesson: Terminal vs. Shell**
-   - Definitions
-   - Differences
-   - Common Types
-   - User Interface
-4. **Lesson: Terminal Emulators**
-   - What's an Emulator?
-   - Popular Choices
-   - Customization
-   - Shortcuts
-5. **Lesson: Shell Types**
-   - Bash
-   - Zsh
-   - Fish
-   - Dash
-   - Comparison
+
+Welcome to "Getting to Know the Command Line." This unit is your gateway into the foundational and advanced concepts of the Command Line Interface (CLI), a cornerstone tool for anyone in tech. Whether you're a budding developer, a system administrator, or simply curious about what lies beyond the graphical user interface (GUI), this section has you covered. We'll begin by demystifying what the command line is, offering both historical context and a comparison with its GUI counterpart. From there, you'll learn why the CLI is not just an alternative but often a preferred environment for speed, versatility, and automation. We'll break down the nuanced relationship between the terminal and shell—two terms often used interchangeably but are fundamentally different in function and form. You'll also get acquainted with popular terminal emulators, diving into customization options and shortcuts. Lastly, we’ll explore the various shell types available—Bash, Zsh, Fish, and Dash—each with its own unique set of features and benefits. By the end of this unit, the command line will be less of a black box and more of a familiar, powerful toolset to aid in your tech journey.
+
 ---
 ##### Unit 2: Basic Commands
 1. **Lesson: Navigating Directories**
