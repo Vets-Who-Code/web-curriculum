@@ -25,7 +25,7 @@ Also, we would like to extend a sincere level of gratitude to the members of our
 ## Curriculum: Vets Who Code Engineering
 
 ### Collection I: Web Development Foundations
-[#### Module: Command Line](module/command-line)
+[#### Module: Command Line](modules/command-line)
 ---
 ##### Unit 1: Getting to Know the Command Line
 
