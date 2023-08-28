@@ -33,42 +33,9 @@ Welcome to "Getting to Know the Command Line." This unit is your gateway into th
 
 ---
 ##### Unit 2: Basic Commands
-1. **Lesson: Navigating Directories**
-   - `cd`
-   - `ls`
-   - `pwd`
-   - `tree`
-2. **Lesson: File Operations**
-   - `cp`
-   - `mv`
-   - `rm`
-   - `touch`
-   - `mkdir`
-3. **Lesson: Listing and Filtering Files**
-   - `ls`
-   - `find`
-   - `locate`
-   - `which`
-4. **Lesson: Working with Permissions**
-   - `chmod`
-   - `chown`
-   - `chgrp`
-   - `umask`
-5. **Lesson: Disk and Directory Usage**
-   - `df`
-   - `du`
-   - `fdisk`
-   - `stat`
-6. **Lesson: Wildcards**
-   - `*`
-   - `?`
-   - `[]`
-   - `{}`
-7. **Lesson: File Paths**
-   - Relative Paths
-   - Absolute Paths
-   - `realpath`
-   - `dirname`
+
+Welcome to the unit on "Basic Commands," your stepping stone into the world of command line operations. This unit is designed to get you comfortable with the most essential Unix/Linux commands you'll use on a day-to-day basis. From navigating directories and manipulating files to understanding permissions and disk usage, each lesson here aims to arm you with the fundamental commands and concepts that will make you proficient in terminal-based tasks. In this unit, we'll cover commands like `cd`, `ls`, `cp`, and `chmod`, while also delving into advanced topics like wildcards and file paths. Whether you're setting up a new project, automating routine tasks, or managing system resources, these foundational commands are your building blocks. By the end of this unit, you'll be equipped with a set of practical skills that will make the command line an invaluable part of your toolkit.
+
 ---
 ##### Unit 3: Text Manipulation
 1. **Lesson: Viewing Files**
