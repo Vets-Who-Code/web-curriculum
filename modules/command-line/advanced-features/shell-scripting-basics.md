@@ -15,21 +15,21 @@
 
 In shell scripting, variables are declared without specifying their type. The syntax for declaring a variable is:
 
-\`\`\`bash
+\```bash
 variable_name=value
-\`\`\`
+\```
 
 Example:
 
-\`\`\`bash
+\```bash
 my_var="Hello, World"
-\`\`\`
+\```
 
 ### Conditional Statements
 
 Conditional statements like `if`, `else`, and `elif` are used to perform different actions based on different conditions.
 
-\`\`\`bash
+\```bash
 if [ "$variable_one" -gt "$variable_two" ]; then
   echo "Variable one is greater"
 elif [ "$variable_one" -eq "$variable_two" ]; then
@@ -37,7 +37,7 @@ elif [ "$variable_one" -eq "$variable_two" ]; then
 else
   echo "Variable two is greater"
 fi
-\`\`\`
+\```
 
 ### Loops
 
@@ -45,21 +45,21 @@ Shell scripting provides `for` and `while` loops.
 
 #### For Loop
 
-\`\`\`bash
+\```bash
 for i in {1..10}; do
   echo $i
 done
-\`\`\`
+\```
 
 #### While Loop
 
-\`\`\`bash
+\```bash
 count=0
 while [ $count -lt 10 ]; do
   echo $count
   ((count++))
 done
-\`\`\`
+\```
 
 ---
 
@@ -69,33 +69,33 @@ done
 
 The shebang (`#!`) at the top of the shell script defines the interpreter for the script.
 
-\`\`\`bash
+\```bash
 #!/bin/bash
-\`\`\`
+\```
 
 ### Functions
 
 Functions contribute to modularity and easier understanding.
 
-\`\`\`bash
+\```bash
 function_name() {
   # function body
 }
-\`\`\`
+\```
 
 Example:
 
-\`\`\`bash
+\```bash
 my_function() {
   echo "Hello from my_function!"
 }
-\`\`\`
+\```
 
 To call the function:
 
-\`\`\`bash
+\```bash
 my_function
-\`\`\`
+\```
 
 ---
 
@@ -109,21 +109,21 @@ Maintain consistent indentation for readability. Opt for either 2 or 4-space ind
 
 Comment your code to clarify your code blocks' functionality. 
 
-\`\`\`bash
+\```bash
 # This loop counts from 1 to 10
-\`\`\`
+\```
 
 ### Error Handling
 
 Check the return codes of commands and handle errors.
 
-\`\`\`bash
+\```bash
 if command; then
   echo "Command succeeded"
 else
   echo "Command failed"
 fi
-\`\`\`
+\```
 
 ---
 
@@ -133,23 +133,21 @@ fi
 
 For elementary debugging, run your script with the `-x` option.
 
-\`\`\`bash
+\```bash
 bash -x script.sh
-\`\`\`
+\```
 
 ### Advanced Debugging
 
 Use the `set` command in your script to enable or disable specific behaviors.
 
-\`\`\`bash
+\```bash
 set -e  # Exit on first error
 set -u  # Treat unset variables as errors
-\`\`\`
+\```
 
 To disable:
 
-\`\`\`bash
+\```bash
 set +e  # Continue even if there is an error
-\`\`\`
-
----
+\```
