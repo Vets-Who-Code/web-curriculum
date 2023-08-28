@@ -38,41 +38,15 @@ Welcome to the unit on "Basic Commands," your stepping stone into the world of c
 
 ---
 ##### Unit 3: Text Manipulation
-1. **Lesson: Viewing Files**
-   - `cat`
-   - `less`
-   - `more`
-   - `tac`
-2. **Lesson: Text Editing**
-   - `nano`
-   - `vi`
-   - `emacs`
-   - `gedit`
-3. **Lesson: Searching and Editing**
-   - `grep`
-   - `sed`
-   - `awk`
-   - `tr`
-4. **Lesson: Redirects and Pipes**
-   - `>`
-   - `>>`
-   - `|`
-   - `2>`
-5. **Lesson: Text Comparison**
-   - `diff`
-   - `comm`
-   - `cmp`
-   - `patch`
-6. **Lesson: Sorting and Uniqueness**
-   - `sort`
-   - `uniq`
-   - `cut`
-   - `paste`
-7. **Lesson: Basic Regular Expressions**
-   - Syntax
-   - Usage
-   - Examples
-   - `egrep`
+
+Text manipulation is an indispensable skill when working in a command-line environment. This unit delves into the tools and techniques that enable efficient text processing, searching, and editing. We'll kick things off by learning how to view and navigate through large text files using commands like `cat`, `less`, and `more`. Next, we'll introduce text editors such as `nano`, `vi`, and `emacs` that you can use directly from the command line.
+
+Searching for specific text within files is made easy with utilities like `grep`, `sed`, and `awk`. You'll also learn about input and output redirection using symbols like `>`, `>>`, and `|`, and how they can be combined with commands to perform more complex operations. We'll also cover how to compare files and identify differences with commands like `diff` and `comm`.
+
+The unit will also touch on sorting and filtering text through commands such as `sort`, `uniq`, `cut`, and `paste`. Finally, we'll delve into the basics of regular expressions—a powerful feature that can match complex text patterns.
+
+By the end of this unit, you'll have a solid understanding of how to manipulate text files efficiently, perform advanced searches, and automate repetitive tasks. Your journey through this unit will give you the tools to handle a variety of text manipulation challenges that you'll encounter in software development, data analysis, and system administration.
+
 ---
 ##### Unit 4: Advanced Features
 1. **Lesson: Shell Scripting Basics**
