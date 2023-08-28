@@ -13,33 +13,53 @@
 
 ### Variables
 
-Define variables like this:
+In shell scripting, variables are declared without specifying their type. The syntax for declaring a variable is:
 
-```bash
+\`\`\`bash
+variable_name=value
+\`\`\`
+
+Example:
+
+\`\`\`bash
 my_var="Hello, World"
-```
+\`\`\`
 
 ### Conditional Statements
 
-You can use `if`, `else`, and `elif` like so:
+Conditional statements like `if`, `else`, and `elif` are used to perform different actions based on different conditions.
 
-```bash
-if [ "$my_var" == "Hello, World" ]; then
-  echo "It's a match!"
+\`\`\`bash
+if [ "$variable_one" -gt "$variable_two" ]; then
+  echo "Variable one is greater"
+elif [ "$variable_one" -eq "$variable_two" ]; then
+  echo "Variables are equal"
 else
-  echo "No match."
+  echo "Variable two is greater"
 fi
-```
+\`\`\`
 
 ### Loops
 
-For loops are generally structured like this:
+Shell scripting provides `for` and `while` loops.
 
-```bash
+#### For Loop
+
+\`\`\`bash
 for i in {1..10}; do
   echo $i
 done
-```
+\`\`\`
+
+#### While Loop
+
+\`\`\`bash
+count=0
+while [ $count -lt 10 ]; do
+  echo $count
+  ((count++))
+done
+\`\`\`
 
 ---
 
@@ -47,55 +67,63 @@ done
 
 ### Shebang
 
-Always start your script with a shebang:
+The shebang (`#!`) at the top of the shell script defines the interpreter for the script.
 
-```bash
+\`\`\`bash
 #!/bin/bash
-```
+\`\`\`
 
 ### Functions
 
-Functions make your script modular and reusable:
+Functions contribute to modularity and easier understanding.
 
-```bash
-my_function() {
-  echo "Hello from function!"
+\`\`\`bash
+function_name() {
+  # function body
 }
-```
+\`\`\`
 
-Call it like this:
+Example:
 
-```bash
+\`\`\`bash
+my_function() {
+  echo "Hello from my_function!"
+}
+\`\`\`
+
+To call the function:
+
+\`\`\`bash
 my_function
-```
+\`\`\`
 
 ---
 
 ## Best Practices
 
-### Indentation
+### Indentation and Formatting
 
-Use consistent 2 or 4-space indentation.
+Maintain consistent indentation for readability. Opt for either 2 or 4-space indentation.
 
 ### Comments
 
-Always comment your code to make it easier to understand:
+Comment your code to clarify your code blocks' functionality. 
 
-```bash
-# This is a comment
-```
+\`\`\`bash
+# This loop counts from 1 to 10
+\`\`\`
 
-### Return Codes
+### Error Handling
 
-Check the return codes of commands:
+Check the return codes of commands and handle errors.
 
-```bash
-if command ; then
-  echo "Success"
+\`\`\`bash
+if command; then
+  echo "Command succeeded"
 else
-  echo "Failure"
+  echo "Command failed"
 fi
-```
+\`\`\`
 
 ---
 
@@ -103,19 +131,25 @@ fi
 
 ### Basic Debugging
 
-Run your script with `-x` for basic debugging:
+For elementary debugging, run your script with the `-x` option.
 
-```bash
-bash -x my_script.sh
-```
+\`\`\`bash
+bash -x script.sh
+\`\`\`
 
 ### Advanced Debugging
 
-Use `set` commands to control debugging features:
+Use the `set` command in your script to enable or disable specific behaviors.
 
-```bash
-set -e  # Exit on error
+\`\`\`bash
+set -e  # Exit on first error
 set -u  # Treat unset variables as errors
-```
+\`\`\`
+
+To disable:
+
+\`\`\`bash
+set +e  # Continue even if there is an error
+\`\`\`
 
 ---
