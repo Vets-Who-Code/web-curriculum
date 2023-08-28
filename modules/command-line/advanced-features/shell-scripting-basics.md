@@ -15,9 +15,9 @@
 
 In shell scripting, variables are declared without specifying their type. The syntax for declaring a variable is:
 
-\```bash
+```
 variable_name=value
-\```
+```
 
 Example:
 
