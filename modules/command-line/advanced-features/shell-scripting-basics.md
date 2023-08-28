@@ -119,8 +119,3 @@ set -u  # Treat unset variables as errors
 ```
 
 ---
-
-And there you have it! A rundown of shell scripting basics. Hope this helps you out!
-```
-
-You can copy and paste this into a Markdown editor. Happy learning!
