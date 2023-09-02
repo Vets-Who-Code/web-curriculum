@@ -49,41 +49,7 @@ By the end of this unit, you'll have a solid understanding of how to manipulate 
 
 ---
 ##### Unit 4: Advanced Features
-1. **Lesson: Shell Scripting Basics**
-   - Syntax
-   - Structure
-   - Best Practices
-   - Debugging
-2. **Lesson: Environmental Variables**
-   - What Are They?
-   - Setting Variables
-   - Retrieving Variables
-   - Exporting Variables
-3. **Lesson: Aliases and Shortcuts**
-   - Setting Aliases
-   - Common Aliases
-   - Functions
-   - Scripting Aliases
-4. **Lesson: Command History**
-   - `history`
-   - Repeating Commands
-   - `!`
-   - `!!`
-5. **Lesson: Job Control**
-   - `fg`
-   - `bg`
-   - `jobs`
-   - `kill`
-6. **Lesson: Process Monitoring**
-   - `ps`
-   - `pgrep`
-   - `top`
-   - `pstree`
-7. **Lesson: Scheduling Tasks**
-   - `cron`
-   - `at`
-   - `anacron`
-   - `crontab`
+This unit aims to elevate your understanding of shell scripting and command-line operations to an advanced level. You'll delve into the intricacies of shell scripting, handling environmental variables, using aliases and shortcuts for efficiency, mastering command history, understanding job control, monitoring processes, and scheduling tasks. Each lesson provides comprehensive details, from syntax and best practices to debugging techniques. By the end of this unit, you'll have a robust set of skills that will enable you to navigate and manipulate the command-line interface like a pro.
 ---
 ##### Unit 5: Command Line Utilities
 1. **Lesson: Package Management**
