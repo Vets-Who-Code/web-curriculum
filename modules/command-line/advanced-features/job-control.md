@@ -156,7 +156,3 @@ $ ps aux | grep 'wget'
 - Always know what jobs are running (`jobs`).
 - Be careful when using `kill` as it forcibly stops processes.
 - Use `SIGTERM` before `SIGKILL` to allow processes to clean up.
-
----
-
-Save this Markdown content as `AdvancedJobControl.md` for an in-depth, intermediate guide on job control in the command line.
