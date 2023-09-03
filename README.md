@@ -54,41 +54,8 @@ This unit aims to elevate your understanding of shell scripting and command-line
 
 ---
 ##### Unit 5: Command Line Utilities
-1. **Lesson: Package Management**
-   - `apt`
-   - `brew`
-   - `yum`
-   - `dpkg`
-2. **Lesson: Network Tools**
-   - `ping`
-   - `curl`
-   - `ssh`
-   - `netstat`
-3. **Lesson: System Monitoring**
-   - `top`
-   - `htop`
-   - `iostat`
-   - `vmstat`
-4. **Lesson: File Compression**
-   - `zip`
-   - `tar`
-   - `gzip`
-   - `bzip2`
-5. **Lesson: Data Transfer**
-   - `scp`
-   - `rsync`
-   - `wget`
-   - `ftp`
-6. **Lesson: Users and Groups**
-   - `useradd`
-   - `groupadd`
-   - `sudo`
-   - `passwd`
-7. **Lesson: System Information**
-   - `uname`
-   - `lscpu`
-   - `lshw`
-   - `dmesg`
+
+In Unit 5, we're diving into the nitty-gritty of command-line utilities that'll make your life easier. We'll explore everything from managing software packages with apt and brew, to mastering network tools like ping and ssh. You'll also get to keep an eye on your system's health with monitoring tools such as top and htop. And that's not all—there's file compression, data transfer, and even lessons on user management and system info. By the end, you'll be a command-line wizard, ready to tackle any challenge. Sounds fun, right? Let's get started
 
 
 #### Module: Git and GitHub (Terminal & UI)
