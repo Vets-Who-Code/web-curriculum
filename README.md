@@ -63,10 +63,12 @@ In Unit 5, we're diving into the nitty-gritty of command-line utilities that'll 
 ##### Unit 1: Introduction to Git and GitHub
 
 The unit provides a comprehensive, step-by-step guide to mastering GitHub, a crucial platform for anyone in the software development field. It's broken down into three key lessons. The first lesson serves as an introduction to GitHub, delving into its importance and ecosystem. The second lesson tackles the practicalities of setting up an account, guiding you through the user interface, the dashboard, and the essentials of two-factor authentication for enhanced security. The third lesson focuses on optimizing your GitHub profile, including how to add a profile picture, bio, and even customize your GitHub URL. It also explains how to manage and showcase your repositories by adding and pinning them to your profile. This unit equips you with the foundational knowledge and skills needed to effectively use GitHub for your coding projects.
+
 ---
 ##### Unit 2: Learning Markdown and GitHub Special Features
 
 The subsequent unit in the course expands your GitHub skillset by diving into specialized features and functionalities. The first lesson introduces Markdown, covering everything from basic syntax to advanced features, and even GitHub's own flavor of Markdown. You'll also learn how to create a Profile README using the platform's user interface. The second lesson shifts focus to key GitHub features, walking you through the interface for managing Issues and Discussions, utilizing GitHub Actions for automation, setting up GitHub Pages for hosting websites, and even sponsoring developers. By the end of this unit, you'll have a deeper understanding of how to leverage GitHub's features, both standard and unique, to streamline your workflow and contribute to the community.
+
 ---
 ##### Unit 3: Basics of Git (Terminal & UI)
 
