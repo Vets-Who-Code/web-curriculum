@@ -61,97 +61,36 @@ In Unit 5, we're diving into the nitty-gritty of command-line utilities that'll 
 #### Module: Git and GitHub (Terminal & UI)
 ---
 ##### Unit 1: Introduction to Git and GitHub
-1. **Lesson: What is GitHub?**
-   - Introduction to GitHub
-   - Why GitHub?
-   - GitHub Ecosystem
-2. **Lesson: Creating a GitHub Account**
-   - Sign-up Process (UI)
-   - GitHub Dashboard Overview (UI)
-   - Two-factor Authentication (UI)
-3. **Lesson: Setting Up Your GitHub Profile**
-   - Adding Profile Picture and Bio (UI)
-   - Customizing Your GitHub URL
-   - Adding Repos to Your Profile (UI)
-   - Pinning Repos (UI)
+
+The unit provides a comprehensive, step-by-step guide to mastering GitHub, a crucial platform for anyone in the software development field. It's broken down into three key lessons. The first lesson serves as an introduction to GitHub, delving into its importance and ecosystem. The second lesson tackles the practicalities of setting up an account, guiding you through the user interface, the dashboard, and the essentials of two-factor authentication for enhanced security. The third lesson focuses on optimizing your GitHub profile, including how to add a profile picture, bio, and even customize your GitHub URL. It also explains how to manage and showcase your repositories by adding and pinning them to your profile. This unit equips you with the foundational knowledge and skills needed to effectively use GitHub for your coding projects.
 ---
 ##### Unit 2: Learning Markdown and GitHub Special Features
-1. **Lesson: Learning Markdown with GitHub**
-   - Basic Markdown Syntax
-   - Advanced Markdown Features
-   - GitHub Flavored Markdown
-   - Creating a Profile README (UI)
-2. **Lesson: GitHub Features**
-   - Issues and Discussions (UI)
-   - Actions (UI)
-   - GitHub Pages (UI)
-   - Sponsoring Developers (UI)
+
+The subsequent unit in the course expands your GitHub skillset by diving into specialized features and functionalities. The first lesson introduces Markdown, covering everything from basic syntax to advanced features, and even GitHub's own flavor of Markdown. You'll also learn how to create a Profile README using the platform's user interface. The second lesson shifts focus to key GitHub features, walking you through the interface for managing Issues and Discussions, utilizing GitHub Actions for automation, setting up GitHub Pages for hosting websites, and even sponsoring developers. By the end of this unit, you'll have a deeper understanding of how to leverage GitHub's features, both standard and unique, to streamline your workflow and contribute to the community.
 ---
 ##### Unit 3: Basics of Git (Terminal & UI)
-1. **Lesson: Introduction to Git**
-   - Git Terminologies (UI)
-   - Installing Git (Terminal)
-   - Basic Git Commands
-   - Git vs SVN
-2. **Lesson: Setting up Git**
-   - Configuring Git (Terminal)
-   - SSH Keys (Terminal & UI)
-   - User Identity Configuration
-   - Setting Up a Proxy (Terminal)
-3. **Lesson: Your First Git Commands**
-   - git init, git clone (Terminal)
-   - Committing Changes (UI & Terminal)
-   - Understanding Staging (Terminal)
-   - git log, git status (Terminal)
+
+This unit shifts the focus to Git, the version control system that serves as the backbone of GitHub. The first lesson kicks things off with an introduction to essential Git terminologies, followed by instructions for installing Git through the terminal. You'll also get an overview of basic Git commands and a comparative look at Git versus SVN. The second lesson is all about setting up Git on your local machine. Here, you'll dive into terminal-based configurations, SSH key setup, user identity configuration, and how to set up a proxy if needed. Finally, the third lesson brings you hands-on experience with your first Git commands. You'll learn how to initialize a new repository and clone an existing one, all through the terminal. The lesson also covers how to commit changes, both via the user interface and the terminal, and delves into the concept of staging and essential commands like git log and git status. By the end of this unit, you'll be well-equipped to manage your code versions using Git.
+
 ---
 ##### Unit 4: GitHub Repository Operations
-1. **Lesson: Creating Your First GitHub Repository**
-   - Repository Setup (UI)
-   - Clone Repository (Terminal)
-   - Understanding README, .gitignore, and License
-   - Adding Collaborators (UI)
-2. **Lesson: Basic Git Workflow**
-   - git add, git commit, git push (Terminal)
-   - Creating Pull Requests (UI)
-   - Reviewing Code (UI)
-   - Merging PRs (UI)
+
+The following unit seamlessly integrates your newfound Git knowledge with practical GitHub use-cases. The first lesson focuses on creating your first GitHub repository. You'll navigate through the repository setup on GitHub's user interface, learn how to clone that repository using the terminal, and gain insights into essential files like README, .gitignore, and License. The lesson also explains how to add collaborators via the user interface, making team-based projects more accessible. The second lesson delves into the basic Git workflow, teaching you essential commands like git add, git commit, and git push, all executed via the terminal. From there, you'll learn how to create Pull Requests, review code, and merge those Pull Requests, all through GitHub's UI. By the end of this unit, you'll have the practical skills needed to manage a project on GitHub, from initial setup to code collaboration and merging.
+
 ---
-##### Unit 5: Advanced Git Topics
-1. **Lesson: Understanding Git Flow**
-   - What is Git Flow? (UI & Terminal)
-   - Implementing a Feature using Git Flow (Terminal)
-   - Hotfixes and Releases (Terminal)
-   - Git Tags and Versioning (Terminal)
+##### Unit 5: Git Flow
+
+The upcoming unit dives into Git Flow, a branching model for Git that provides a robust framework for managing larger and more complex projects. The first lesson starts with an explanation of what Git Flow is, covering both the conceptual understanding and the practical steps through the user interface and terminal. You'll then move onto implementing a feature using Git Flow, learning how to manage branches and merge changes, all via the terminal. The lesson also covers hotfixes and releases, teaching you how to address urgent issues and release updates through terminal commands. Finally, you'll explore Git tags and versioning, learning how to keep track of different versions of your codebase effectively. By the end of this unit, you'll have a firm grasp on Git Flow and how to implement it in your projects, giving you a more structured and efficient way to manage your code.
+
 ---
 ##### Unit 6: GitHub CLI
-1. **Lesson: Introduction to GitHub CLI**
-   - Installing GitHub CLI (Terminal)
-   - Basic CLI Commands (Terminal)
-   - Aliases in GitHub CLI (Terminal)
-   - Authentication in GitHub CLI (Terminal)
-2. **Lesson: Managing Repositories with CLI**
-   - Creating and Cloning Repos (Terminal)
-   - Forking and PRs with CLI (Terminal)
-   - Issue Management (Terminal)
-   - Repo Cleanup (Terminal)
-3. **Lesson: Navigating GitHub with CLI**
-   - Issue and PR Management (Terminal)
-   - Gists and Actions with CLI (Terminal)
-   - Navigating Repos (Terminal)
-   - Search and Filters (Terminal)
+
+The next unit introduces you to GitHub CLI (Command Line Interface), a powerful tool that allows you to interact with GitHub directly from your terminal. The first lesson guides you through the installation process and familiarizes you with basic CLI commands. You'll also learn about creating aliases for frequently used commands and how to authenticate your GitHub account in the CLI. The second lesson dives deeper into managing repositories via the terminal. Here, you'll learn how to create and clone repositories, manage pull requests and forks, and even how to handle issues—all using CLI commands. The third lesson fine-tunes your CLI skills by covering more advanced features. You'll learn how to manage issues and pull requests, work with Gists and GitHub Actions, and navigate through repositories, all from the terminal. You'll also pick up tips on using search and filters to find what you're looking for. By the end of this unit, you'll be proficient in using GitHub CLI, giving you a faster and more streamlined approach to code management.
+
 ---
 ##### Unit 7: GitHub Projects
-1. **Lesson: Introduction to GitHub Projects**
-   - What are GitHub Projects? (UI)
-   - Creating a Project Board (UI)
-   - Adding Issues and PRs to Board (UI)
-   - Project Automation (UI)
-2. **Lesson: Using Our GitHub Projects Board Template**
-   - How to Copy Our Template (UI)
-   - Customizing Your Own Project Board (UI)
-   - Project Columns and Cards (UI)
-   - Integrating with Actions (UI)
 
+The following unit demystifies GitHub Projects, a feature-rich project management tool integrated within GitHub. The first lesson introduces what GitHub Projects are, accessible entirely through the user interface. You'll learn how to create a Project Board, add issues and pull requests to it, and even how to automate various project tasks right within GitHub. The second lesson offers a hands-on guide on using a GitHub Projects Board template. Here, you'll discover how to copy a pre-existing template through the UI and customize it to fit your project's needs. This includes setting up project columns, adding cards, and integrating these elements with GitHub Actions for advanced automation. By the end of this unit, you'll be well-equipped to utilize GitHub Projects for effective project management, making your development workflow more organized and efficient.
 
 #### Module: HTML && CSS
 ---
