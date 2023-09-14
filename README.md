@@ -97,76 +97,19 @@ The following unit demystifies GitHub Projects, a feature-rich project managemen
 #### Module: HTML && CSS
 ---
 ##### Unit 1: Introduction to HTML
-1. **Lesson: What is HTML?**
-   - Brief History
-   - Importance in Web Development
-   - Structure of HTML
-   - Elements and Tags
-   - The DOCTYPE
-   - HTML vs XHTML
-   - HTML5 Features
-   - The Browser's Role
-   - Self-closing Tags
-   - Comments in HTML
-2. **Lesson: Basic HTML Structure**
-   - Tags
-   - Attributes
-   - Head & Body
-   - HTML Skeleton
-   - Meta Tags
-   - Title Tag
-   - Linking CSS
-   - Linking JavaScript
-   - Browser Compatibility
-   - Validation
+
+This unit provides a comprehensive exploration of HTML, the bedrock language for web page creation. Starting with "What is HTML?", it takes you on a historical journey, detailing the evolution of HTML, its pivotal role in web development, and the distinctions between it and XHTML, culminating in the advancements of HTML5. It sheds light on the browser's role in interpreting HTML, nuances like self-closing tags, and the intricacies of commenting. The second lesson, "Basic HTML Structure," offers a hands-on introduction to the core components of an HTML document, from understanding tags and attributes to the anatomy of the head, body, and overall document structure. The critical roles of meta tags, title elements for SEO, and user experience are emphasized, along with insights into integrating external resources like CSS and JavaScript. The unit concludes by underscoring the importance of browser compatibility and HTML validation, equipping you with the knowledge to create web pages with assurance and finesse.
+
 ---
 ##### Unit 2: HTML Text Elements and Links
-1. **Lesson: Text Formatting**
-   - Paragraphs
-   - Headings
-   - Emphasis
-   - Strong Tag
-   - Text Alignment
-   - Line Breaks
-   - HTML Entities
-   - Preformatted Text
-   - Quotations
-   - Abbreviations
-2. **Lesson: Links and Lists**
-   - Anchor Tags
-   - Unordered Lists
-   - Ordered Lists
-   - Nesting Lists
-   - List Attributes
-   - Image Links
-   - Email Links
-   - Target Attribute
-   - Bookmark Links
-   - Accessibility Considerations
+
+"HTML Text Elements and Links" offers a detailed exploration into the realm of HTML text presentation and interactivity. The "Text Formatting" lesson unpacks techniques ranging from structuring paragraphs and headings to using emphasis and strong tags, text alignment, and including special characters through HTML entities. you are also introduced to preserving textual integrity with preformatted text and enhancing content with quotations and abbreviations. Transitioning to "Links and Lists," the course delves into anchor tags, creating diverse lists—unordered, ordered, and nested—and explores customization with list attributes. The unit also touches on varied linking methods, such as image and email links, controlling link behaviors using the "target" attribute, and facilitating in-page navigation with bookmark links. A significant emphasis is placed on accessibility, ensuring a universal web experience. By the end of this unit, you will be proficient in effectively shaping and interlinking web content.
+
 ---
 ##### Unit 3: HTML Forms and Tables
-1. **Lesson: Introduction to Forms**
-   - Form Tags
-   - Input Types
-   - Labels
-   - Text Area
-   - Checkboxes
-   - Radio Buttons
-   - Dropdown Lists
-   - Multi-select
-   - File Upload
-   - Buttons
-2. **Lesson: Tables**
-   - Basic Table Structure
-   - Table Rows and Columns
-   - Table Headers
-   - Colspan and Rowspan
-   - Table Captions
-   - Styling Tables
-   - Table Accessibility
-   - Thead, Tbody, and Tfoot
-   - Sorting Tables
-   - Nested Tables
+
+"HTML Forms and Tables" provides a deep dive into the world of data collection and representation in web design. The lesson on forms offers a comprehensive look at form tags, various input types, and the role of labels for accessibility, introducing dynamic elements such as text areas, checkboxes, radio buttons, dropdowns, multi-select options, file uploads, and functional buttons. Meanwhile, the tables lesson delves into constructing organized tabular data through a foundational structure, rows, columns, headers, cell merging techniques using colspan and rowspan, and adding contextual captions. It touches on the importance of table aesthetics, introduces essential segments like thead, tbody, and tfoot for enhanced structure, and covers advanced topics like table sorting and nested tables. By the end of this unit, you will be proficient in crafting interactive forms and presenting intricate data through tables.
+
 ---
 ##### Unit 4: Introduction to CSS
 1. **Lesson: What is CSS?**
