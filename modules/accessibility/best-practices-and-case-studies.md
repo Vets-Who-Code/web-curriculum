@@ -20,12 +20,12 @@
 
 ### Success Stories
 
-1. **BBC**: Implemented comprehensive keyboard navigation.
-2. **Airbnb**: Improved their website's color contrast and text readability.
+1. [**BBC**: Implemented comprehensive keyboard navigation.](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/BBC_Mobile_Accessibility_Standards_and_Guidelines)
+2. [**Airbnb**: Improved their website's color contrast and text readability.](https://airbnb.design/designing-for-access/)
 
 ### Lessons Learned
 
-1. **Target**: Faced a lawsuit for lack of web accessibility, leading to a $6 million settlement and a commitment to improve.
+1. [**Target**](https://arstechnica.com/uncategorized/2008/08/target-to-pay-6-million-to-settle-site-accessibility-suit/): Faced a lawsuit for lack of web accessibility, leading to a $6 million settlement and a commitment to improve.
 2. **Domino's Pizza**: Took their case to the Supreme Court and lost, serving as a wake-up call for many businesses.
 
 ### ROI of Accessibility
