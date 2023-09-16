@@ -323,7 +323,15 @@ Overall, this module offers a holistic view of the role that UX plays in achievi
 - Incorporating mentor feedback and finalizing your project
 
 
+#### Module: Patterns
+##### Unit 1: Introduction To Patterns
 
+This in-depth lesson on Patterns in Programming provides a foundational understanding of various software design patterns and their importance. Covering everything from the definition and benefits of using patterns to an examination of different types such as Creational, Structural, Behavioral, Concurrency, Architectural, Rendering, and Performance patterns, this comprehensive guide is designed to equip developers with the tools they need for more efficient, maintainable, and scalable software development.
+
+---
+
+
+#### Module: Data Structures and Algorithms 
 ### [Collection II](md/course/Phase-3.md)
 
 #### Module: Introduction to Node.js
