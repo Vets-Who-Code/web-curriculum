@@ -178,87 +178,42 @@ The "Auditing Your VWC Prework Webpage" lesson kicks off the hands-on phase, gui
 ---
 
 ##### Unit 1: Introduction to UX Design
-1. **Lesson: What is UX Design?**
-   - Definition and Overview
-   - Importance in Product Development
-   - UX Design in Web Development
-2. **Lesson: UX Research for Developers**
-   - Understanding User Needs
-   - Collecting Insights through User Interviews
-   - Gathering Data with Surveys
-   - Mapping User Journeys
-   - Analyzing User Behavior with Analytics
-3. **Lesson: Creating User Personas**
-   - Developing User Personas
-   - How Personas Inform Design
-   - Case Studies on Effective Personas
-4. **Lesson: Aligning UX Goals with Development**
-   - Identifying Key UX Metrics
-   - Measuring User Satisfaction
-   - Setting Development Goals based on UX Metrics
+
+This curriculum focuses on integrating User Experience (UX) Design into the realm of web development. Kicking off with "What is UX Design?", it provides a foundational understanding of the field, highlighting its pivotal role in product and web development. The second lesson dives into the methodologies of UX Research specifically targeted for developers. It covers understanding user needs through interviews and surveys, mapping user journeys, and utilizing analytics to understand behavior. In the third lesson, the focus shifts to creating effective User Personas, showcasing how they inform design decisions through real-world case studies. The final lesson ties it all together by aligning UX goals with development objectives, teaching how to identify key UX metrics, measure user satisfaction, and set development goals based on these insights. Overall, the course offers a comprehensive look at the essential elements of UX, tailored for those in the development field.
+
 ---
 ##### Unit 2: Applying Design Thinking in Development
-1. **Lesson: Introduction to Design Thinking**
-   - Design Thinking Overview
-   - Steps in the Design Thinking Process
-   - Role of Design Thinking in Development
-2. **Lesson: Ideation Techniques for Developers**
-   - Brainstorming Sessions
-   - Creating Mind Maps for Features
-   - Translating User Needs into User Stories
-   - Building Empathy Maps
-3. **Lesson: Prototyping and Iterative Development**
-   - Introduction to Prototyping
-   - Using Paper Prototypes for Rapid Iteration
-   - Digital Prototyping with Development Tools
-   - Incorporating User Feedback into Development
+This educational sequence aims to bridge the gap between design and development through a Design Thinking lens. The first lesson introduces the fundamentals of Design Thinking, outlining its steps and elucidating its importance in the development process. Lesson two takes a deep dive into Ideation Techniques specifically tailored for developers. It explores various approaches like brainstorming sessions, mind mapping for features, translating user needs into user stories, and constructing empathy maps. The third lesson is devoted to Prototyping and Iterative Development. It begins with an introduction to prototyping methods, covers the use of paper prototypes for quick iterations, discusses digital prototyping using development tools, and ends by emphasizing the need for incorporating user feedback into the development process. The course aims to equip developers with the skills and techniques to integrate design thinking into their workflow effectively.
+
 ---
 ##### Unit 3: Core UX Design Principles
-1. **Lesson: Usability and Development**
-   - Importance of Usability in Coding
-   - Usability Testing for Development
-   - Applying Usability Heuristics
-2. **Lesson: Integrating Accessibility into Development**
-   - What is Web Accessibility?
-   - Ensuring Accessible Code
-   - Adhering to Accessibility Laws and Guidelines
+This educational module focuses on two vital aspects that developers need to incorporate into their workflow: Usability and Accessibility. The first lesson delves into the 'Usability and Development' intersection, discussing why usability is indispensable in coding. It covers practical aspects like conducting usability testing in the development phase and applying usability heuristics to improve the user experience. The second lesson, 'Integrating Accessibility into Development,' stresses the importance of making web projects accessible to all users, including those with disabilities. It guides you through the process of ensuring your code is accessible and educates you on the laws and guidelines surrounding web accessibility. Overall, the module aims to enhance the quality of your development projects by making them both usable and accessible.
+
 ---
 ##### Unit 4: Wireframing, Prototyping, and Development
-1. **Lesson: Wireframing for Effective Development**
-   - Using Wireframes in Development
-   - Selecting Wireframing Tools
-   - Sketching Wireframes for Web Components
-2. **Lesson: Digital Prototyping with Development Tools**
-   - Introduction to Figma
-   - Features for Prototyping
-   - Creating Interactive Prototypes
-   - Styling Web Components in Prototypes
-3. **Lesson: Testing and Refining Prototypes**
-   - User Testing Methods for Prototypes
-   - Gathering Feedback for Iteration
-   - Continuously Improving Prototypes
-4. **Lesson: Advanced Figma Techniques for Development**
-   - Leveraging Figma Plugins
-   - Collaborative Workflows with Teams
+This comprehensive module offers a deep dive into the world of wireframing and digital prototyping tailored for developers. Starting with the fundamentals, the first lesson, 'Wireframing for Effective Development,' outlines the role of wireframes in the development process, suggests tools you can use, and guides you through sketching wireframes for various web components. 
+
+The journey continues with the second lesson on 'Digital Prototyping with Development Tools.' It introduces Figma as the primary tool, exploring its various features tailored for prototyping. You'll learn to create interactive prototypes and style web components directly in your prototypes.
+
+The third lesson, 'Testing and Refining Prototypes,' focuses on validation. It covers different user testing methods applicable to prototypes and discusses how to gather feedback for iteration and continuous improvement.
+
+Finally, the module wraps up with 'Advanced Figma Techniques for Development.' This lesson walks you through the advanced features of Figma, including its extensive plugin ecosystem and how to implement collaborative workflows with your team. Overall, the module is designed to equip you with the hands-on skills needed for effective wireframing, prototyping, and iterative development.
+
 ---
 ##### Unit 5: User Testing and Development Iteration
-1. **Lesson: Types of User Testing**
-   - Usability Testing
-   - A/B Testing for Optimization
-   - Eye Tracking for Attention Analysis
-   - Conducting Remote User Testing
-2. **Lesson: Conducting Effective User Tests**
-   - Preparing for User Tests
-   - Executing User Test Sessions
-   - Analyzing User Feedback for Enhancements
+In this instructive module, you'll delve into the nitty-gritty of User Testing, a crucial aspect of development that can make or break your project. The course kicks off with the lesson 'Types of User Testing,' which acts as a comprehensive primer on various methods used to gather user feedback. Topics covered include Usability Testing, A/B Testing for optimization, Eye Tracking techniques for understanding where users focus, and how to conduct Remote User Testing efficiently.
+
+The second lesson, 'Conducting Effective User Tests,' provides a practical roadmap for implementing user tests. Starting with the preparatory phase, you'll get actionable tips on how to set up for various types of tests. The lesson then segues into the execution of these test sessions, highlighting best practices for collecting data. Finally, the lesson rounds out with a focus on how to analyze user feedback to enhance your development efforts effectively.
+
+Overall, this module is designed to impart a robust understanding of User Testing, ensuring that you're equipped to integrate user feedback seamlessly into your development cycle.
+
 ---
 ##### Unit 6: Connecting UX and Business Strategy
-1. **Lesson: ROI of UX Design in Development**
-   - Demonstrating Business Value of Good UX
-   - Showcasing Successful Case Studies
-2. **Lesson: Aligning UX with Development Goals**
-   - Utilizing Objectives and Key Results (OKRs)
-   - Managing Stakeholders and Expectations
+In this comprehensive module, you'll gain critical insights into the intersection of UX Design and Business Strategy, focusing on how to deliver both great user experience and tangible business value. The first lesson, 'ROI of UX Design in Development,' dives into the economic impact of UX design. It illuminates how good UX can have a significant business value and walks you through various case studies that highlight successful UX implementations with quantifiable returns on investment.
+
+The second lesson, 'Aligning UX with Development Goals,' introduces you to the strategic alignment of UX design within broader business goals. You'll learn about utilizing Objectives and Key Results (OKRs) to set measurable UX objectives that align with your company's strategic goals. Furthermore, this lesson provides a toolkit for managing both stakeholder and user expectations, ensuring that your UX design is not just user-friendly but also achieves business targets.
+
+Overall, this module offers a holistic view of the role that UX plays in achieving business success, making it a must-learn for anyone looking to meld UX and business strategy effectively.
 
 
 #### Module: Javascript
