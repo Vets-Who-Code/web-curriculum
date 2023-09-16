@@ -112,67 +112,29 @@ This unit provides a comprehensive exploration of HTML, the bedrock language for
 
 ---
 ##### Unit 4: Introduction to CSS
-1. **Lesson: What is CSS?**
-   - Brief History
-   - Syntax
-   - Selectors
-   - Properties
-   - Values
-   - Importance of CSS
-   - The Cascade
-   - Specificity
-   - Inheritance
-   - Media Queries
-2. **Lesson: Basic Styling**
-   - Colors
-   - Fonts
-   - Text Alignment
-   - Margins and Padding
-   - Box Model
-   - Backgrounds
-   - Borders
-   - Rounded Corners
-   - Shadows
-   - Pseudo-classes
+Unit 4 serves as a comprehensive gateway into the world of Cascading Style Sheets (CSS), a key technology in web development responsible for styling, layout, and responsive design. The unit is divided into two core lessons. The first lesson kicks off with a brief history of CSS, providing context for its evolution and importance in web development. It then dives into the foundational aspects, such as syntax, selectors, properties, and values. This lesson also covers critical concepts like the cascade, which explains how conflicting styles are resolved; specificity, which outlines the rules determining which styles take precedence; and inheritance, detailing which styles are passed down from parent to child elements. Media queries are also introduced as a powerful tool for responsive design, allowing developers to adapt styles to various devices.
+
+The second lesson focuses on the practical aspects of CSS by teaching basic styling techniques. This includes understanding how to apply colors and fonts, align text, and control spacing through margins and padding. The lesson also explores the CSS box model, which is essential for understanding the layout of web pages. Further, you’ll learn to enhance the visual appeal of your website through features like backgrounds, borders, rounded corners, and shadows. Pseudo-classes are introduced as a way to target elements in specific states, like hovering, adding another layer of interactivity to web designs. By the end of this unit, you'll have a strong foundation in CSS, equipping you with the knowledge and skills to create visually stunning and responsive web pages.
+
 ---
-##### Unit 5: Tailwind CSS
-1. **Lesson: Introduction to Tailwind CSS**
-   - Why Tailwind?
-   - Installing via CDN
-   - Utility Classes
-   - Responsiveness
-   - Configuration
-   - Extending Tailwind
-   - Customizing Forms
-   - Theming
-   - Plugins
-   - Community Resources
-2. **Lesson: Applying Tailwind in an HTML Project**
-   - Typography
-   - Layouts
-   - Grids
-   - Flexbox
-   - Positioning
-   - Spacing
-   - Colors and Theming
-   - Components and Patterns
-   - Extending Functionality
-   - Best Practices
+#### Unit 5: Flex and Grid Layout
+Unit 5 is on "Understanding Grid and Flexbox Layouts" is a deep dive into two crucial layout models in modern web design. The first part covers CSS Grid, focusing on its 2D capabilities for arranging elements in both rows and columns. The second part explores Flexbox, a 1D layout system for distributing items along a single axis. The lesson wraps up with a comparison of when to use each system, equipping you with the knowledge to make informed decisions for various layout needs.
 ---
-##### Unit 6: Project Time
-1. **Lesson: Updating Your VWC Prework Webpage**
-   - Layout Planning
-   - Updating HTML
-2. **Lesson: Styling the Webpage**
-   - Applying Tailwind CSS
-   - Making it Responsive
-3. **Lesson: Review and Deploy**
-   - Debugging
-   - Deploying using GitHub Pages
-   - Final Review
-   - Next Steps
-   - Additional Resources
-   - Congratulations
+##### Unit 6: Tailwind CSS
+
+Unit 6 delves into Tailwind CSS, a highly versatile utility-first CSS framework designed for rapidly building custom user interfaces. This unit is neatly divided into two main lessons.
+
+The first lesson, "Introduction to Tailwind CSS," starts by answering the question, "Why Tailwind?" to give you insight into its advantages over traditional CSS and other frameworks. Then, it guides you through installing Tailwind via CDN for quick setup. Utility classes form the backbone of Tailwind, offering direct-to-element styling, and you'll learn how to wield these effectively. The lesson goes on to explore how Tailwind excels in creating responsive designs with minimal effort. Configuration and customization are straightforward, with Tailwind offering an array of options to extend its core functionality, customize forms, and implement themes. Additionally, you'll get an introduction to available plugins that can add more features to your project and a rundown of valuable community resources to aid in your journey.
+
+The second lesson, "Applying Tailwind in an HTML Project," focuses on practical implementation. You'll explore how to apply typography styles, manipulate layouts, and utilize Grid and Flexbox, two of the most powerful layout systems in modern web design. The lesson also teaches you how to control element positioning and manage spacing effectively. Tailwind's system for colors and theming allows for significant customization, and you'll learn how to harness that. We'll also delve into built-in components and patterns that can speed up your development process. The lesson wraps up by discussing how to extend Tailwind's functionality beyond its built-in utilities and reviewing best practices for efficient and maintainable code.
+
+By the end of this unit, you'll have a robust understanding of Tailwind CSS, from its philosophy to its practical application, empowering you to create complex, responsive, and highly customized web interfaces with speed and efficiency.
+
+---
+##### Unit 7: Project Time
+Unit 7, titled "Project Time," serves as the capstone experience for applying all you've learned by focusing on updating your VetsWhoCode (VWC) prework webpage. The unit is structured into three core lessons. The first lesson, "Updating Your VWC Prework Webpage," delves into layout planning and updating HTML, laying the foundation in terms of structure and content. The second lesson shifts the focus to styling, where you'll implement Tailwind CSS to create a responsive and visually appealing design. The final lesson, "Review and Deploy," guides you through the debugging process and covers the steps for deploying your project using GitHub Pages. This last lesson not only includes a final review but also suggests next steps, provides additional resources, and rounds off with a congratulatory note, marking your successful completion of the project and readiness for more advanced work.
+
+---
 
 #### Module: Accessibility
 ---
