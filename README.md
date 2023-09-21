@@ -119,6 +119,7 @@ The second lesson focuses on the practical aspects of CSS by teaching basic styl
 ---
 #### Unit 5: Flex and Grid Layout
 Unit 5 is on "Understanding Grid and Flexbox Layouts" is a deep dive into two crucial layout models in modern web design. The first part covers CSS Grid, focusing on its 2D capabilities for arranging elements in both rows and columns. The second part explores Flexbox, a 1D layout system for distributing items along a single axis. The lesson wraps up with a comparison of when to use each system, equipping you with the knowledge to make informed decisions for various layout needs.
+
 ---
 ##### Unit 6: Tailwind CSS
 
