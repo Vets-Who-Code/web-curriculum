@@ -331,6 +331,51 @@ This in-depth lesson on Patterns in Programming provides a foundational understa
 
 ---
 
+##### Unit 1: Architectural Patterns
+
+Welcome to the unit on "Architectural Patterns," a comprehensive guide to the high-level structures that help in organizing your software systems. This unit covers various architectural styles like MVC, Layered Architecture, and Microservices, providing you with the pros, cons, and use-cases for each. Featuring JavaScript examples, we'll delve deep into how these patterns can make your codebase more maintainable, scalable, and organized. By the end of this unit, you will have a strong grasp of how to choose the right architectural pattern for your next software project.
+
+---
+
+##### Unit 2: Behavioral Patterns
+
+Step into the world of "Behavioral Patterns" where we focus on the design patterns that help in the effective communication and cooperation between objects. We’ll explore various behavioral patterns like Observer, Strategy, and Command, discussing their advantages, disadvantages, and typical use-cases. Featuring JavaScript code snippets, this unit aims to equip you with the tools for building complex systems with well-defined responsibilities and communication channels.
+
+---
+
+##### Unit 3: Concurrency Patterns
+
+Welcome to "Concurrency Patterns," a unit that dives deep into managing multiple threads or operations effectively. You'll learn about different patterns like Producer-Consumer, Lock, and Thread Pool, along with their advantages, disadvantages, and JavaScript code examples. This unit aims to prepare you for building efficient, thread-safe code, crucial for high-performance applications.
+
+---
+
+##### Unit 4: Creational Patterns
+
+Get acquainted with "Creational Patterns," where we explore the efficient ways of object creation while hiding the complexity behind them. This unit covers patterns like Singleton, Factory, and Builder, providing their use-cases, pros, and cons. Accompanied by JavaScript examples, this unit will guide you through the complexities of object creation, making you adept at choosing the right pattern for your project.
+
+---
+
+##### Unit 5: Introduction to Patterns
+
+Welcome to the foundational "Introduction to Patterns" unit, which sets the stage for your journey into the realm of software design patterns. This unit briefly touches upon why patterns are essential and what types of patterns you'll learn about in the subsequent units. It’s the starting point that paves the way for the specialized units that follow, setting the context and the importance of design patterns in software development.
+
+---
+
+##### Unit 6: Performance Patterns
+
+Dive into "Performance Patterns," a unit tailored to equip you with strategies and techniques to optimize software performance. From caching and load balancing to deferred execution, we cover various performance-improving techniques with appropriate JavaScript examples. By the end of this unit, you'll be well-versed in enhancing the speed, responsiveness, and resource utilization of your software applications.
+
+---
+
+##### Unit 7: Rendering Patterns
+
+Step into the unit on "Rendering Patterns," where we focus on optimizing UI updates in web applications. We’ll discuss various patterns like MVC, MVP, and Flux, their advantages, disadvantages, and when to use each. Accompanied by JavaScript examples, this unit aims to arm you with the skills to make your UI updates more efficient and user-friendly.
+
+---
+
+##### Unit 8: Structural Patterns
+
+Last but not least, welcome to "Structural Patterns," a unit that delves into the arrangement of classes or objects to form more extensive systems. You’ll learn about patterns like Adapter, Proxy, and Composite, focusing on their pros, cons, and ideal use-cases. Featuring JavaScript examples, this unit will leave you well-equipped to structure your classes and objects effectively in larger projects.
 
 #### Module: Data Structures and Algorithms 
 ### [Collection II](md/course/Phase-3.md)
