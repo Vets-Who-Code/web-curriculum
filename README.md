@@ -216,6 +216,7 @@ The second lesson, 'Aligning UX with Development Goals,' introduces you to the s
 
 Overall, this module offers a holistic view of the role that UX plays in achieving business success, making it a must-learn for anyone looking to meld UX and business strategy effectively.
 
+---
 
 #### Module: Javascript
 ---
@@ -315,7 +316,139 @@ Step into the unit on "Rendering Patterns," where we focus on optimizing UI upda
 
 Last but not least, welcome to "Structural Patterns," a unit that delves into the arrangement of classes or objects to form more extensive systems. You’ll learn about patterns like Adapter, Proxy, and Composite, focusing on their pros, cons, and ideal use-cases. Featuring JavaScript examples, this unit will leave you well-equipped to structure your classes and objects effectively in larger projects.
 
-#### Module: Data Structures and Algorithms 
+---
+
+### Module: Data Structures and Algorithms with JavaScript
+
+---
+
+#### Unit 1: Basics and Introduction
+
+1. **Introduction to Data Structures and Algorithms**
+   - Importance and Applications
+   - Basic Terminologies
+2. **Mathematical Foundations for DSA**
+   - Combinatorics
+   - Probability and Statistics Basics
+3. **Algorithmic Paradigms**
+   - Divide and Conquer
+   - Greedy Algorithms
+   - Dynamic Programming
+4. **Algorithm Analysis**
+   - Big O Notation
+   - Time and Space Complexity
+5. **Introduction to Recursion**
+   - Basics and Use-cases
+   - Simple Recursive Functions
+
+---
+
+#### Unit 2: Basic Data Structures
+
+1. **Arrays**
+   - Definition, Initialization, and Operations
+2. **Linked Lists**
+   - Singly and Doubly Linked Lists
+3. **Stacks**
+   - Operations and Implementations
+4. **Queues**
+   - Basic Queue Operations
+5. **Hash Tables**
+   - Hashing Functions and Collision Handling
+
+---
+
+#### Unit 3: Advanced Data Structures
+
+1. **Trees**
+   - Binary Trees, Binary Search Trees
+2. **Heaps**
+   - Min-Heap, Max-Heap
+3. **Graphs**
+   - Representations and Types
+4. **Tries**
+   - Basics and Operations
+5. **Disjoint Set Union**
+   - Basics and Operations
+
+---
+
+#### Unit 4: Sorting Algorithms
+
+1. **Bubble Sort**
+   - Basics and Implementation
+2. **Quick Sort**
+   - Algorithm and Performance
+3. **Merge Sort**
+   - Algorithm and Performance
+4. **Insertion Sort**
+   - Basics and Implementation
+5. **Selection Sort**
+   - Basics and Implementation
+
+---
+
+#### Unit 5: Search Algorithms
+
+1. **Linear Search**
+   - Basics and Implementation
+2. **Binary Search**
+   - Algorithm and Performance
+3. **Depth-First Search (DFS)**
+   - Algorithm and Applications
+4. **Breadth-First Search (BFS)**
+   - Algorithm and Applications
+5. **A* Search Algorithm**
+   - Heuristics and Path Finding
+
+---
+
+#### Unit 6: Dynamic Programming
+
+1. **Introduction to Dynamic Programming**
+   - Overlapping Subproblems and Optimal Substructure
+2. **Memoization and Tabulation**
+   - Techniques for Optimizing Recursion
+3. **Common DP Problems**
+   - Fibonacci, Coin Change, Longest Subsequence
+4. **DP on Graphs**
+   - Shortest Path, Maximum Flow
+5. **Advanced DP Topics**
+   - State Compression, DP with Bitmasking
+
+---
+
+#### Unit 7: Graph Algorithms
+
+1. **Introduction to Graph Algorithms**
+   - Basics and Terminologies
+2. **Dijkstra's Algorithm**
+   - Shortest Path in Weighted Graphs
+3. **Kruskal's Algorithm**
+   - Minimum Spanning Tree
+4. **Floyd-Warshall Algorithm**
+   - All-Pairs Shortest Paths
+5. **Graph Traversals**
+   - BFS, DFS, and Applications
+
+---
+
+#### Unit 8: Miscellaneous Topics
+
+1. **Bit Manipulation**
+   - Basics and Common Operations
+2. **String Algorithms**
+   - Pattern Searching, Palindromes
+3. **Geometric Algorithms**
+   - Convex Hull, Line Intersection
+4. **Randomized Algorithms**
+   - Monte Carlo and Las Vegas Algorithms
+5. **Backtracking Algorithms**
+   - N-Queens, Sudoku Solver
+
+---
+
+This module should provide a comprehensive look at data structures and algorithms using JavaScript. Feel free to adjust the units or lessons as needed.
 ### [Collection II](md/course/Phase-3.md)
 
 #### Module: Introduction to Node.js
