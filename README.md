@@ -220,109 +220,47 @@ Overall, this module offers a holistic view of the role that UX plays in achievi
 #### Module: Javascript
 ---
 
-##### Unit 1: Introduction to JavaScript
----
-###### **Lesson 1: Getting Started with JavaScript**
-- What is JavaScript?
-- Integrating JavaScript into HTML
-- Basic syntax and variables
-- Comments and debugging techniques
+**Unit 1: Introduction to JavaScript**
 
-###### **Lesson 2: Working with Data Types**
-- Numbers, strings, and booleans
-- Arrays and objects
-- Type coercion and conversion
-- Working with dates and times
----
-##### Unit 2: Control Flow and Functions
----
-###### **Lesson 1: Conditional Statements**
-- if, else if, and else statements
-- Switch statements
-- Ternary operators and short-circuiting
+This unit serves as an entry point into the world of JavaScript, a powerful and versatile programming language widely used in web development. Lesson 1 provides an overview of what JavaScript is, how to integrate it into HTML, and introduces fundamental syntax and variables. Basic commenting and debugging techniques are also covered. Lesson 2 dives deeper into the types of data that JavaScript handles—like numbers, strings, and booleans—along with more complex types like arrays and objects. The lesson also discusses type coercion, conversion, and working with dates and times.
 
-###### **Lesson 2: Loops and Iteration**
-- for loops
-- while loops
-- Iterating through arrays and objects
-- Break and continue statements
+---
 
-###### **Lesson 3: Functions and Scope**
-- Declaring and calling functions
-- Parameters and arguments
-- Function scope and hoisting
-- Return statements and function expressions
----
-##### Unit 3: DOM Manipulation and Events
----
-###### **Lesson 1: Introduction to the DOM**
-- Document Object Model (DOM) overview
-- Selecting and manipulating DOM elements
-- Changing element content and attributes
+**Unit 2: Control Flow and Functions**
 
-###### **Lesson 2: Event Handling**
-- Adding event listeners
-- Event types and propagation
-- Event delegation and handling multiple events
----
-##### Unit 4: Asynchronous JavaScript
----
-###### **Lesson 1: Introduction to Asynchronous Programming**
-- Synchronous vs. asynchronous code
-- Callback functions
-- The event loop and the call stack
+Unit 2 is all about controlling the logic and flow of your code. Lesson 1 focuses on conditional statements like `if`, `else if`, and `else`, along with `switch` statements and short-circuiting techniques. Lesson 2 introduces loops, such as `for` and `while`, and teaches you how to iterate through arrays and objects. Break and continue statements are also covered. Lesson 3 rounds out the unit by teaching the ins and outs of functions, including declaring them, passing in parameters, understanding scope, and leveraging return statements and function expressions.
 
-###### **Lesson 2: Promises and Fetch API**
-- Creating and using promises
-- Handling promise chaining
-- Fetch API for making HTTP requests
-- Handling errors with promises
-
-###### **Lesson 3: Async/Await**
-- Introduction to async/await syntax
-- Error handling in async functions
-- Async functions vs. promises
 ---
-##### Unit 5: Working with APIs
----
-###### **Lesson 1: What are APIs?**
-- Overview of APIs and their importance
-- RESTful APIs and HTTP methods
 
-###### **Lesson 2: Fetching Data from APIs**
-- Making GET requests to APIs
-- Handling API responses and data
-- Working with query parameters
+**Unit 3: DOM Manipulation and Events**
 
-###### **Lesson 3: Sending Data to APIs**
-- Making POST requests to APIs
-- Sending data and handling responses
-- PUT and DELETE requests
----
-##### Unit 6: Implementing Interactive Web Elements
----
-###### **Lesson 1: Form Handling**
-- Creating and validating HTML forms
-- Capturing form data with JavaScript
-- Form submission and preventing defaults
+The third unit tackles the Document Object Model (DOM), an essential part of interactive web development. The first lesson offers a robust introduction to the DOM, teaching you how to select and manipulate elements and change their attributes and content. The second lesson goes into the important topic of event handling, discussing how to add event listeners, different types of events, and the concept of event delegation and propagation.
 
-###### **Lesson 2: Modals and Pop-ups**
-- Creating and triggering modal dialogs
-- Handling user interactions within modals
-- Creating dynamic pop-ups
 ---
-##### Unit 7: Applying JavaScript to Prework
+
+**Unit 4: Asynchronous JavaScript**
+
+Unit 4 unveils the asynchronous nature of JavaScript. The first lesson covers the basics, explaining the difference between synchronous and asynchronous code, and introduces callbacks and the event loop. Lesson 2 dives into Promises and the Fetch API, showing how to make HTTP requests and handle errors. The third lesson covers the modern `async/await` syntax, teaches error handling in async functions, and compares async functions to promises.
+
 ---
-###### **Lesson 1: Enhancing Prework with JavaScript**
-- Adding JavaScript interactions to your prework projects
-- Implementing interactivity with HTML, CSS, and JavaScript
-- Enhancing user experience and functionality
 
-###### **Lesson 2: Getting Mentor Approval**
-- Reviewing your enhanced prework with your mentor
-- Receiving feedback and suggestions for improvements
-- Incorporating mentor feedback and finalizing your project
+**Unit 5: Working with APIs**
 
+This unit equips you with the skills needed to interact with APIs, a cornerstone of modern web development. Lesson 1 provides an overview of what APIs are and why they are important, along with the basics of RESTful APIs and HTTP methods. Lesson 2 and 3 go in-depth into fetching data from APIs and sending data to them, covering GET, POST, PUT, and DELETE requests.
+
+---
+
+**Unit 6: Implementing Interactive Web Elements**
+
+Unit 6 deals with enhancing user interaction on web pages. Lesson 1 focuses on form handling, from creation to validation and submission, and covers how to capture form data with JavaScript. Lesson 2 looks at creating modals and pop-ups, discussing how to trigger these interactive elements and manage user interactions within them.
+
+---
+
+**Unit 7: Applying JavaScript to Prework**
+
+The final unit guides you through applying JavaScript to enhance pre-existing projects. Lesson 1 provides practical ways to add JavaScript functionalities to your prework projects to make them more interactive. Lesson 2 is centered on gaining mentor approval, teaching you how to review your work with a mentor, receive and apply feedback, and finalize your projects for submission or display.
+
+---
 
 #### Module: Patterns
 ##### Unit 1: Introduction To Patterns
