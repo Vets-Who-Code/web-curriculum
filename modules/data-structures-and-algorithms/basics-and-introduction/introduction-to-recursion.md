@@ -75,16 +75,6 @@ function sumArray(arr, n) {
 
 ---
 
-#### Assignments and Activities
-
-- **Reading**: Study the chapter on recursion from a computer science textbook or other educational resource.
-  
-- **Coding Exercise**: Implement a recursive function to solve a problem you're interested in. Test it for various input sizes.
-  
-- **Discussion**: Join a forum or community discussion on when and why to use recursion over iterative solutions.
-
----
-
 #### Conclusion
 
 Recursion is a powerful tool for problem-solving, particularly for problems that can be naturally subdivided into smaller instances of the same problem. While it may seem challenging at first, practice and understanding will make it an invaluable tool in your programming toolkit. By the end of this lesson, you should be able to comprehend the concept of recursion and implement simple recursive functions in JavaScript.

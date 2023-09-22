@@ -62,13 +62,6 @@ If you've ever wondered how product recommendations work on sites like Amazon, t
 
 ---
 
-#### Assignments and Activities
-
-1. **Reading Assignment**: Go through the article titled "Importance of Data Structures and Algorithms for Software Engineers" to deepen your understanding.
-2. **Coding Challenge**: Implement a simple sorting algorithm like Bubble Sort. Reflect on how understanding the algorithm led you to an efficient solution.
-
----
-
 #### Conclusion
 
 Understanding Data Structures and Algorithms is crucial for anyone aspiring to excel in the field of software engineering. This lesson has provided you with the foundational knowledge necessary to appreciate the depth and breadth of this subject. As you proceed with subsequent lessons, you'll learn how to implement various data structures and algorithms, which are essential tools for solving real-world problems efficiently.

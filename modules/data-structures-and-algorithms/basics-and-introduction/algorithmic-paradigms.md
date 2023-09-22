@@ -106,16 +106,6 @@ function findMax(arr) {
 
 ---
 
-#### Assignments and Activities
-
-- **Reading**: Dive into academic papers or resources that explore various algorithm complexities and their practical implications.
-  
-- **Coding Exercise**: Implement a sorting algorithm of your choice and analyze its time and space complexity.
-
-- **Discussion**: Participate in or observe a forum discussion about real-world scenarios where understanding algorithmic complexity made a difference.
-
----
-
 #### Conclusion
 
 Understanding Big O notation and evaluating the time and space complexities are not just academic exercises; they have a direct impact on how scalable and efficient your software is. These skills are invaluable for any software engineer, especially when you're dealing with large datasets or need highly optimized algorithms.

@@ -57,13 +57,6 @@ function calculateMean(arr) {
 
 ---
 
-#### Assignments and Activities
-
-1. **Reading Assignment**: Study a paper or article discussing the relevance of mathematics in computer science, focusing on combinatorics, probability, and statistics.
-2. **Coding Challenge**: Implement a function that calculates combinations (n choose k) using factorials.
-
----
-
 #### Conclusion
 
 A firm grasp of mathematical concepts like combinatorics and probability can significantly enhance your understanding of Data Structures and Algorithms. As you proceed through this course, you'll see these mathematical foundations come into play, especially when discussing algorithm efficiency and problem-solving techniques.
