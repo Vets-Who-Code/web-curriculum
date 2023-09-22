@@ -1,77 +1,50 @@
-### **Quick Sort**
+### **Selection Sort: Basics and Implementation**
 
 #### Lesson Overview
 
-Quick Sort is a divide-and-conquer sorting algorithm that is significantly more efficient than simpler algorithms like Bubble Sort. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. This lesson focuses on understanding Quick Sort's algorithm and performance metrics.
-
----
+Selection sort is one of the simplest sorting algorithms that works by repeatedly selecting the minimum (or maximum) element from an unsorted part and moving it to the beginning (or end). This lesson explores the basics and how you can implement this algorithm in JavaScript.
 
 #### Objectives
 
-- Grasp the divide-and-conquer strategy employed by Quick Sort.
-- Understand the algorithm's performance characteristics.
-  
----
+- Understand the fundamental concept behind the Selection Sort algorithm.
+- Implement Selection Sort in JavaScript.
 
-#### Algorithm of Quick Sort
+#### Topics Covered
 
-1. **Choosing the Pivot**: The first step in Quick Sort is selecting a pivot element. The choice of pivot can greatly affect performance. It could be the first element, the last element, the median, or any random element.
+1. **Basics of Selection Sort**
 
-2. **Partitioning**: Rearrange elements so that all elements smaller than the pivot come before it and all elements greater come after it. The pivot is now in its final sorted position.
+    - Selection sort operates by identifying the smallest (or largest) element in the unsorted section of the array and swapping it with the first unsorted element.
+    - The time complexity is \(O(n^2)\), making it inefficient for large data sets.
+    - The space complexity is \(O(1)\), which means it's an in-place sorting algorithm.
 
-3. **Recursion**: Apply the same steps recursively to the two sub-arrays.
+2. **Implementation in JavaScript**
 
----
+    - To implement Selection Sort in JavaScript, you can use a nested for-loop structure to traverse the array and perform the necessary swaps.
 
-#### Implementation in JavaScript
+    **JavaScript Implementation**
 
-Here's a basic JavaScript implementation:
+    ```javascript
+    function selectionSort(arr) {
+      const n = arr.length;
 
-```javascript
-function quickSort(arr, low, high) {
-  if (low < high) {
-    let pi = partition(arr, low, high);
+      for (let i = 0; i < n - 1; i++) {
+        let minIndex = i;
 
-    quickSort(arr, low, pi - 1);
-    quickSort(arr, pi + 1, high);
-  }
-}
+        for (let j = i + 1; j < n; j++) {
+          if (arr[j] < arr[minIndex]) {
+            minIndex = j;
+          }
+        }
 
-function partition(arr, low, high) {
-  let pivot = arr[high];
-  let i = low - 1;
-
-  for (let j = low; j <= high - 1; j++) {
-    if (arr[j] < pivot) {
-      i++;
-      [arr[i], arr[j]] = [arr[j], arr[i]];
+        // Swap the found minimum element with the first element
+        if (minIndex !== i) {
+          [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+        }
+      }
+      return arr;
     }
-  }
-  [arr[i + 1], arr[high]] = [arr[high], arr[i + 1]];
-  return i + 1;
-}
-
-// Example usage:
-let arr = [10, 7, 8, 9, 1, 5];
-let n = arr.length;
-quickSort(arr, 0, n - 1);
-console.log("Sorted array:", arr);
-```
-
----
-
-#### Performance
-
-- **Time Complexity**: The average and best-case time complexity is \( O(n \log n) \), and the worst-case is \( O(n^2) \), but the worst-case can be avoided with good pivot selection.
-  
-- **Space Complexity**: \( O(\log n) \) due to the stack space required for recursion.
-
-- **In-Place**: Yes, it sorts the array in place, requiring no additional data structures.
-
-- **Stable Sort**: No, the relative order of equal elements may not be preserved.
-
----
+    ```
 
 #### Conclusion
 
-Quick Sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays. A large array is partitioned into two arrays—one of which holds values smaller than the specified value, and another, greater. When implemented well, it can be about two or three times faster than its main competitors, Merge Sort and Heap Sort.
+Selection Sort is a straightforward algorithm that's easy to implement but not suitable for sorting large data sets. It's essential to understand the underlying mechanics, even if you won't use it in production, as it lays the groundwork for understanding more complex algorithms.
