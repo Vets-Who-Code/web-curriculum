@@ -331,6 +331,7 @@ Unit 1 serves as a comprehensive introduction to the foundational concepts in Da
 #### Unit 2: Basic Data Structures
 
 This series of lessons provides a comprehensive introduction to fundamental data structures commonly used in software development. We kick off with arrays in JavaScript, discussing their definition, syntax, and operations like adding or removing elements. Then, we delve into the realm of linked lists, contrasting singly-linked lists with their doubly-linked counterparts, and covering basic manipulations. The third lesson is all about stacks, a Last-In-First-Out (LIFO) data structure, along with practical implementation tips in JavaScript. Queues, or First-In-First-Out (FIFO) structures, come next, with explanations of their key operations. The series concludes with hash tables, shedding light on hash functions and methods to manage collisions. Overall, this course aims to provide foundational knowledge and hands-on skills in working with these five critical data structures.
+
 ---
 
 #### Unit 3: Advanced Data Structures
