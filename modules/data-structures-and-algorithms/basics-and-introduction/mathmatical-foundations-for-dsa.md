@@ -1,4 +1,4 @@
-### Lesson 2: Mathematical Foundations for DSA
+### Mathematical Foundations for DSA
 
 #### Introduction
 

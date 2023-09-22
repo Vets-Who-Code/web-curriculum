@@ -1,4 +1,4 @@
-### 4. **Algorithm Analysis**
+### **Algorithm Analysis**
 
 #### Lesson Overview
 

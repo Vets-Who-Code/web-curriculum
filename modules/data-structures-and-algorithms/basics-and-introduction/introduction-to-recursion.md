@@ -1,4 +1,4 @@
-### 5. **Introduction to Recursion**
+### **Introduction to Recursion**
 
 #### Lesson Overview
 

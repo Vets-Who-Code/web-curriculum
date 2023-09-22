@@ -1,4 +1,4 @@
-### 1. **Arrays**
+### **Arrays**
 
 #### Lesson Overview
 
