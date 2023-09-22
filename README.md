@@ -324,154 +324,48 @@ Last but not least, welcome to "Structural Patterns," a unit that delves into th
 
 #### Unit 1: Basics and Introduction
 
-1. **Introduction to Data Structures and Algorithms**
-   - Why DSA is Essential for Software Engineers
-   - Real-world Applications
-2. **Mathematical Foundations for DSA**
-   - Combinatorics and Factorial Concepts
-   - Introduction to Probability and Basic Statistics
-3. **Algorithmic Paradigms**
-   - Divide and Conquer Strategy
-   - Greedy Algorithms for Optimization
-   - Introduction to Dynamic Programming
-4. **Algorithm Analysis**
-   - Understanding Big O Notation
-   - Evaluating Time and Space Complexity
-5. **Introduction to Recursion**
-   - What is Recursion?
-   - Writing Simple Recursive Functions
+Unit 1 serves as a comprehensive introduction to the foundational concepts in Data Structures and Algorithms (DSA). The unit kicks off with an exploration of why DSA is pivotal for software engineers, touching upon its real-world applications and basic terminologies. It then dives into the mathematical underpinnings of DSA, covering combinatorics as well as the basics of probability and statistics. To give you a taste of various approaches to problem-solving, this unit introduces you to key algorithmic paradigms like Divide and Conquer, Greedy Algorithms, and Dynamic Programming. You'll also learn to analyze algorithms using Big O notation, focusing on both time and space complexity. Finally, the unit demystifies recursion, teaching you its fundamentals and showing you how to write simple recursive functions. By the end of this unit, you'll have a solid base of knowledge to tackle more advanced DSA topics.
 
 ---
 
 #### Unit 2: Basic Data Structures
 
-1. **Arrays**
-   - Definition and Syntax in JavaScript
-   - Common Operations
-2. **Linked Lists**
-   - Singly-Linked vs Doubly-Linked Lists
-   - Basic Operations
-3. **Stacks**
-   - LIFO Concept
-   - Implementing a Stack in JavaScript
-4. **Queues**
-   - FIFO Concept
-   - Basic Queue Operations in JavaScript
-5. **Hash Tables**
-   - Understanding Hash Functions
-   - Handling Collisions
-
+This series of lessons provides a comprehensive introduction to fundamental data structures commonly used in software development. We kick off with arrays in JavaScript, discussing their definition, syntax, and operations like adding or removing elements. Then, we delve into the realm of linked lists, contrasting singly-linked lists with their doubly-linked counterparts, and covering basic manipulations. The third lesson is all about stacks, a Last-In-First-Out (LIFO) data structure, along with practical implementation tips in JavaScript. Queues, or First-In-First-Out (FIFO) structures, come next, with explanations of their key operations. The series concludes with hash tables, shedding light on hash functions and methods to manage collisions. Overall, this course aims to provide foundational knowledge and hands-on skills in working with these five critical data structures.
 ---
 
 #### Unit 3: Advanced Data Structures
 
-1. **Trees**
-   - Introduction to Binary Trees
-   - Implementing Binary Search Trees
-2. **Heaps**
-   - What is a Min-Heap and Max-Heap?
-   - Heap Operations
-3. **Graphs**
-   - Adjacency List vs Adjacency Matrix
-   - Types of Graphs
-4. **Tries**
-   - Understanding Tries Data Structure
-   - Basic Trie Operations
-5. **Disjoint Set Union**
-   - Union-Find Algorithm
-   - Practical Applications
+The next set of lessons dives deeper into advanced data structures, offering both theoretical understanding and practical insights. We begin with trees, focusing on binary trees and their specialized form, binary search trees, including how to implement them. Next, we examine heaps, exploring both min-heaps and max-heaps, along with their core operations like insertion and deletion. Graphs follow suit, where we compare different representations like adjacency lists and matrices, as well as introduce various types of graphs such as directed, undirected, and weighted graphs. The fourth lesson introduces tries, a tree-like data structure particularly useful for storing associative arrays. We will learn basic operations including insertion, deletion, and search. Finally, we round out the unit with a study of Disjoint Set Union (DSU), detailing the Union-Find algorithm and its many practical applications, such as in network connectivity and image segmentation. This set of lessons aims to equip learners with the skills and knowledge to work with these more complex data structures effectively.
 
 ---
 
 #### Unit 4: Sorting Algorithms
 
-1. **Bubble Sort**
-   - Concept and JavaScript Implementation
-2. **Quick Sort**
-   - The Quick Sort Algorithm
-   - Time Complexity Analysis
-3. **Merge Sort**
-   - The Merge Sort Algorithm
-   - Time Complexity Analysis
-4. **Insertion Sort**
-   - Algorithm and Code
-5. **Selection Sort**
-   - Algorithm and Code
+This next series of lessons digs into sorting algorithms, each with its own unique methodology and performance characteristics. First on the list is Bubble Sort, where we'll look into its basic concept and walk through its implementation in JavaScript. Quick Sort is up next, covering the intricacies of the algorithm itself, along with an analysis of its time complexity. Merge Sort follows, offering an in-depth exploration of its divide-and-conquer approach, as well as performance metrics. Insertion Sort comes fourth, presenting both the algorithmic logic and the corresponding code for implementation. We cap off the unit with Selection Sort, breaking down the algorithm and providing the code needed for a hands-on experience. This series aims to provide a robust understanding of sorting algorithms, aiding in the selection of the most efficient technique for a given scenario.
 
 ---
 
 #### Unit 5: Search Algorithms
 
-1. **Linear Search**
-   - Algorithm and JavaScript Implementation
-2. **Binary Search**
-   - Binary Search Algorithm
-   - Time Complexity Analysis
-3. **Depth-First Search (DFS)**
-   - DFS Algorithm
-   - Real-world Applications
-4. **Breadth-First Search (BFS)**
-   - BFS Algorithm
-   - Real-world Applications
-5. **A* Search Algorithm**
-   - Understanding Heuristics
-   - Applications in Pathfinding
+This unit plunges into the world of search algorithms, covering both foundational and advanced techniques. We start with Linear Search, examining its simple but effective algorithm and providing a hands-on JavaScript implementation. Next, Binary Search steps into the spotlight with a focus on its logarithmic time complexity and efficiency. Depth-First Search (DFS) and Breadth-First Search (BFS) then make an appearance, where their algorithms are unpacked alongside examples of how they're employed in real-world scenarios. Finally, the A* Search Algorithm closes out the unit. Here, you'll dive into the concept of heuristics and explore its vital role in pathfinding tasks. Whether you're working on simple array lookups or complex graph traversals, this unit equips you with the knowledge to choose the right search strategy for your project.
 
 ---
 
 #### Unit 6: Dynamic Programming
 
-1. **Introduction to Dynamic Programming**
-   - Identifying Overlapping Subproblems
-   - Optimal Substructure
-2. **Memoization and Tabulation**
-   - Caching Techniques
-   - Tabulation in Dynamic Programming
-3. **Common DP Problems**
-   - Fibonacci Series
-   - Coin Change Problem
-   - Longest Common Subsequence
-4. **DP on Graphs**
-   - Finding the Shortest Path
-   - Maximum Flow Algorithms
-5. **Advanced DP Topics**
-   - State Compression Techniques
-   - Dynamic Programming with Bitmasking
+This unit delves into the rich subject of Dynamic Programming (DP), a vital toolset for solving complex problems efficiently. The journey begins with an introduction that uncovers the core principles of overlapping subproblems and optimal substructure, laying a strong foundation for what's to come. Then, Memoization and Tabulation step in as techniques for optimizing DP, teaching you how to cache results and build solutions incrementally. The unit then shifts its attention to solve some of the most common DP problems like calculating the Fibonacci series, coin change problems, and finding the longest common subsequence. After that, you'll apply DP to graphs to find the shortest paths and work with maximum flow algorithms. Finally, you'll tackle advanced topics such as state compression and how to use bitmasking in DP. By the end of this unit, you'll have a robust understanding of Dynamic Programming and how to apply it across various domains.
 
 ---
 
 #### Unit 7: Graph Algorithms
 
-1. **Introduction to Graph Algorithms**
-   - Graph Terminology
-2. **Dijkstra's Algorithm**
-   - Finding Shortest Paths in Weighted Graphs
-3. **Kruskal's Algorithm**
-   - Constructing a Minimum Spanning Tree
-4. **Floyd-Warshall Algorithm**
-   - All-Pairs Shortest Path Problem
-5. **Graph Traversals**
-   - DFS and BFS for Graphs
-   - Topological Sorting
+In this unit, you'll take a comprehensive tour of Graph Algorithms, starting by familiarizing yourself with essential graph terminologies such as vertices, edges, and weights. Next up is Dijkstra's Algorithm, an indispensable tool for finding the shortest path in weighted graphs. After mastering Dijkstra's, you'll move on to Kruskal's Algorithm, learning how to construct minimum spanning trees effectively. The Floyd-Warshall Algorithm follows, providing you with the capability to solve all-pairs shortest path problems. Finally, the unit wraps up with an in-depth exploration of Graph Traversals. Here you'll engage with both Depth-First Search (DFS) and Breadth-First Search (BFS) applied to graphs, as well as the concept of Topological Sorting. By the end of this unit, you'll have a well-rounded understanding of graph algorithms and their various applications.
 
 ---
 
 #### Unit 8: Miscellaneous Topics
 
-1. **Bit Manipulation**
-   - Basic Bitwise Operations
-2. **String Algorithms**
-   - String Matching Algorithms
-   - Palindrome Detection
-3. **Geometric Algorithms**
-   - Computing the Convex Hull
-   - Line Intersection Points
-4. **Randomized Algorithms**
-   - Monte Carlo Method
-   - Las Vegas Algorithms
-5. **Backtracking Algorithms**
-   - Solving the N-Queens Problem
-   - Sudoku Solver in JavaScript
+In this unit, you'll delve into a variety of specialized algorithms starting with Bit Manipulation, where you'll learn the ins and outs of basic bitwise operations. Next, you'll tackle String Algorithms, focusing on efficient methods for string matching and palindrome detection. The unit then takes a geometric turn, introducing you to Geometric Algorithms like computing the convex hull and finding line intersection points. From geometry, you'll pivot to probability with Randomized Algorithms, exploring the Monte Carlo Method and Las Vegas Algorithms for approximate and randomized problem-solving. Finally, the unit closes with Backtracking Algorithms, where you'll get hands-on experience solving classic problems like the N-Queens Problem and a Sudoku solver, all implemented in JavaScript. By the end of this unit, you'll be equipped with a diverse set of algorithmic tools and techniques.
 
 ---
 
