@@ -4,6 +4,8 @@
 ---
 ##### Unit 1: Getting to Know the Command Line
 
+The tickets for this module are [here](https://github.com/orgs/Vets-Who-Code/projects/50)
+
 Welcome to "Getting to Know the Command Line." This unit is your gateway into the foundational and advanced concepts of the Command Line Interface (CLI), a cornerstone tool for anyone in tech. Whether you're a budding developer, a system administrator, or simply curious about what lies beyond the graphical user interface (GUI), this section has you covered. We'll begin by demystifying what the command line is, offering both historical context and a comparison with its GUI counterpart. From there, you'll learn why the CLI is not just an alternative but often a preferred environment for speed, versatility, and automation. We'll break down the nuanced relationship between the terminal and shell—two terms often used interchangeably but are fundamentally different in function and form. You'll also get acquainted with popular terminal emulators, diving into customization options and shortcuts. Lastly, we’ll explore the various shell types available—Bash, Zsh, Fish, and Dash—each with its own unique set of features and benefits. By the end of this unit, the command line will be less of a black box and more of a familiar, powerful toolset to aid in your tech journey.
 
 ---
