@@ -1,143 +1,100 @@
-## Lesson 2: Setting up Git
 
----
+## Lesson 2: Setting up Git
 
 ### Introduction
 
-Welcome to Lesson 2! You've got some basics down; now let's get Git properly set up on your machine. This lesson walks you through the initial Git setup, SSH key creation, user identity, and proxy setup.
+Welcome to Lesson 2! Having covered some basics, it's now time to properly configure Git on your machine. This lesson guides you through Git's initial setup, creating SSH keys, setting your user identity, and configuring a proxy for Git if necessary.
 
 ### Learning Outcomes
-- Configure Git via the terminal
-- Generate and use SSH keys
-- Configure user identity in Git
-- Set up a Proxy for Git
+
+By the end of this lesson, you will be able to:
+- Configure Git using the terminal.
+- Generate and utilize SSH keys for secure connections.
+- Set and manage your user identity within Git.
+- Configure a proxy for Git operations, when required.
+
+### Visual Aids
+
+**Insert Diagram**: "The Git Configuration Process" - A flowchart detailing the steps from installing Git to configuring user settings and SSH keys.
 
 ---
 
 ### Section 1: Configuring Git (Terminal)
 
 #### Setting Up User Info
-You want Git to recognize you. You need to set up a username and email address to do that.
+
+First, let's personalize your Git environment by setting up your username and email address:
+
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-#### Checking Your Settings
-To verify that you've set up everything correctly, run:
+**Interactive Tutorial**: Link to an interactive shell simulator where learners can practice Git configuration commands in real-time.
+
+#### Verifying Your Configuration
+
+Ensure your setup is correct by listing your Git configuration:
+
 ```bash
 git config --list
 ```
+
+**Exercise**: Verify your Git configuration and modify your username and email if necessary.
 
 ---
 
 ### Section 2: SSH Keys (Terminal & UI)
 
-#### Generate SSH Key
-An SSH key is a way to identify yourself to Git without typing your username and password every time.
+#### Generating an SSH Key
+
+SSH keys secure your identity to Git services, eliminating the need for password entry on each operation.
+
 ```bash
 ssh-keygen -t rsa -b 4096
 ```
 
-#### Adding SSH Key to GitHub/GitLab
-After generating the key:
-Navigate to the settings in your GitHub or GitLab account.
-Look for the "SSH and GPG keys" section.
-Add your key.
+**Insert Screenshot**: "Generating an SSH Key" - A visual guide showing the terminal during the key generation process.
+
+#### Adding Your SSH Key to GitHub/GitLab
+
+- Navigate to your GitHub or GitLab settings.
+- Find the "SSH and GPG keys" section and add your new key.
+
+**Video Tutorial**: A short video demonstrating how to add your SSH key to GitHub or GitLab.
 
 ---
 
-### Section 3: User Identity Configuration
+### Section 3: Proxy Configuration (Terminal)
 
-You've already set your user name and email, but if you ever need to update this information, just rerun the same config commands.
+If you're behind a corporate firewall, you may need to configure a proxy:
 
----
-
-### Section 4: Setting Up a Proxy (Terminal)
-
-You may need to set up a proxy if you're behind a corporate firewall. To do this:
 ```bash
 git config --global http.proxy http://proxy.example.com:8080
 ```
 
----
-
-## Lesson 3: Your First Git Commands
+**Troubleshooting Box**: Common proxy configuration issues and how to resolve them.
 
 ---
 
-### Introduction
+### Practical Example
 
-Alright, you've set up Git and are ready to roll! In this lesson, we'll execute our first Git commands, covering `git init,` `git clone,` commit changes, and learn about the staging area.
-
-### Learning Outcomes
-- Use `git init` and `git clone` commands
-- Commit changes to a Git repository
-- Understand the staging area
-- Use `git log` and `git status` to check repository status
+**Exercise**: Configure your Git with the provided details, generate an SSH key, and add it to your GitHub account. Verify all configurations using `git config --list`.
 
 ---
 
-### Section 1: Git init, git clone (Terminal)
+### Further Reading and Resources
 
-#### Initializing a New Repo
-To kickstart a new Git repository, navigate to your project directory and run:
-```bash
-git init
-```
+- Official Git Documentation
+- Advanced SSH Key Management in Git
+- Best Practices for Git Configuration
 
-#### Cloning an Existing Repo
-To clone an existing repository, use the command:
-```bash
-git clone <repository_url>
-```
+**Community Forum**: Join our Git learners' community to share insights, ask questions, and receive feedback.
 
----
+### Lesson Recap
 
-### Section 2: Committing Changes (UI & Terminal)
+In this lesson, you've learned how to set up Git on your machine, generate SSH keys for secure authentication, configure your Git user identity, and set up a proxy for Git if needed. Practice these steps to become comfortable with Git configuration and prepare for more advanced Git operations in future lessons.
 
-#### How to Commit
-After making changes in your project files, first stage them:
-```bash
-git add <file_name>
-```
+### Preview of Next Lesson
 
-Next, commit these changes:
-```bash
-git commit -m "describe your changes here"
-```
-
----
-
-### Section 3: Understanding Staging (Terminal)
-
-#### What's a Staging Area?
-The staging area is like a prep table where Git collects all the changes that will go into your next commit.
-
-#### Adding to Staging
-```bash
-git add <file_name>
-```
-
-#### Removing from Staging
-```bash
-git restore --staged <file_name>
-```
-
----
-
-### Section 4: Git log, git status (Terminal)
-
-#### Viewing the Commit History
-```bash
-git log
-```
-
-#### Checking Your Repository Status
-```bash
-git status
-```
-
----
-
-And there you go! You've learned the basics of Git, how to set it up, and how to perform basic operations. Keep practicing to make these commands second nature.
+In Lesson 3, we'll dive into your first Git commands, exploring `git init`, `git clone`, and the process of staging and committing changes.
