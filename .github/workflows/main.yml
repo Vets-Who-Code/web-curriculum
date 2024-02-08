@@ -2,6 +2,7 @@ name: CI
 on: 
   pull_request:
     types: [opened]
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -13,19 +14,23 @@ jobs:
           reaction: rocket
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-      - uses: actions/checkout@master
+
+      - uses: actions/checkout@v2 # Updated to use v2 for better performance and features
         with:
           ref: ${{ github.head_ref }}
+
       - name: Dump GitHub context
         id: github_context_step
-        run: echo '${{ toJSON(github) }}'
+        # Enclose the JSON in double quotes and escape internal double quotes to prevent shell errors
+        run: echo "${{ toJSON(github).replace('\"', '\\\"') }}"
+
       - name: Install modules and run it
         run: yarn
         if: steps.check.outputs.triggered == 'true'
+
       - name: Generate Curriculum
         run: yarn generate:curriculum:ci
         if: steps.check.outputs.triggered == 'true'
         env: 
-          GITHUB_HEAD_REF: '${{ github.head_ref }}'
-          GITHUB_ACTOR: '${{ github.actor }}'
-
+          GITHUB_HEAD_REF: ${{ github.head_ref }}
+          GITHUB_ACTOR: ${{ github.actor }}
