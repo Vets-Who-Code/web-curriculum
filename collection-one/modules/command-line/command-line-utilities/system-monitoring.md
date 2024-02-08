@@ -1,46 +1,30 @@
-# System Monitoring in the Command Line
-
-## Overview
-
-Effective system monitoring involves understanding various metrics and how they influence system performance. This lesson digs deep into advanced features of `top`, `htop`, `iostat`, and `vmstat`.
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [`top`](#top)
-3. [`htop`](#htop)
-4. [`iostat`](#iostat)
-5. [`vmstat`](#vmstat)
-6. [Advanced Metrics and Terminology](#advanced-metrics-and-terminology)
-7. [Best Practices](#best-practices)
-
----
+# Command Line Mastery: System Monitoring in the Command Line
 
 ## Introduction
 
-Monitoring tools provide crucial information for diagnostics and system tuning. Mastering them will give you a deep understanding of what's happening under the hood.
+System monitoring is an essential aspect of system administration, providing insights into the performance and health of the system. This lesson focuses on advanced usage of monitoring tools, enabling detailed analysis and performance optimization.
 
 ---
 
 ## `top`
 
-### Overview
+### The Essential Monitor
 
-`top` is the Swiss Army knife of monitoring tools, but it's not just for beginners.
+`top` provides real-time insights into system processes and their impact on system resources.
 
-### Advanced Usage
+### Going Beyond Basics
 
-#### Batch Mode
+#### Automated Snapshots
 
-Run `top` in batch mode for easier parsing and logging. 
+Capture system state snapshots for later analysis:
 
 ```bash
 top -b -n 1 > top_output.txt
 ```
 
-#### Specific Processes
+#### Focused Process Monitoring
 
-Monitor only specific processes by their PID.
+Directly monitor the performance of critical processes:
 
 ```bash
 top -p PID1,PID2
@@ -50,23 +34,23 @@ top -p PID1,PID2
 
 ## `htop`
 
-### Overview
+### Interactive and Enhanced Monitoring
 
-`htop` offers a colorful and customizable interface for monitoring system performance.
+`htop` improves upon `top` with an interactive interface and advanced features for process management.
 
-### Advanced Usage
+### Custom Monitoring
 
-#### User-Specific Monitoring
+#### User-Centric Views
 
-Monitor processes for a specific user.
+Isolate the process landscape for individual users:
 
 ```bash
 htop -u username
 ```
 
-#### JSON Export
+#### Configuration Export
 
-Export the current setup to a JSON file.
+Save and transfer `htop` configurations seamlessly:
 
 ```bash
 htop --output-setup-json > setup.json
@@ -76,23 +60,23 @@ htop --output-setup-json > setup.json
 
 ## `iostat`
 
-### Overview
+### Insight into I/O and CPU Statistics
 
-`iostat` provides detailed I/O statistics, including CPU load and disk activity.
+`iostat` shines a light on the system's I/O utilization and CPU performance, crucial for identifying bottlenecks.
 
-### Advanced Usage
+### Device-Specific Metrics
 
-#### Monitoring Specific Devices
+#### Targeted Device Monitoring
 
-Monitor specific devices by specifying their names.
+Zoom in on specific device statistics for detailed analysis:
 
 ```bash
 iostat -d /dev/sda
 ```
 
-#### Event Counters
+#### Extended Statistics
 
-Use the `-e` option to display extended statistics and event counters for devices.
+Uncover deeper insights with extended metrics:
 
 ```bash
 iostat -e
@@ -102,23 +86,23 @@ iostat -e
 
 ## `vmstat`
 
-### Overview
+### Virtual Memory Statistics
 
-`vmstat` gives a comprehensive report on memory, processor, and I/O activities.
+`vmstat` offers a snapshot of system memory, processes, and interrupts, among others.
 
-### Advanced Usage
+### Comprehensive Reporting
 
-#### Disk Statistics
+#### Including Disk Statistics
 
-Include disk statistics with the `-d` option.
+Gain visibility into disk performance:
 
 ```bash
 vmstat -d
 ```
 
-#### Event Display
+#### Event Summary
 
-Display all events with `-e`.
+Get a detailed event report:
 
 ```bash
 vmstat -e
@@ -128,13 +112,12 @@ vmstat -e
 
 ## Advanced Metrics and Terminology
 
-- **Load Average**: Represents the average system load over a period of time.
-- **Context Switches**: These occur when the CPU switches from one task to another.
-  
+Understanding metrics such as **Load Average** and **Context Switches** is vital for diagnosing system health and performance issues. These indicators help in making informed decisions for resource allocation and system tuning.
+
 ---
 
 ## Best Practices
 
-- Script regular monitoring tasks to run at intervals.
-- Learn to read and interpret key metrics to understand their impact on system performance.
-- Regularly log `top` and `iostat` outputs for historical analysis.
+- Automate monitoring tasks to capture regular performance snapshots.
+- Develop the skill to interpret advanced metrics, correlating them with system performance and behavior.
+- Maintain historical logs of `top` and `iostat` to track system performance over time and identify patterns or anomalies.
