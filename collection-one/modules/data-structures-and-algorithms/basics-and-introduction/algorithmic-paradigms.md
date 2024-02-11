@@ -2,15 +2,15 @@
 
 #### Lesson Overview
 
-Algorithm analysis is a cornerstone of computer science that allows us to evaluate the efficiency of algorithms in terms of time and space. In this lesson, we'll dive deep into understanding Big O notation and how to evaluate an algorithm's time and space complexity with JavaScript examples.
+In this lesson, we'll explore the concept of algorithm analysis, a fundamental aspect of computer science that helps us gauge the efficiency of algorithms regarding their time and space usage. Using JavaScript for practical examples, we'll delve into Big O notation—a key tool in understanding how algorithms scale—and apply this knowledge to assess algorithmic efficiency.
 
 ---
 
 #### Objectives
 
-- Grasp the essence of Big O notation in algorithm analysis.
-- Recognize different types of time and space complexities.
-- Apply these understandings to evaluate algorithms' efficiency.
+- Understand the principles of Big O notation.
+- Identify and differentiate between various types of time and space complexities.
+- Learn to analyze the efficiency of algorithms using JavaScript examples.
 
 ---
 
@@ -18,62 +18,71 @@ Algorithm analysis is a cornerstone of computer science that allows us to evalua
 
 **What is Big O Notation?**
 
-Big O notation is a mathematical way to express the upper bounds of an algorithm in the worst-case or average-case scenarios. It helps us to understand the performance characteristics of an algorithm and how it will scale.
+Big O notation represents the upper limit of an algorithm's runtime or space requirements in the worst-case or average-case scenarios. It's essential for predicting how an algorithm performs as data input size grows, guiding us in choosing the most efficient approach.
 
-**Types of Big O and Code Examples**
+**Exploring Big O with JavaScript Examples**
 
 1. **O(1) - Constant Time Complexity**
 
-    - The running time is constant and doesn't depend on the size of the input.
+    - Execution time remains unchanged regardless of input size.
 
     ```javascript
-    function findFirstElement(arr) {
-      return arr[0];
+    function checkEvenNumber(num) {
+      return num % 2 === 0;
     }
+    // Regardless of the number's value, the operation takes constant time.
     ```
 
 2. **O(log n) - Logarithmic Time Complexity**
 
-    - The running time grows logarithmically as the input size increases.
+    - Execution time increases logarithmically with input size, common in "divide and conquer" algorithms.
 
     ```javascript
-    function binarySearch(arr, target) {
-      let left = 0;
-      let right = arr.length - 1;
-      while (left <= right) {
-        const mid = Math.floor((left + right) / 2);
-        if (arr[mid] === target) return mid;
-        if (arr[mid] < target) left = mid + 1;
-        else right = mid - 1;
+    function findElementInSortedArray(arr, element) {
+      let low = 0;
+      let high = arr.length - 1;
+      while (low <= high) {
+        const mid = Math.floor((low + high) / 2);
+        const guess = arr[mid];
+        if (guess === element) return mid;
+        if (guess > element) high = mid - 1;
+        else low = mid + 1;
       }
-      return -1;
+      return null;
     }
     ```
 
 3. **O(n) - Linear Time Complexity**
 
-    - The running time increases linearly with the size of the input.
+    - Execution time grows linearly with input size.
 
     ```javascript
-    function linearSearch(arr, target) {
+    function calculateSum(arr) {
+      let sum = 0;
       for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === target) return i;
+        sum += arr[i];
       }
-      return -1;
+      return sum;
     }
     ```
 
 4. **O(n^2) - Quadratic Time Complexity**
 
-    - The running time is proportional to the square of the size of the input.
+    - Execution time increases quadratically with input size, typical in nested iterations.
 
     ```javascript
-    function bubbleSort(arr) {
-      for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length - 1 - i; j++) {
-          if (arr[j] > arr[j + 1]) {
-            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+    function selectionSort(arr) {
+      for (let i = 0; i < arr.length - 1; i++) {
+        let minIndex = i;
+        for (let j = i + 1; j < arr.length; j++) {
+          if (arr[j] < arr[minIndex]) {
+            minIndex = j;
           }
+        }
+        if (minIndex !== i) {
+          let temp = arr[i];
+          arr[i] = arr[minIndex];
+          arr[minIndex] = temp;
         }
       }
     }
@@ -85,29 +94,26 @@ Big O notation is a mathematical way to express the upper bounds of an algorithm
 
 **Time Complexity**
 
-Understanding time complexity is crucial for optimizing algorithms. It allows you to predict how your algorithm will scale and whether it will run in a reasonable amount of time for larger inputs.
+Time complexity is a measure of the number of operations an algorithm performs relative to the input size. Understanding this concept helps in optimizing algorithms to ensure they perform efficiently, even with large inputs.
 
 **Space Complexity**
 
-Space complexity measures how much additional memory an algorithm needs. Efficient use of memory can be critical for modern computing tasks.
+Space complexity assesses the amount of memory an algorithm needs in addition to the input data. Optimizing for space is crucial in environments with limited memory resources.
 
 ```javascript
 // Time Complexity: O(n), Space Complexity: O(1)
-function findMax(arr) {
-  let max = -Infinity;
-  for (let num of arr) {
-    if (num > max) {
-      max = num;
-    }
-  }
-  return max;
+function calculateAverage(arr) {
+  let sum = 0;
+  arr.forEach(element => {
+    sum += element;
+  });
+  return sum / arr.length;
 }
+// This function iterates through the array once to compute the sum, then calculates the average, using a fixed amount of space.
 ```
 
 ---
 
 #### Conclusion
 
-Understanding Big O notation and evaluating the time and space complexities are not just academic exercises; they have a direct impact on how scalable and efficient your software is. These skills are invaluable for any software engineer, especially when you're dealing with large datasets or need highly optimized algorithms.
-
-By the end of this lesson, you should be comfortable analyzing algorithms and understanding their efficiency in both time and space.
+Mastering Big O notation and the analysis of time and space complexities is vital for developing scalable and efficient software. This knowledge enables you to make informed decisions when selecting or designing algorithms, especially for applications that handle large volumes of data or require high performance. With the examples and concepts discussed in this lesson, you're now better equipped to analyze and improve the efficiency of your algorithms.
