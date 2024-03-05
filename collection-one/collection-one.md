@@ -2,38 +2,10 @@
 
 #### [Module: Command Line](modules/command-line/command-line.md)
 ---
-##### Unit 1: Getting to Know the Command Line
 
-The tickets for this module are [here](https://github.com/orgs/Vets-Who-Code/projects/50)
+The "Command Line" module is structured to guide you from a foundational understanding to advanced mastery of the Command Line Interface (CLI). The overarching goal is to equip you with the knowledge and skills to effectively utilize the CLI, a critical tool in the tech industry for developers, system administrators, and beyond. Starting with the basics of what the command line is, its historical context, and its advantages over graphical user interfaces, the module progresses through essential commands, text manipulation, and concludes with advanced scripting techniques and utilities. By the end of this module, you will have developed a thorough understanding and practical ability to navigate, manipulate, and leverage the command line, enhancing your efficiency, versatility, and capability in tech-related tasks and projects. This comprehensive journey is designed not just to familiarize you with commands and syntax but to make the CLI a powerful extension of your toolkit in the tech landscape
 
-Welcome to "Getting to Know the Command Line." This unit is your gateway into the foundational and advanced concepts of the Command Line Interface (CLI), a cornerstone tool for anyone in tech. Whether you're a budding developer, a system administrator, or simply curious about what lies beyond the graphical user interface (GUI), this section has you covered. We'll begin by demystifying what the command line is, offering both historical context and a comparison with its GUI counterpart. From there, you'll learn why the CLI is not just an alternative but often a preferred environment for speed, versatility, and automation. We'll break down the nuanced relationship between the terminal and shell—two terms often used interchangeably but are fundamentally different in function and form. You'll also get acquainted with popular terminal emulators, diving into customization options and shortcuts. Lastly, we’ll explore the various shell types available—Bash, Zsh, Fish, and Dash—each with its own unique set of features and benefits. By the end of this unit, the command line will be less of a black box and more of a familiar, powerful toolset to aid in your tech journey.
-
----
-##### Unit 2: Basic Commands
-
-Welcome to the unit on "Basic Commands," your stepping stone into the world of command line operations. This unit is designed to get you comfortable with the most essential Unix/Linux commands you'll use on a day-to-day basis. From navigating directories and manipulating files to understanding permissions and disk usage, each lesson here aims to arm you with the fundamental commands and concepts that will make you proficient in terminal-based tasks. In this unit, we'll cover commands like `cd`, `ls`, `cp`, and `chmod`, while also delving into advanced topics like wildcards and file paths. Whether you're setting up a new project, automating routine tasks, or managing system resources, these foundational commands are your building blocks. By the end of this unit, you'll be equipped with a set of practical skills that will make the command line an invaluable part of your toolkit.
-
----
-##### Unit 3: Text Manipulation
-
-Text manipulation is an indispensable skill when working in a command-line environment. This unit delves into the tools and techniques that enable efficient text processing, searching, and editing. We'll kick things off by learning how to view and navigate through large text files using commands like `cat`, `less`, and `more`. Next, we'll introduce text editors such as `nano`, `vi`, and `emacs` that you can use directly from the command line.
-
-Searching for specific text within files is made easy with utilities like `grep`, `sed`, and `awk`. You'll also learn about input and output redirection using symbols like `>`, `>>`, and `|`, and how they can be combined with commands to perform more complex operations. We'll also cover how to compare files and identify differences with commands like `diff` and `comm`.
-
-The unit will also touch on sorting and filtering text through commands such as `sort`, `uniq`, `cut`, and `paste`. Finally, we'll delve into the basics of regular expressions—a powerful feature that can match complex text patterns.
-
-By the end of this unit, you'll have a solid understanding of how to manipulate text files efficiently, perform advanced searches, and automate repetitive tasks. Your journey through this unit will give you the tools to handle a variety of text manipulation challenges that you'll encounter in software development, data analysis, and system administration.
-
----
-##### Unit 4: Advanced Features
-
-This unit aims to elevate your understanding of shell scripting and command-line operations to an advanced level. You'll delve into the intricacies of shell scripting, handling environmental variables, using aliases and shortcuts for efficiency, mastering command history, understanding job control, monitoring processes, and scheduling tasks. Each lesson provides comprehensive details, from syntax and best practices to debugging techniques. By the end of this unit, you'll have a robust set of skills that will enable you to navigate and manipulate the command-line interface like a pro.
-
----
-##### Unit 5: Command Line Utilities
-
-In Unit 5, we're diving into the nitty-gritty of command-line utilities that'll make your life easier. We'll explore everything from managing software packages with apt and brew, to mastering network tools like ping and ssh. You'll also get to keep an eye on your system's health with monitoring tools such as top and htop. And that's not all—there's file compression, data transfer, and even lessons on user management and system info. By the end, you'll be a command-line wizard, ready to tackle any challenge. Sounds fun, right? Let's get started
-
+The tickets for this module are located for you [here](https://github.com/orgs/Vets-Who-Code/projects/50).
 
 #### Module: Git and GitHub (Terminal & UI)
 ---
