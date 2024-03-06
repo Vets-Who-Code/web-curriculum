@@ -16,6 +16,8 @@ The tickets for this module are located for you [here](https://github.com/orgs/V
 ---
 The "HTML & CSS" module is meticulously designed to lay a solid foundation in web development, beginning with HTML's core principles, including its history, structure, and essential elements like forms and tables. It transitions into CSS, introducing styling, layout, and responsive design basics, before delving into advanced layout techniques with Flexbox and Grid. Tailwind CSS is explored for its utility-first approach, enhancing rapid, custom UI development. The module culminates in a capstone project where learners apply their knowledge to update a web page, integrating layout planning, responsive design, and deployment. Each unit builds upon the last, ensuring a comprehensive understanding of web page creation, styling, and modern layout systems, preparing learners for creating sophisticated, responsive web interfaces.
 
+The tickets for this module are located for you [here](https://github.com/orgs/Vets-Who-Code/projects/78).
+
 #### Module: Accessibility
 ---
 
