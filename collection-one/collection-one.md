@@ -12,47 +12,9 @@ The "Git and GitHub (Terminal & UI)" module offers a comprehensive learning jour
 
 The tickets for this module are located for you [here](https://github.com/orgs/Vets-Who-Code/projects/75).
 #### Module: HTML && CSS
----
-##### Unit 1: Introduction to HTML
-
-This unit provides a comprehensive exploration of HTML, the bedrock language for web page creation. Starting with "What is HTML?", it takes you on a historical journey, detailing the evolution of HTML, its pivotal role in web development, and the distinctions between it and XHTML, culminating in the advancements of HTML5. It sheds light on the browser's role in interpreting HTML, nuances like self-closing tags, and the intricacies of commenting. The second lesson, "Basic HTML Structure," offers a hands-on introduction to the core components of an HTML document, from understanding tags and attributes to the anatomy of the head, body, and overall document structure. The critical roles of meta tags, title elements for SEO, and user experience are emphasized, along with insights into integrating external resources like CSS and JavaScript. The unit concludes by underscoring the importance of browser compatibility and HTML validation, equipping you with the knowledge to create web pages with assurance and finesse.
 
 ---
-##### Unit 2: HTML Text Elements and Links
-
-"HTML Text Elements and Links" offers a detailed exploration into the realm of HTML text presentation and interactivity. The "Text Formatting" lesson unpacks techniques ranging from structuring paragraphs and headings to using emphasis and strong tags, text alignment, and including special characters through HTML entities. you are also introduced to preserving textual integrity with preformatted text and enhancing content with quotations and abbreviations. Transitioning to "Links and Lists," the course delves into anchor tags, creating diverse lists—unordered, ordered, and nested—and explores customization with list attributes. The unit also touches on varied linking methods, such as image and email links, controlling link behaviors using the "target" attribute, and facilitating in-page navigation with bookmark links. A significant emphasis is placed on accessibility, ensuring a universal web experience. By the end of this unit, you will be proficient in effectively shaping and interlinking web content.
-
----
-##### Unit 3: HTML Forms and Tables
-
-"HTML Forms and Tables" provides a deep dive into the world of data collection and representation in web design. The lesson on forms offers a comprehensive look at form tags, various input types, and the role of labels for accessibility, introducing dynamic elements such as text areas, checkboxes, radio buttons, dropdowns, multi-select options, file uploads, and functional buttons. Meanwhile, the tables lesson delves into constructing organized tabular data through a foundational structure, rows, columns, headers, cell merging techniques using colspan and rowspan, and adding contextual captions. It touches on the importance of table aesthetics, introduces essential segments like thead, tbody, and tfoot for enhanced structure, and covers advanced topics like table sorting and nested tables. By the end of this unit, you will be proficient in crafting interactive forms and presenting intricate data through tables.
-
----
-##### Unit 4: Introduction to CSS
-Unit 4 serves as a comprehensive gateway into the world of Cascading Style Sheets (CSS), a key technology in web development responsible for styling, layout, and responsive design. The unit is divided into two core lessons. The first lesson kicks off with a brief history of CSS, providing context for its evolution and importance in web development. It then dives into the foundational aspects, such as syntax, selectors, properties, and values. This lesson also covers critical concepts like the cascade, which explains how conflicting styles are resolved; specificity, which outlines the rules determining which styles take precedence; and inheritance, detailing which styles are passed down from parent to child elements. Media queries are also introduced as a powerful tool for responsive design, allowing developers to adapt styles to various devices.
-
-The second lesson focuses on the practical aspects of CSS by teaching basic styling techniques. This includes understanding how to apply colors and fonts, align text, and control spacing through margins and padding. The lesson also explores the CSS box model, which is essential for understanding the layout of web pages. Further, you’ll learn to enhance the visual appeal of your website through features like backgrounds, borders, rounded corners, and shadows. Pseudo-classes are introduced as a way to target elements in specific states, like hovering, adding another layer of interactivity to web designs. By the end of this unit, you'll have a strong foundation in CSS, equipping you with the knowledge and skills to create visually stunning and responsive web pages.
-
----
-#### Unit 5: Flex and Grid Layout
-Unit 5 is on "Understanding Grid and Flexbox Layouts" is a deep dive into two crucial layout models in modern web design. The first part covers CSS Grid, focusing on its 2D capabilities for arranging elements in both rows and columns. The second part explores Flexbox, a 1D layout system for distributing items along a single axis. The lesson wraps up with a comparison of when to use each system, equipping you with the knowledge to make informed decisions for various layout needs.
-
----
-##### Unit 6: Tailwind CSS
-
-Unit 6 delves into Tailwind CSS, a highly versatile utility-first CSS framework designed for rapidly building custom user interfaces. This unit is neatly divided into two main lessons.
-
-The first lesson, "Introduction to Tailwind CSS," starts by answering the question, "Why Tailwind?" to give you insight into its advantages over traditional CSS and other frameworks. Then, it guides you through installing Tailwind via CDN for quick setup. Utility classes form the backbone of Tailwind, offering direct-to-element styling, and you'll learn how to wield these effectively. The lesson goes on to explore how Tailwind excels in creating responsive designs with minimal effort. Configuration and customization are straightforward, with Tailwind offering an array of options to extend its core functionality, customize forms, and implement themes. Additionally, you'll get an introduction to available plugins that can add more features to your project and a rundown of valuable community resources to aid in your journey.
-
-The second lesson, "Applying Tailwind in an HTML Project," focuses on practical implementation. You'll explore how to apply typography styles, manipulate layouts, and utilize Grid and Flexbox, two of the most powerful layout systems in modern web design. The lesson also teaches you how to control element positioning and manage spacing effectively. Tailwind's system for colors and theming allows for significant customization, and you'll learn how to harness that. We'll also delve into built-in components and patterns that can speed up your development process. The lesson wraps up by discussing how to extend Tailwind's functionality beyond its built-in utilities and reviewing best practices for efficient and maintainable code.
-
-By the end of this unit, you'll have a robust understanding of Tailwind CSS, from its philosophy to its practical application, empowering you to create complex, responsive, and highly customized web interfaces with speed and efficiency.
-
----
-##### Unit 7: Project Time
-Unit 7, titled "Project Time," serves as the capstone experience for applying all you've learned by focusing on updating your VetsWhoCode (VWC) prework webpage. The unit is structured into three core lessons. The first lesson, "Updating Your VWC Prework Webpage," delves into layout planning and updating HTML, laying the foundation in terms of structure and content. The second lesson shifts the focus to styling, where you'll implement Tailwind CSS to create a responsive and visually appealing design. The final lesson, "Review and Deploy," guides you through the debugging process and covers the steps for deploying your project using GitHub Pages. This last lesson not only includes a final review but also suggests next steps, provides additional resources, and rounds off with a congratulatory note, marking your successful completion of the project and readiness for more advanced work.
-
----
+The "HTML & CSS" module is meticulously designed to lay a solid foundation in web development, beginning with HTML's core principles, including its history, structure, and essential elements like forms and tables. It transitions into CSS, introducing styling, layout, and responsive design basics, before delving into advanced layout techniques with Flexbox and Grid. Tailwind CSS is explored for its utility-first approach, enhancing rapid, custom UI development. The module culminates in a capstone project where learners apply their knowledge to update a web page, integrating layout planning, responsive design, and deployment. Each unit builds upon the last, ensuring a comprehensive understanding of web page creation, styling, and modern layout systems, preparing learners for creating sophisticated, responsive web interfaces.
 
 #### Module: Accessibility
 ---
