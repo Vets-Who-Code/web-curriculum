@@ -6,12 +6,12 @@ The "Command Line" module is structured to guide you from a foundational underst
 
 The tickets for this module are located for you [here](https://github.com/orgs/Vets-Who-Code/projects/50).
 
-#### Module: Git and GitHub (Terminal & UI)
+#### [Module: Git and GitHub (Terminal & UI)](modules/git-and-github/introduction-to-git-and-github.md)
 ---
 The "Git and GitHub (Terminal & UI)" module offers a comprehensive learning journey that begins with the fundamentals of GitHub, guiding you through setting up an account, enhancing your profile, and understanding security measures. It further dives into mastering Markdown, GitHub's special features like Issues, Actions, and Pages, and the essentials of Git through terminal and UI, including version control basics and local machine setup. The module progresses to practical GitHub repository operations, introducing you to repository creation, collaboration, and the Git workflow. It also explores Git Flow, a branching model for efficient project management, and introduces the GitHub CLI for enhanced terminal interaction with GitHub. Lastly, the module covers GitHub Projects, teaching you to utilize GitHub's project management tools for organizing and automating tasks. By the end, you'll have a deep understanding of both Git and GitHub, equipped with the skills to manage code versions, collaborate on projects, and streamline your development workflow.
 
 The tickets for this module are located for you [here](https://github.com/orgs/Vets-Who-Code/projects/75).
-#### Module: HTML && CSS
+#### [Module: HTML && CSS](modules/html-and-css/html-and-css.md)
 
 ---
 The "HTML & CSS" module is meticulously designed to lay a solid foundation in web development, beginning with HTML's core principles, including its history, structure, and essential elements like forms and tables. It transitions into CSS, introducing styling, layout, and responsive design basics, before delving into advanced layout techniques with Flexbox and Grid. Tailwind CSS is explored for its utility-first approach, enhancing rapid, custom UI development. The module culminates in a capstone project where learners apply their knowledge to update a web page, integrating layout planning, responsive design, and deployment. Each unit builds upon the last, ensuring a comprehensive understanding of web page creation, styling, and modern layout systems, preparing learners for creating sophisticated, responsive web interfaces.
