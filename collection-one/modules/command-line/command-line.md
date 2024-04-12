@@ -1,6 +1,6 @@
 # Module: Command Line Overview
 
-Welcome to the **Command Line** module, a comprehensive resource for mastering the Command Line Interface (CLI). Whether you're a software engineer, writer, or instructor based in Atlanta, understanding the command line is an essential skill that can enhance your productivity and efficiency in various tech-related roles.
+Welcome to the Command Line module, your comprehensive resource for mastering the Command Line Interface (CLI). Learning to use the command line is a fundamental skill that can significantly enhance your productivity and efficiency across various tech-related roles.
 
 ## Units to Study
 
