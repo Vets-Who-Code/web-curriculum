@@ -1,4 +1,4 @@
-# Vets Who Code Web Curriculum Syllabus
+# Vets Who Code Web Curriculum Syllabus blah blah blah
 
 At #VetsWhoCode, we believe in the power of practical and hands-on learning. Our meticulously crafted curriculum serves as a comprehensive guide for learning software development, providing you with the knowledge and skills needed to succeed at a company's tech team. 🖥️
 Consisting of 13 in-depth modules and an estimated duration of 195 to 260 hours, our program offers the flexibility to meet a range of learning goals and timelines. Whether you're dedicating 8 hours per week or more, we've got you covered. 💪
