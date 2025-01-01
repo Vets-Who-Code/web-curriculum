@@ -109,14 +109,6 @@ graph TD
     
     classDef default fill:#091f40,stroke:#c5203e,stroke-width:1px,color:#ffffff
 ```
-
-### Extended Interactive Version
-For a more detailed, interactive version of our roadmap:
-<iframe src="https://roadmap.sh/r/embed?id=66c67d5292ec1a8a739b5876" width="100%" height="500px" frameBorder="0"
-></iframe>
-
-> **Note**: The interactive roadmap is hosted externally as GitHub READMEs don't support embedded interactive content. Click the image above to explore the full interactive version.
-
 ---
 ## Learning Outcomes
 By completing this program, you will:
