@@ -112,7 +112,8 @@ graph TD
 
 ### Extended Interactive Version
 For a more detailed, interactive version of our roadmap:
-[![Curriculum Roadmap](https://via.placeholder.com/1000x500.png?text=View+the+Roadmap+Here)](https://draw.roadmap.sh/66c67d5292ec1a8a739b5876?sb=roadmaps)
+<iframe src="https://roadmap.sh/r/embed?id=66c67d5292ec1a8a739b5876" width="100%" height="500px" frameBorder="0"
+></iframe>
 
 > **Note**: The interactive roadmap is hosted externally as GitHub READMEs don't support embedded interactive content. Click the image above to explore the full interactive version.
 
